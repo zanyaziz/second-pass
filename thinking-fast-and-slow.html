@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thinking, Fast and Slow — Second Pass</title>
+<style>
+  :root { --bg:#12100c; --card:#1d1a14; --ink:#f0e9da; --muted:#a89f8d; --accent:#e0a458;
+          --good:#7bc47f; --bad:#e07a5f; --line:#2e2a21; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+         background:var(--bg); color:var(--ink); line-height:1.55; }
+  header { text-align:center; padding:3rem 1.5rem 1.5rem; }
+  h1 { margin:.5rem 0 .25rem; font-size:2rem; }
+  .sub { color:var(--muted); margin:0 0 2rem; }
+  main { max-width:860px; margin:0 auto; padding:0 1.25rem 3rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px;
+          padding:1.5rem; margin-bottom:1.25rem; }
+  .ep { display:inline-block; font-size:.75rem; letter-spacing:.12em; text-transform:uppercase;
+        color:var(--accent); border:1px solid var(--accent); border-radius:999px;
+        padding:.15rem .75rem; margin-bottom:.5rem; }
+  .card h2 { margin:.25rem 0 .1rem; font-size:1.4rem; }
+  .author { color:var(--muted); margin:0 0 .75rem; font-style:italic; }
+  .concepts { color:var(--muted); font-size:.92rem; margin:.25rem 0 .75rem; }
+  .blurb { margin:.5rem 0 1rem; }
+  audio { width:100%; margin:.25rem 0 1rem; }
+  .pending-note { background:#2a2415; border:1px dashed var(--accent); border-radius:10px;
+                  padding:.75rem 1rem; color:var(--muted); }
+  .btn { display:inline-block; text-decoration:none; padding:.55rem 1rem; border-radius:10px;
+         font-size:.95rem; border:1px solid #3a352a; color:var(--ink); background:transparent;
+         cursor:pointer; font-family:inherit; }
+  .btn.primary { background:var(--accent); color:#1a1408; border-color:var(--accent); font-weight:600; }
+  .btn:disabled { opacity:.4; cursor:default; }
+  a { color:var(--accent); }
+  .back { display:inline-block; margin:1.25rem 0 0 1.25rem; }
+  fieldset.q { border:1px solid var(--line); border-radius:12px; margin:0 0 1rem; padding:1rem 1.25rem 1.25rem; }
+  fieldset.q legend { font-weight:600; padding:0 .4rem; }
+  fieldset.q label { display:block; padding:.35rem .5rem; border-radius:8px; cursor:pointer; }
+  fieldset.q label:hover { background:#262219; }
+  fieldset.q.missing { border-color:var(--bad); }
+  fieldset.q.right { border-color:var(--good); }
+  fieldset.q.wrong { border-color:var(--bad); }
+  .opt-correct { background:rgba(123,196,127,.15); outline:1px solid var(--good); }
+  .opt-picked-wrong { background:rgba(224,122,95,.15); outline:1px solid var(--bad); }
+  .why { display:none; margin:.75rem 0 0; padding:.75rem 1rem; border-radius:10px;
+         background:#262219; color:var(--ink); font-size:.95rem; }
+  .why.show { display:block; }
+  .verdict { font-weight:700; }
+  .verdict.ok { color:var(--good); } .verdict.no { color:var(--bad); }
+  .score { font-size:1.1rem; font-weight:700; margin:1rem 0; }
+  .quiz-msg { color:var(--bad); font-weight:600; min-height:1.4em; }
+  footer { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem; }
+</style>
+</head>
+<body>
+
+<a class="back" href="index.html">← All courses</a>
+<header>
+  <h1>Thinking, Fast and Slow</h1>
+  <p class="sub">by Daniel Kahneman · 12 chapters</p>
+</header>
+<main>
+
+    <article class="card" id="chapter-1">
+      <div class="ep">Chapter 1</div>
+      <h2>The Two Systems: Your Fast Mind and Your Slow Mind</h2>
+      <p class="concepts">System 1 vs System 2 · cognitive ease · priming (with a replication caution) · halo effect · WYSIATI · substitution</p>
+      <audio controls preload="none" src="assets/audio/lesson-01-the-two-systems.mp3"></audio>
+      <p class="concepts">🎧 6 min 19 sec</p>
+      <div class="quiz" id="quiz-the-two-systems">
+        <h3>Quiz — 10 questions</h3>
+        <p class="concepts">Answer all 10, then check yourself. Explanations appear under every question.</p>
+        <form></form>
+        <p class="quiz-msg"></p>
+        <button type="button" class="btn primary check-btn">Check my answers</button>
+        <button type="button" class="btn retry-btn" style="display:none">Try again</button>
+        <p class="score"></p>
+      </div>
+<script type="application/json" id="quiz-the-two-systems-data">[{"answer": 1, "options": ["Working out seventeen times twenty-four in your head", "Reading the anger in someone's voice the instant they speak", "Checking a contract clause by clause", "Parking a car in an awkwardly tight space"], "q": "Which of these is System 1 \u2014 the fast mind \u2014 at work?", "why": "Detecting emotion in a voice is automatic, instant, and effortless \u2014 the signature of System 1. The others all demand slow, deliberate System 2 effort."}, {"answer": 2, "options": ["It cannot access memories", "It only switches on during sleep", "It is lazy \u2014 it rations effort and usually endorses System 1's suggestions without re-examining them", "It processes information more slowly than it arrives"], "q": "Why does System 2 so often fail to catch System 1's mistakes?", "why": "System 2 can check the fast mind's work, but effort is costly, so it typically waves through System 1's draft like a busy editor trusting a reporter."}, {"answer": 1, "options": ["Anchoring", "Cognitive ease", "Loss aversion", "Regression to the mean"], "q": "The same statement feels more believable printed in crisp, clear type than in a faint, blurry font. This is mainly an effect of:", "why": "When processing feels fluent and easy, the fast mind relaxes \u2014 and that relaxed feeling gets misread as truth, safety, and quality."}, {"answer": 1, "options": ["Plans always improve with each presentation", "Repetition creates familiarity, and familiarity creates ease \u2014 which the mind mistakes for merit", "Senior people have probably endorsed it by now", "Nothing \u2014 repeated exposure is a good test of quality"], "q": "A plan has been presented to your team three times and now feels obviously correct. What should make you suspicious of that feeling?", "why": "Ease grows with exposure. A circulating proposal arrives preloaded with fluency and can feel stronger than a better plan seen only once."}, {"answer": 2, "options": ["All priming results are fabricated", "Priming proves the environment controls us like puppets", "Some famous priming findings replicated poorly, so strong claims deserve caution \u2014 though context genuinely does nudge thought", "Priming only works with words about money"], "q": "Which statement about priming is the most accurate, based on the lesson?", "why": "The broad idea that recent exposures tilt thinking is reasonable, but several headline priming experiments did not hold up well when other researchers retested them."}, {"answer": 2, "options": ["Substitution", "WYSIATI", "The halo effect", "Anchoring"], "q": "A candidate's first two minutes in an interview impress you, and everything after sounds strong too. What is most likely happening?", "why": "A strong first impression sets a curve for everything that follows \u2014 later evidence gets interpreted generously, so the verdict feels objective but was largely reached in the first minutes."}, {"answer": 0, "options": ["What You See Is All There Is", "When You Sense It, Act On It", "What You Seek Is Always True Inside", "Why You Say It Alters The Interpretation"], "q": "WYSIATI stands for:", "why": "System 1 builds the best story it can from whatever information is in front of it and does not stop to ask what is missing."}, {"answer": 1, "options": ["Framing", "Substitution", "Priming", "The availability cascade"], "q": "You ask yourself, \"Will this startup succeed?\" \u2014 and notice you actually answered \"Do I like this founder?\" That swap is called:", "why": "Faced with a hard target question, the fast mind quietly substitutes an easier one and reports the easy answer as if it were the hard one."}, {"answer": 1, "options": ["How much evidence was gathered", "How coherent the story feels", "How experienced the judge is", "How long the judge deliberated"], "q": "According to the lesson, confidence in a judgment mostly tracks:", "why": "Confidence measures the smoothness and consistency of the story in your head \u2014 not the completeness or accuracy of the evidence behind it."}, {"answer": 3, "options": ["Ducking when a ball flies at your head", "Finishing a familiar phrase", "Sensing hostility in someone's tone", "Checking whether an argument actually makes sense"], "q": "Which of these is primarily System 2 work?", "why": "Deliberately verifying logic is slow, effortful, and optional \u2014 exactly the kind of work System 2 does and System 1 skips."}]</script>
+    </article>
+
+    <article class="card" id="chapter-2">
+      <div class="ep">Chapter 2</div>
+      <h2>Anchoring: The First Number Sticks</h2>
+      <p class="concepts">Anchor effect · insufficient adjustment · anchors in negotiation, budgets, and estimates</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-3">
+      <div class="ep">Chapter 3</div>
+      <h2>Availability: What Comes to Mind Feels True</h2>
+      <p class="concepts">Ease of recall · media-driven risk perception · availability cascade</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-4">
+      <div class="ep">Chapter 4</div>
+      <h2>Representativeness: Stories That Look Right</h2>
+      <p class="concepts">Judging by resemblance · conjunction fallacy · insensitivity to sample size</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-5">
+      <div class="ep">Chapter 5</div>
+      <h2>Small Numbers and Regression: Why Extremes Bounce Back</h2>
+      <p class="concepts">Law of small numbers · regression to the mean · base rates vs causal stories</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-6">
+      <div class="ep">Chapter 6</div>
+      <h2>The Story Machine: Narrative Fallacy and Hindsight</h2>
+      <p class="concepts">Narrative fallacy · hindsight bias · outcome bias</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-7">
+      <div class="ep">Chapter 7</div>
+      <h2>The Illusion of Validity and When Experts Can Be Trusted</h2>
+      <p class="concepts">Confidence vs accuracy · conditions for real expert intuition · formulas and checklists</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-8">
+      <div class="ep">Chapter 8</div>
+      <h2>The Planning Fallacy and the Premortem</h2>
+      <p class="concepts">Inside view vs outside view · reference-class forecasting · optimism bias · the premortem</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-9">
+      <div class="ep">Chapter 9</div>
+      <h2>Prospect Theory: Gains and Losses Are Not Symmetric</h2>
+      <p class="concepts">Reference points · diminishing sensitivity · loss aversion</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-10">
+      <div class="ep">Chapter 10</div>
+      <h2>Framing: Same Facts, Different Decision</h2>
+      <p class="concepts">Framing effects · survival vs death rates · frame invariance</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-11">
+      <div class="ep">Chapter 11</div>
+      <h2>The Fourfold Pattern and Mental Accounting</h2>
+      <p class="concepts">Fourfold pattern of risk attitudes · mental accounting · sunk cost</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+
+    <article class="card" id="chapter-12">
+      <div class="ep">Chapter 12</div>
+      <h2>The Two Selves: The Life You Live vs The Life You Remember</h2>
+      <p class="concepts">Experiencing vs remembering self · peak-end rule · duration neglect · focusing illusion</p>
+      <div class="pending-note">🎧 Audio coming soon — this chapter is in production.</div>
+    </article>
+</main>
+
+<script>
+function initQuiz(rootId, quizData) {
+  var root = document.getElementById(rootId);
+  var form = root.querySelector('form');
+  var msg = root.querySelector('.quiz-msg');
+  var scoreEl = root.querySelector('.score');
+  quizData.forEach(function(item, qi) {
+    var fs = document.createElement('fieldset');
+    fs.className = 'q'; fs.dataset.answer = item.answer;
+    var lg = document.createElement('legend');
+    lg.textContent = 'Q' + (qi + 1) + '. ' + item.q;
+    fs.appendChild(lg);
+    item.options.forEach(function(opt, oi) {
+      var label = document.createElement('label');
+      var input = document.createElement('input');
+      input.type = 'radio'; input.name = rootId + '-q' + qi; input.value = oi;
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(' ' + opt));
+      fs.appendChild(label);
+    });
+    var why = document.createElement('p');
+    why.className = 'why'; why.textContent = item.why;
+    fs.appendChild(why);
+    form.appendChild(fs);
+  });
+  root.querySelector('.check-btn').addEventListener('click', function() {
+    var fieldsets = form.querySelectorAll('fieldset.q');
+    var missing = 0, score = 0;
+    fieldsets.forEach(function(fs) {
+      var picked = fs.querySelector('input[type=radio]:checked');
+      fs.classList.remove('missing');
+      if (!picked) { missing++; fs.classList.add('missing'); }
+    });
+    if (missing > 0) {
+      msg.textContent = 'Answer all ' + fieldsets.length + ' questions first — ' + missing + ' to go.';
+      return;
+    }
+    msg.textContent = '';
+    fieldsets.forEach(function(fs) {
+      var answer = parseInt(fs.dataset.answer, 10);
+      var picked = fs.querySelector('input[type=radio]:checked');
+      var labels = fs.querySelectorAll('label');
+      labels[answer].classList.add('opt-correct');
+      var verdict = document.createElement('p');
+      verdict.className = 'verdict';
+      if (parseInt(picked.value, 10) === answer) {
+        score++; fs.classList.add('right');
+        verdict.classList.add('ok'); verdict.textContent = '✓ Correct';
+      } else {
+        fs.classList.add('wrong');
+        picked.closest('label').classList.add('opt-picked-wrong');
+        verdict.classList.add('no'); verdict.textContent = '✗ Not quite — the highlighted answer is the right one.';
+      }
+      fs.appendChild(verdict);
+      fs.querySelector('.why').classList.add('show');
+      fs.querySelectorAll('input').forEach(function(i) { i.disabled = true; });
+    });
+    scoreEl.textContent = 'You scored ' + score + ' out of ' + fieldsets.length + '.';
+    root.querySelector('.check-btn').disabled = true;
+    root.querySelector('.retry-btn').style.display = 'inline-block';
+  });
+  root.querySelector('.retry-btn').addEventListener('click', function() { location.reload(); });
+}
+</script>
+
+<script>
+initQuiz('quiz-the-two-systems', JSON.parse(document.getElementById('quiz-the-two-systems-data').textContent));
+</script>
+<footer>Second Pass — short audio courses on books worth a second, deeper pass.</footer>
+</body>
+</html>

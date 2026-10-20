@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Second Pass — Book Courses</title>
+<style>
+  :root { --bg:#12100c; --card:#1d1a14; --ink:#f0e9da; --muted:#a89f8d; --accent:#e0a458;
+          --good:#7bc47f; --bad:#e07a5f; --line:#2e2a21; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+         background:var(--bg); color:var(--ink); line-height:1.55; }
+  header { text-align:center; padding:3rem 1.5rem 1.5rem; }
+  h1 { margin:.5rem 0 .25rem; font-size:2rem; }
+  .sub { color:var(--muted); margin:0 0 2rem; }
+  main { max-width:860px; margin:0 auto; padding:0 1.25rem 3rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px;
+          padding:1.5rem; margin-bottom:1.25rem; }
+  .ep { display:inline-block; font-size:.75rem; letter-spacing:.12em; text-transform:uppercase;
+        color:var(--accent); border:1px solid var(--accent); border-radius:999px;
+        padding:.15rem .75rem; margin-bottom:.5rem; }
+  .card h2 { margin:.25rem 0 .1rem; font-size:1.4rem; }
+  .author { color:var(--muted); margin:0 0 .75rem; font-style:italic; }
+  .concepts { color:var(--muted); font-size:.92rem; margin:.25rem 0 .75rem; }
+  .blurb { margin:.5rem 0 1rem; }
+  audio { width:100%; margin:.25rem 0 1rem; }
+  .pending-note { background:#2a2415; border:1px dashed var(--accent); border-radius:10px;
+                  padding:.75rem 1rem; color:var(--muted); }
+  .btn { display:inline-block; text-decoration:none; padding:.55rem 1rem; border-radius:10px;
+         font-size:.95rem; border:1px solid #3a352a; color:var(--ink); background:transparent;
+         cursor:pointer; font-family:inherit; }
+  .btn.primary { background:var(--accent); color:#1a1408; border-color:var(--accent); font-weight:600; }
+  .btn:disabled { opacity:.4; cursor:default; }
+  a { color:var(--accent); }
+  .back { display:inline-block; margin:1.25rem 0 0 1.25rem; }
+  fieldset.q { border:1px solid var(--line); border-radius:12px; margin:0 0 1rem; padding:1rem 1.25rem 1.25rem; }
+  fieldset.q legend { font-weight:600; padding:0 .4rem; }
+  fieldset.q label { display:block; padding:.35rem .5rem; border-radius:8px; cursor:pointer; }
+  fieldset.q label:hover { background:#262219; }
+  fieldset.q.missing { border-color:var(--bad); }
+  fieldset.q.right { border-color:var(--good); }
+  fieldset.q.wrong { border-color:var(--bad); }
+  .opt-correct { background:rgba(123,196,127,.15); outline:1px solid var(--good); }
+  .opt-picked-wrong { background:rgba(224,122,95,.15); outline:1px solid var(--bad); }
+  .why { display:none; margin:.75rem 0 0; padding:.75rem 1rem; border-radius:10px;
+         background:#262219; color:var(--ink); font-size:.95rem; }
+  .why.show { display:block; }
+  .verdict { font-weight:700; }
+  .verdict.ok { color:var(--good); } .verdict.no { color:var(--bad); }
+  .score { font-size:1.1rem; font-weight:700; margin:1rem 0; }
+  .quiz-msg { color:var(--bad); font-weight:600; min-height:1.4em; }
+  footer { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Second Pass</h1>
+  <p class="sub">A few books deserve more than a summary. These are the ones — broken into short audio chapters, each with a quiz to make the ideas stick.</p>
+</header>
+<main>
+
+    <article class="card">
+      <div class="ep">Course</div>
+      <h2>Thinking, Fast and Slow</h2>
+      <p class="author">Daniel Kahneman</p>
+      <p class="blurb">The landmark tour of the two systems of the mind — the fast, intuitive one and the slow, deliberate one — and the biases, shortcuts, and illusions their partnership produces. Twelve short audio chapters, each with a 10-question quiz to make the ideas stick.</p>
+      <p class="concepts">12 chapters · 1 available now</p>
+      <a class="btn primary" href="thinking-fast-and-slow.html">Open the course</a>
+    </article>
+</main>
+<footer>Second Pass — short audio courses on books worth a second, deeper pass.</footer>
+</body>
+</html>
