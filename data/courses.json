@@ -1,1 +1,1452 @@
-{"courses":[{"author":"Daniel Kahneman","blurb":"The landmark tour of the two systems of the mind — the fast, intuitive one and the slow, deliberate one — and the biases, shortcuts, and illusions their partnership produces. Twelve short audio chapters, each with a 10-question quiz to make the ideas stick.","chapters":[{"audio":"assets/audio/lesson-01-the-two-systems.mp3","concepts":"System 1 vs System 2 · cognitive ease · priming (with a replication caution) · halo effect · WYSIATI · substitution","duration":"6 min 19 sec","n":1,"quiz":[{"answer":1,"options":["Working out seventeen times twenty-four in your head","Reading the anger in someone's voice the instant they speak","Checking a contract clause by clause","Parking a car in an awkwardly tight space"],"q":"Which of these is System 1 — the fast mind — at work?","why":"Detecting emotion in a voice is automatic, instant, and effortless — the signature of System 1. The others all demand slow, deliberate System 2 effort."},{"answer":2,"options":["It cannot access memories","It only switches on during sleep","It is lazy — it rations effort and usually endorses System 1's suggestions without re-examining them","It processes information more slowly than it arrives"],"q":"Why does System 2 so often fail to catch System 1's mistakes?","why":"System 2 can check the fast mind's work, but effort is costly, so it typically waves through System 1's draft like a busy editor trusting a reporter."},{"answer":1,"options":["Anchoring","Cognitive ease","Loss aversion","Regression to the mean"],"q":"The same statement feels more believable printed in crisp, clear type than in a faint, blurry font. This is mainly an effect of:","why":"When processing feels fluent and easy, the fast mind relaxes — and that relaxed feeling gets misread as truth, safety, and quality."},{"answer":1,"options":["Plans always improve with each presentation","Repetition creates familiarity, and familiarity creates ease — which the mind mistakes for merit","Senior people have probably endorsed it by now","Nothing — repeated exposure is a good test of quality"],"q":"A plan has been presented to your team three times and now feels obviously correct. What should make you suspicious of that feeling?","why":"Ease grows with exposure. A circulating proposal arrives preloaded with fluency and can feel stronger than a better plan seen only once."},{"answer":2,"options":["All priming results are fabricated","Priming proves the environment controls us like puppets","Some famous priming findings replicated poorly, so strong claims deserve caution — though context genuinely does nudge thought","Priming only works with words about money"],"q":"Which statement about priming is the most accurate, based on the lesson?","why":"The broad idea that recent exposures tilt thinking is reasonable, but several headline priming experiments did not hold up well when other researchers retested them."},{"answer":2,"options":["Substitution","WYSIATI","The halo effect","Anchoring"],"q":"A candidate's first two minutes in an interview impress you, and everything after sounds strong too. What is most likely happening?","why":"A strong first impression sets a curve for everything that follows — later evidence gets interpreted generously, so the verdict feels objective but was largely reached in the first minutes."},{"answer":0,"options":["What You See Is All There Is","When You Sense It, Act On It","What You Seek Is Always True Inside","Why You Say It Alters The Interpretation"],"q":"WYSIATI stands for:","why":"System 1 builds the best story it can from whatever information is in front of it and does not stop to ask what is missing."},{"answer":1,"options":["Framing","Substitution","Priming","The availability cascade"],"q":"You ask yourself, \"Will this startup succeed?\" — and notice you actually answered \"Do I like this founder?\" That swap is called:","why":"Faced with a hard target question, the fast mind quietly substitutes an easier one and reports the easy answer as if it were the hard one."},{"answer":1,"options":["How much evidence was gathered","How coherent the story feels","How experienced the judge is","How long the judge deliberated"],"q":"According to the lesson, confidence in a judgment mostly tracks:","why":"Confidence measures the smoothness and consistency of the story in your head — not the completeness or accuracy of the evidence behind it."},{"answer":3,"options":["Ducking when a ball flies at your head","Finishing a familiar phrase","Sensing hostility in someone's tone","Checking whether an argument actually makes sense"],"q":"Which of these is primarily System 2 work?","why":"Deliberately verifying logic is slow, effortful, and optional — exactly the kind of work System 2 does and System 1 skips."}],"slug":"the-two-systems","title":"The Two Systems: Your Fast Mind and Your Slow Mind"},{"audio":null,"concepts":"Anchor effect · insufficient adjustment · anchors in negotiation, budgets, and estimates","n":2,"quiz":null,"slug":"anchoring","title":"Anchoring: The First Number Sticks"},{"audio":null,"concepts":"Ease of recall · media-driven risk perception · availability cascade","n":3,"quiz":null,"slug":"availability","title":"Availability: What Comes to Mind Feels True"},{"audio":null,"concepts":"Judging by resemblance · conjunction fallacy · insensitivity to sample size","n":4,"quiz":null,"slug":"representativeness","title":"Representativeness: Stories That Look Right"},{"audio":null,"concepts":"Law of small numbers · regression to the mean · base rates vs causal stories","n":5,"quiz":null,"slug":"small-numbers-and-regression","title":"Small Numbers and Regression: Why Extremes Bounce Back"},{"audio":null,"concepts":"Narrative fallacy · hindsight bias · outcome bias","n":6,"quiz":null,"slug":"the-story-machine","title":"The Story Machine: Narrative Fallacy and Hindsight"},{"audio":null,"concepts":"Confidence vs accuracy · conditions for real expert intuition · formulas and checklists","n":7,"quiz":null,"slug":"illusion-of-validity","title":"The Illusion of Validity and When Experts Can Be Trusted"},{"audio":null,"concepts":"Inside view vs outside view · reference-class forecasting · optimism bias · the premortem","n":8,"quiz":null,"slug":"planning-fallacy","title":"The Planning Fallacy and the Premortem"},{"audio":null,"concepts":"Reference points · diminishing sensitivity · loss aversion","n":9,"quiz":null,"slug":"prospect-theory","title":"Prospect Theory: Gains and Losses Are Not Symmetric"},{"audio":null,"concepts":"Framing effects · survival vs death rates · frame invariance","n":10,"quiz":null,"slug":"framing","title":"Framing: Same Facts, Different Decision"},{"audio":null,"concepts":"Fourfold pattern of risk attitudes · mental accounting · sunk cost","n":11,"quiz":null,"slug":"fourfold-pattern-and-mental-accounting","title":"The Fourfold Pattern and Mental Accounting"},{"audio":null,"concepts":"Experiencing vs remembering self · peak-end rule · duration neglect · focusing illusion","n":12,"quiz":null,"slug":"the-two-selves","title":"The Two Selves: The Life You Live vs The Life You Remember"}],"slug":"thinking-fast-and-slow","title":"Thinking, Fast and Slow"}]}
+{
+  "courses": [
+    {
+      "author": "Daniel Kahneman",
+      "blurb": "The landmark tour of the two systems of the mind — the fast, intuitive one and the slow, deliberate one — and the biases, shortcuts, and illusions their partnership produces. Twelve short audio chapters, each with a 10-question quiz to make the ideas stick.",
+      "chapters": [
+        {
+          "audio": "assets/audio/lesson-01-the-two-systems.mp3",
+          "concepts": "System 1 vs System 2 · cognitive ease · priming (with a replication caution) · halo effect · WYSIATI · substitution",
+          "duration": "6 min 19 sec",
+          "n": 1,
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "Working out seventeen times twenty-four in your head",
+                "Reading the anger in someone's voice the instant they speak",
+                "Checking a contract clause by clause",
+                "Parking a car in an awkwardly tight space"
+              ],
+              "q": "Which of these is System 1 — the fast mind — at work?",
+              "why": "Detecting emotion in a voice is automatic, instant, and effortless — the signature of System 1. The others all demand slow, deliberate System 2 effort."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "It cannot access memories",
+                "It only switches on during sleep",
+                "It is lazy — it rations effort and usually endorses System 1's suggestions without re-examining them",
+                "It processes information more slowly than it arrives"
+              ],
+              "q": "Why does System 2 so often fail to catch System 1's mistakes?",
+              "why": "System 2 can check the fast mind's work, but effort is costly, so it typically waves through System 1's draft like a busy editor trusting a reporter."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Anchoring",
+                "Cognitive ease",
+                "Loss aversion",
+                "Regression to the mean"
+              ],
+              "q": "The same statement feels more believable printed in crisp, clear type than in a faint, blurry font. This is mainly an effect of:",
+              "why": "When processing feels fluent and easy, the fast mind relaxes — and that relaxed feeling gets misread as truth, safety, and quality."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Plans always improve with each presentation",
+                "Repetition creates familiarity, and familiarity creates ease — which the mind mistakes for merit",
+                "Senior people have probably endorsed it by now",
+                "Nothing — repeated exposure is a good test of quality"
+              ],
+              "q": "A plan has been presented to your team three times and now feels obviously correct. What should make you suspicious of that feeling?",
+              "why": "Ease grows with exposure. A circulating proposal arrives preloaded with fluency and can feel stronger than a better plan seen only once."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "All priming results are fabricated",
+                "Priming proves the environment controls us like puppets",
+                "Some famous priming findings replicated poorly, so strong claims deserve caution — though context genuinely does nudge thought",
+                "Priming only works with words about money"
+              ],
+              "q": "Which statement about priming is the most accurate, based on the lesson?",
+              "why": "The broad idea that recent exposures tilt thinking is reasonable, but several headline priming experiments did not hold up well when other researchers retested them."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Substitution",
+                "WYSIATI",
+                "The halo effect",
+                "Anchoring"
+              ],
+              "q": "A candidate's first two minutes in an interview impress you, and everything after sounds strong too. What is most likely happening?",
+              "why": "A strong first impression sets a curve for everything that follows — later evidence gets interpreted generously, so the verdict feels objective but was largely reached in the first minutes."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "What You See Is All There Is",
+                "When You Sense It, Act On It",
+                "What You Seek Is Always True Inside",
+                "Why You Say It Alters The Interpretation"
+              ],
+              "q": "WYSIATI stands for:",
+              "why": "System 1 builds the best story it can from whatever information is in front of it and does not stop to ask what is missing."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Framing",
+                "Substitution",
+                "Priming",
+                "The availability cascade"
+              ],
+              "q": "You ask yourself, \"Will this startup succeed?\" — and notice you actually answered \"Do I like this founder?\" That swap is called:",
+              "why": "Faced with a hard target question, the fast mind quietly substitutes an easier one and reports the easy answer as if it were the hard one."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "How much evidence was gathered",
+                "How coherent the story feels",
+                "How experienced the judge is",
+                "How long the judge deliberated"
+              ],
+              "q": "According to the lesson, confidence in a judgment mostly tracks:",
+              "why": "Confidence measures the smoothness and consistency of the story in your head — not the completeness or accuracy of the evidence behind it."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Ducking when a ball flies at your head",
+                "Finishing a familiar phrase",
+                "Sensing hostility in someone's tone",
+                "Checking whether an argument actually makes sense"
+              ],
+              "q": "Which of these is primarily System 2 work?",
+              "why": "Deliberately verifying logic is slow, effortful, and optional — exactly the kind of work System 2 does and System 1 skips."
+            }
+          ],
+          "slug": "the-two-systems",
+          "title": "The Two Systems: Your Fast Mind and Your Slow Mind"
+        },
+        {
+          "audio": "assets/audio/lesson-02-anchoring.mp3",
+          "concepts": "Anchor effect · insufficient adjustment · anchors in negotiation, budgets, and estimates",
+          "n": 2,
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "They were trying to please the researchers",
+                "The number primed thoughts consistent with it and became the starting point for an adjustment that stopped too early",
+                "Most people secretly trust games of chance",
+                "The groups differed in mathematical ability"
+              ],
+              "q": "In the wheel demonstration, one group saw the wheel stop at ten and another saw it stop at sixty five, yet both groups knew the wheel told them nothing about the question that followed. Why did their estimates still land far apart?",
+              "why": "The anchor works through two channels: it wakes up evidence that agrees with it, and it serves as the starting line from which people adjust — and adjustment almost always stops too soon."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Starting from whatever number is on the table, moving toward a plausible value, and stopping before you have moved far enough",
+                "Refusing to change your mind under any circumstances",
+                "Making an estimate with no information at all",
+                "Adjusting a number by exactly half, every time"
+              ],
+              "q": "Which statement best describes insufficient adjustment?",
+              "why": "Adjustment is effortful slow-mind work. People walk away from the anchor only until they reach the edge of what feels plausible, so final answers stay pulled toward where they started."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "The asking price will have no effect because you know it is inflated",
+                "You will probably walk away rather than negotiate",
+                "You will offer exactly your own valuation",
+                "Your offer will be lower than the asking price but still higher than it would have been against a realistic list price"
+              ],
+              "q": "A seller lists a house well above what you believe it is worth. What does the anchoring research predict about your eventual offer?",
+              "why": "Counters are adjustments from the opening figure, and adjustments stop early — so an inflated anchor quietly raises the whole negotiation, even for buyers who see through it."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Finance teams are forbidden from cutting line items",
+                "Auditors require budgets to grow steadily",
+                "Nobody ever reviews the budget",
+                "Last year's figure anchors this year's, so items get nudged up or down by small percentages instead of being rebuilt from zero"
+              ],
+              "q": "Why do bloated items in a company budget tend to survive year after year?",
+              "why": "Once a number exists, later numbers are adjustments from it. A line item justified once can ride its own anchor for a decade, trimmed or padded but rarely re-derived."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The professionals ignored the dice completely",
+                "The dice improved the consistency of the sentences",
+                "Those who rolled high totals proposed harsher sentences than those who rolled low totals, despite knowing the dice were random",
+                "Only the trainees in the study were influenced"
+              ],
+              "q": "In the study with experienced legal professionals and a pair of dice, what happened?",
+              "why": "Even domain experts, judging in their own field, had their sentences dragged by a number they knew was meaningless — expertise is a weak shield against anchors."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Decide in advance what the thing is worth to you, ideally written down, before you hear their number",
+                "Plan to split the difference whatever they say",
+                "Stay silent until the final round",
+                "Open by criticizing their likely price"
+              ],
+              "q": "Before a negotiation in which the other side will name a price first, what is the strongest defense the lesson recommends?",
+              "why": "An anchor cannot drag an estimate nearly as far when you have already committed to your own number. Deciding value first, on paper, keeps their figure from becoming your starting line."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Repeating the anchor several times to get used to it",
+                "Asking the most senior person for their gut feeling",
+                "Deliberately listing reasons the true figure could be far from the anchor, in the opposite direction",
+                "Waiting a day and then accepting the anchor"
+              ],
+              "q": "A manager wants to counteract an anchor she suspects is too high. According to the lesson, which mental move helps?",
+              "why": "Anchors gain power by gathering one-sided evidence. Arguing the opposite case on purpose — considering why the number could be badly wrong — unhooks some of that bias."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The team genuinely agrees on the scope",
+                "Senior people are usually right about timelines",
+                "The first confident number spoken aloud anchored the room, and everyone else adjusted from it",
+                "The team is afraid of hard work"
+              ],
+              "q": "The most senior person in a planning meeting says a project feels like a two week task, and every later estimate clusters near two weeks. What is the best explanation?",
+              "why": "Estimates offered after an anchor are adjustments from it, so they cluster politely around the first figure. The agreement is manufactured by sequence, not by shared analysis."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Both collapsed completely when retested",
+                "Anchoring has held up robustly across many replications, while several famous priming results weakened considerably",
+                "Priming is far more reliable than anchoring",
+                "Neither has ever been tested a second time"
+              ],
+              "q": "How does the evidence for anchoring compare with the evidence for the dramatic priming effects from lesson one?",
+              "why": "Anchoring is among the sturdiest effects in judgment research, reproduced many times with experts and novices. That track record is exactly why the course flags weaker findings, like some priming results, for caution."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "What is that number based on?",
+                "Can you do any better than that?",
+                "How long has your company existed?",
+                "Who else has paid that price?"
+              ],
+              "q": "A vendor opens with a price that seems plucked from the air. Which question from the lesson most directly tests that anchor?",
+              "why": "Asking what a figure rests on separates priced analysis from decoration. An anchor with no visible basis deserves no gravitational pull on your judgment."
+            }
+          ],
+          "slug": "anchoring",
+          "title": "Anchoring: The First Number Sticks",
+          "duration": "6 min 36 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-03-availability.mp3",
+          "concepts": "Ease of recall · media-driven risk perception · availability cascade",
+          "n": 3,
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "What do the official statistics say?",
+                "How easily do examples come to mind?",
+                "What would an expert in this field conclude?",
+                "How expensive would it be to be wrong?"
+              ],
+              "q": "What question is your fast mind actually answering when it judges how common or dangerous something is, according to this lesson?",
+              "why": "Instead of consulting real frequencies, the fast mind substitutes ease of recall — if examples surface quickly and vividly, the thing feels common, likely, and dangerous."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Dramatic causes receive far more coverage, so examples of them are stocked in memory, while quiet causes kill largely unreported",
+                "They misunderstood the question",
+                "People enjoy frightening news",
+                "The statistics shown to them were wrong"
+              ],
+              "q": "In the causes of death studies, why did people overrate tornadoes and homicide and underrate diabetes and stroke?",
+              "why": "Memory is stocked by reporting, and reporting favors the rare and vivid. Judging by what memory serves up means judging a sample of the coverage, not a sample of the world."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Driving is the more dangerous choice mile for mile, so reacting to the vivid risk increases their total risk",
+                "Airlines raise prices after crashes",
+                "Driving is slower, so they lose vacation time",
+                "There is no problem — fear is always informative"
+              ],
+              "q": "After a heavily reported plane crash, many travelers switch to driving the same route. What is the problem with that reaction, per the lesson?",
+              "why": "The crash is vivid and available while the steady danger of the highway is not, so people trade a small pictured risk for a larger unpictured one."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "A risk is measured, policy follows, concern fades",
+                "A false claim is debunked and immediately forgotten",
+                "Experts warn the public and the public calmly complies",
+                "A striking story is repeated, repetition makes the danger feel bigger and more urgent, which earns more coverage and public pressure, sometimes producing a response out of proportion to the real risk"
+              ],
+              "q": "Which sequence best describes an availability cascade?",
+              "why": "Each retelling makes examples easier to recall, ease of recall inflates the feeling of danger, and the inflated feeling earns still more coverage — a loop in which feeling does the measuring."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Twelve examples made them realize they were rude",
+                "Counting that high made them tired of the survey",
+                "They were a less assertive group to begin with",
+                "Digging up twelve examples felt difficult, and the mind read that difficulty as evidence the behavior must be rare — ease of recall beat the number recalled"
+              ],
+              "q": "In the assertiveness study, people who recalled twelve examples of acting assertively rated themselves lower than people who recalled six. Why?",
+              "why": "The fast mind judges by how the search felt, not by what it found. A hard search feels like scarcity, even when the hard search actually produced more evidence."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "The recent, vivid misses come to mind instantly, while routine on-time deliveries must be excavated — availability, fed by recency",
+                "She dislikes the team",
+                "Two data points are statistically sufficient",
+                "The log must be inaccurate"
+              ],
+              "q": "A manager is certain her team is always late, based on two painful recent misses, while the delivery log shows the large majority of work shipped on time. What produced her certainty?",
+              "why": "Recent and painful examples are the most retrievable, so they dominate the judgment. The fix is not better memory but the actual count, which the log already holds."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Whether the rival will share their incident report",
+                "How many news outlets covered the story",
+                "The actual base rates — which attack types cause most breaches, including boring ones like password reuse",
+                "Whether your company has been mentioned in the coverage"
+              ],
+              "q": "A rival company suffers a spectacular, exotic data breach that dominates the news. Your leadership wants the entire security budget spent on that exact attack type. What does this lesson suggest checking first?",
+              "why": "Availability steers budgets toward the pictured disaster. Checking real frequencies first keeps the boring, common vulnerability from going unfixed while the exotic one gets the funding."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Anchoring and the conjunction fallacy",
+                "Substitution and the halo effect",
+                "Availability through repetition, riding on the cognitive ease from lesson one — familiarity misread as truth",
+                "Regression to the mean and framing"
+              ],
+              "q": "A claim keeps appearing in your social feed until it simply feels established. Which two ideas from the course are combining here?",
+              "why": "Repetition makes a claim easy to recall and easy to process, and both kinds of ease get misread as evidence. A claim needs only to be repeated to become available, never verified."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Trust the first example that comes to mind",
+                "Ask people who watch the most news",
+                "Go and get the actual count — logs, records, base rates — instead of relying on what memory volunteers",
+                "Wait until the feeling of danger passes"
+              ],
+              "q": "Which of these is a defense against availability recommended in the lesson?",
+              "why": "Counting is the direct antidote to a memory-based judgment. Records are less vivid than stories and considerably more honest about frequency."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "The effect disappeared entirely when retested",
+                "Availability applies to risks but never to workplace judgments",
+                "The studies only work on people who watch television",
+                "The exact figures in the older causes of death studies vary from study to study, but the direction — dramatic causes overweighted, quiet causes underweighted — has been consistent"
+              ],
+              "q": "What honest caution does the lesson attach to the availability research itself?",
+              "why": "The course distinguishes the robust pattern from the precise numbers. Quote the direction with confidence; do not quote exact ratios from decades-old studies as settled fact."
+            }
+          ],
+          "slug": "availability",
+          "title": "Availability: What Comes to Mind Feels True",
+          "duration": "6 min 58 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-04-representativeness.mp3",
+          "concepts": "Judging by resemblance · conjunction fallacy · insensitivity to sample size",
+          "n": 4,
+          "quiz": [
+            {
+              "answer": 0,
+              "options": [
+                "How much does this resemble my picture of that category?",
+                "How many cases have I personally seen?",
+                "What is the cheapest explanation?",
+                "What did I decide last time?"
+              ],
+              "q": "When your fast mind uses representativeness, what question does it answer in place of a probability calculation?",
+              "why": "Representativeness swaps likelihood for resemblance. If something fits the mental picture of a category, it feels probable — even when the category itself is rare."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Because most bank tellers dislike activism",
+                "Because the description gives no evidence about banking",
+                "Because every feminist bank teller is also a bank teller, so the first group contains the second — adding a condition can only shrink a probability, never grow it",
+                "Because the puzzle is a trick with no correct answer"
+              ],
+              "q": "In the Linda puzzle, why can the option 'bank teller and active in the feminist movement' never be more likely than simply 'bank teller'?",
+              "why": "A conjunction is contained inside each of its parts. The detailed story feels more representative of the description, but logically it describes a smaller group and must be less probable. That error is the conjunction fallacy."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Only people who dislike banks fall for it",
+                "It works only when the description is very long",
+                "It disappears completely with a moment's thought",
+                "Even people trained in statistics commit it when the story is vivid — the better the story fits, the less probable it quietly becomes"
+              ],
+              "q": "What makes the Linda error so instructive, according to the lesson?",
+              "why": "The error is not ignorance of probability rules; most people know them. It is that resemblance speaks first and louder, so detail feels like evidence while it is actually subtracting likelihood."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The large hospital, because it has more births",
+                "They should be about equal",
+                "The small hospital, by a wide margin, because small samples swing much more wildly",
+                "Neither — such days are impossible"
+              ],
+              "q": "A large hospital records about forty five births a day and a small one about fifteen. Over a year, which records more days when over sixty percent of the babies are boys?",
+              "why": "Percentages from tiny samples are noisy. With fifteen births a lopsided day is a common accident; with forty five, the daily percentage hugs the average far more tightly."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Testimonials are always fabricated",
+                "A sample that small is expected to swing wildly, so it represents enthusiasm in that room, not the whole population",
+                "Four users is plenty if they are happy",
+                "The rollout should wait for a better testimonial writer"
+              ],
+              "q": "A pilot program with four users produces three glowing testimonials, and leadership wants to roll the product out to everyone. What is the representativeness problem?",
+              "why": "People expect every sample to mirror the whole in miniature, however tiny it is. Before asking what a sample says, ask how big it is — small samples mostly report weather, not climate."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Because people expect even very short runs to mirror the long run balance, so a clumped sequence feels designed even though every exact sequence is equally likely",
+                "Because the second sequence is mathematically more likely",
+                "Because coins are known to be biased",
+                "Because four of a kind cannot happen by chance"
+              ],
+              "q": "Why does a sequence like heads, heads, heads, heads strike people as less random than heads, tails, tails, heads?",
+              "why": "The mind demands that small samples represent the parent pattern. Genuine randomness is clumpier than intuition wants, so normal chance gets misread as a pattern or a fix."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Nothing — long runs really do correct themselves quickly",
+                "Black is simply the unluckier color",
+                "The wheel has no memory; each spin is independent, so a run of reds does not raise the chance of black on the next spin",
+                "He should have bet on red because of the hot hand"
+              ],
+              "q": "After a roulette wheel shows red several times in a row, a gambler bets heavily on black because it is 'due.' What is wrong with that reasoning?",
+              "why": "Expecting a short run to balance itself out is representativeness applied to chance. Independent events do not keep score, and what is 'due' is a story, not a probability."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The original nineteen eighties analysis settled it forever: the hot hand is pure illusion",
+                "Fans were right all along and streaks are enormous",
+                "Later researchers found a subtle statistical bias in the original analysis, and corrected work suggests a small but real hot hand — far smaller than what fans perceive",
+                "The effect exists in practice games but never in real ones"
+              ],
+              "q": "What is the honest current position on the hot hand in basketball, as the lesson presents it?",
+              "why": "The famous debunking overshot because its method quietly worked against detecting streaks. The corrected evidence supports a modest effect, while the core point stands: our eyes manufacture far more pattern in randomness than is really there."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Skip the test — resemblance that strong is decisive",
+                "Ask the best-ever hire to interview her alone",
+                "Hire her before a competitor notices the same match",
+                "Ask how common each option is in general, and how much evidence the resemblance rests on, before letting fit substitute for frequencies"
+              ],
+              "q": "A candidate's background matches your best-ever hire almost point for point, and the panel is ready to skip the work sample test. What does this lesson advise?",
+              "why": "A perfect story fit is the signature of representativeness at work. Frequencies first, resemblance second — and a structured test produces evidence that a matching biography cannot."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Probability rises and it feels more convincing",
+                "Probability falls while it feels more convincing — every added detail is one more thing that must be true at once",
+                "Probability falls and it feels less convincing",
+                "Neither changes; detail is neutral"
+              ],
+              "q": "As a story gains more specific, fitting detail, what happens to its actual probability and to how convincing it feels?",
+              "why": "That gap is the engine of the conjunction fallacy. Detail makes a story more representative and therefore more persuasive, while mathematically each condition can only shrink the set of worlds where the whole story is true."
+            }
+          ],
+          "slug": "representativeness",
+          "title": "Representativeness: Stories That Look Right",
+          "duration": "6 min 37 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-05-small-numbers-and-regression.mp3",
+          "concepts": "Law of small numbers · regression to the mean · base rates vs causal stories",
+          "n": 5,
+          "quiz": [
+            {
+              "answer": 0,
+              "options": [
+                "Assuming a handful of observations faithfully mirrors the whole population",
+                "Using averages instead of medians",
+                "Collecting more data than you need",
+                "Ignoring the most recent data point"
+              ],
+              "q": "What is the core mistake behind the law of small numbers?",
+              "why": "The fast mind treats a small, noisy sample as if it were a miniature of the whole — but small samples swing wildly, so patterns seen in them are often just noise."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The eighty-person office, because more people means more chances of a star",
+                "They will be about the same",
+                "The eight-person office, because each person's month moves its total far more",
+                "Neither — extremes come only from management quality"
+              ],
+              "q": "Two offices have the same average performance. One has eight salespeople, the other eighty. Over a year, which office will post more extreme quarters, both the best and the worst?",
+              "why": "With fewer people, individual luck and slumps shift the average much more, so small units produce more extreme results in both directions purely by arithmetic."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Praise makes trainees overconfident and careless",
+                "Shouting raises adrenaline and sharpens focus",
+                "The instructors were simply mistaken about what they observed",
+                "Exceptionally good or bad attempts are mostly luck, so the next attempt naturally drifts back toward the trainee's usual level regardless of feedback"
+              ],
+              "q": "Flight instructors noticed trainees usually flew worse after praise and better after being shouted at, and concluded punishment works better than praise. What is the better explanation?",
+              "why": "An extreme attempt blends skill with unusual luck. The luck is redrawn on the next try and is usually less extreme, so performance regresses on its own — praise and punishment were largely bystanders."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Performance always declines over time",
+                "Extreme results tend to be followed by results closer to the typical level",
+                "Averages are useless for judging individuals",
+                "Luck matters more than skill in every field"
+              ],
+              "q": "In your own words, regression to the mean claims that:",
+              "why": "Because extreme outcomes usually contain an unusual dose of luck, the follow-up is likely to land nearer the normal level. It does not claim skill is irrelevant or that everything decays."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Fame distracted him and ruined his technique",
+                "Opponents studied the coverage and adjusted",
+                "The career month was skill plus an unsustainable run of luck, and the following months simply regressed toward his true level",
+                "He stopped trying once he got attention"
+              ],
+              "q": "A star player has a career month, appears on magazine covers, then slumps for two months. What is the most likely large part of the story?",
+              "why": "A peak month almost always includes luck that cannot be scheduled. As the sample grows, the luck washes out and performance settles near the player's real average."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Who was on shift, and who should be disciplined",
+                "How big the sample is, and what the normal base rate looks like over a longer period",
+                "Whether the week included a holiday",
+                "Which tool update shipped most recently"
+              ],
+              "q": "Your team's defect rate suddenly doubles in one week. According to the lesson, what should you ask before building a causal story?",
+              "why": "A single extreme week in a noisy metric may be mostly chance. Sample size and the longer-run base rate tell you whether there is anything real to explain."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "It requires advanced mathematics to detect",
+                "People prefer causal stories, and a visible event right before the change is an irresistible candidate cause",
+                "It only happens in sports and aviation",
+                "Most people have never seen an average"
+              ],
+              "q": "Why does regression to the mean so often get missed in everyday reasoning?",
+              "why": "Regression is invisible and unintuitive. The mind reaches for a cause sitting in the timeline — a speech, a scolding, a new policy — and credits it for a drift that statistics would have produced anyway."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "That onboarding genuinely damages talented people",
+                "That one week is a tiny sample, and her first week likely included good luck that was never going to repeat every week",
+                "That she is deliberately coasting",
+                "That interviews always reveal true ability"
+              ],
+              "q": "A new hire is dazzling in week one and merely good by week six. A manager says the company 'ruined' her. What should the manager consider first?",
+              "why": "Judging anyone on a one-week sample invites the law of small numbers. Early extremes usually soften toward the person's real level without anyone ruining anything."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "It is a contested theory that may not be real",
+                "It proves praise and punishment never have any effect",
+                "It is plain statistics and very solid — but real changes happen too, so it should not be used to wave away every cause",
+                "It only applies when samples are large"
+              ],
+              "q": "Which statement about regression to the mean is the most accurate, per the lesson's honesty flag?",
+              "why": "Regression itself is as solid as anything in the course. The caution is against using it as a universal solvent: genuine improvements and genuine problems exist, and the error is skipping the statistical explanation, not believing in causes."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Consultants rarely work hard for new clients",
+                "The record quarter may have been largely market luck, so the follow-up performance will likely regress and the 'magic' will seem to vanish",
+                "Record quarters are usually accounting errors",
+                "Premium pricing demotivates consultants"
+              ],
+              "q": "A consultant's last engagement coincided with a company's record quarter, so she is hired at a premium to repeat the magic. What risk does this lesson highlight?",
+              "why": "Hiring whoever stood nearest a noisy spike buys the spike's luck at full price. The next result will typically drift back toward normal, and the premium will look wasted."
+            }
+          ],
+          "slug": "small-numbers-and-regression",
+          "title": "Small Numbers and Regression: Why Extremes Bounce Back",
+          "duration": "6 min 18 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-06-the-story-machine.mp3",
+          "concepts": "Narrative fallacy · hindsight bias · outcome bias",
+          "n": 6,
+          "quiz": [
+            {
+              "answer": 3,
+              "options": [
+                "Deliberately lying about the past",
+                "Forgetting events in the order they happened",
+                "Preferring fiction to nonfiction",
+                "Weaving scattered facts, most of them accidental, into a clean story where the outcome looks designed and inevitable"
+              ],
+              "q": "What is the narrative fallacy?",
+              "why": "The mind turns a scatter of events into a tidy plot with reasons for everything. The story feels like understanding, but it quietly deletes luck, timing, and the failures who did the same things."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "The founder's early life",
+                "The role of chance and the invisible base rate of everyone who tried the same moves",
+                "The company's revenue figures",
+                "Quotes from employees"
+              ],
+              "q": "A magazine profile explains a founder's success through three bold decisions and never mentions market timing or the many similar founders who failed. What does the profile mainly leave out?",
+              "why": "Success stories select the visible causes and skip the denominator — all the people who made identical bold decisions and vanished — which makes luck look like a recipe."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The team is lying to protect itself",
+                "Someone hid the warning signs",
+                "Knowing the outcome edited their memories of what they believed beforehand — hindsight bias",
+                "The warning signs genuinely grew stronger over time"
+              ],
+              "q": "In a project review, everyone insists the failure's warning signs were obvious all along, though at the time the signals were mixed. What has most likely happened?",
+              "why": "Once the ending is known, memory rewrites earlier beliefs to match it. The red flags glow in retrospect, and people sincerely report they knew it all along."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The narrative fallacy",
+                "Anchoring",
+                "Outcome bias — grading decisions by results instead of by how sensible they were with what was known at the time",
+                "The halo effect"
+              ],
+              "q": "Two managers make the same risky call with the same information. One gets lucky and is promoted; the other is unlucky and disciplined. What error is the company committing?",
+              "why": "Judging identical decisions differently because of luck rewards lucky gamblers and punishes the careful unlucky — and teaches everyone to hide risk rather than price it."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "The known ending rewrites the story — winning moves look wise, losing moves look reckless — so luck gets recorded as strategy or as folly",
+                "They are usually written by junior staff",
+                "Nobody reads them",
+                "They focus too much on statistics"
+              ],
+              "q": "Why do company postmortems so often teach the wrong lessons?",
+              "why": "The facts barely change between success and failure postmortems; the ending does, and it recolors every earlier decision. Confidence in the resulting 'lessons' far exceeds what the evidence supports."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "How complete the evidence is",
+                "How intelligent the storyteller is",
+                "How coherent the story feels — not how accurate or complete the understanding behind it is",
+                "How memorable the events were"
+              ],
+              "q": "According to the lesson, what does the smoothness of a story actually measure?",
+              "why": "Coherence is cheap to manufacture from a few vivid facts. The fast mind mistakes a story that hangs together for knowledge, while the real causes are numerous, invisible, and often random."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The pundit who explains every market move within the hour",
+                "The executive who narrates exactly why the competitor collapsed",
+                "The analyst who talks in base rates, alternative explanations, and words like 'probably' and 'partly'",
+                "The founder who says the outcome was inevitable from day one"
+              ],
+              "q": "Which speaker is most likely displaying genuine understanding rather than fluent storytelling?",
+              "why": "Real understanding carries uncertainty on its surface. Instant, total explanations are a property of stories, not of a messy world with many hidden causes."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Discuss decisions with more people",
+                "Wait longer before reviewing decisions",
+                "Trust your memory but note your doubts",
+                "Write predictions down before outcomes arrive, including how confident you are"
+              ],
+              "q": "What is the single most practical defense against your own hindsight bias?",
+              "why": "Memory edits itself after the fact, so the only reliable record of what you actually believed is one written before the outcome was known — and rereading it is a humbling education."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Who can tell it better?",
+                "Can we shorten it for the all-hands meeting?",
+                "What does it leave out — who else did the same things and failed, and what did the deciders actually know at the time?",
+                "How do we make it more inspiring?"
+              ],
+              "q": "When a story about the past feels irresistibly clean, what is the best follow-up question?",
+              "why": "Asking after the missing denominator, the role of timing, and the information available in the moment forces the story machine to show its work instead of just its polish."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "All three biases are equally proven laboratory results",
+                "Hindsight bias is robust and repeatedly demonstrated; the narrative fallacy is better treated as a well-supported warning about how we explain outcomes",
+                "None of them replicate and all should be discarded",
+                "Outcome bias is the only one that matters in practice"
+              ],
+              "q": "Per the lesson's honesty note, how should you hold these ideas?",
+              "why": "Hindsight bias has been shown many times, including among professionals judging their own fields. The narrative fallacy is a broader interpretive pattern — worth heeding, but calibrated differently."
+            }
+          ],
+          "slug": "the-story-machine",
+          "title": "The Story Machine: Narrative Fallacy and Hindsight",
+          "duration": "6 min 48 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-07-illusion-of-validity.mp3",
+          "concepts": "Confidence vs accuracy · conditions for real expert intuition · formulas and checklists",
+          "n": 7,
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "Believing a test is official when it is not",
+                "A judgment that feels solid and confident from the inside while having little connection to how accurate it is",
+                "Assuming experts always disagree",
+                "Mistaking a confident tone for rudeness"
+              ],
+              "q": "What is the illusion of validity?",
+              "why": "Confidence is manufactured from the coherence of the story in your head. When that story is smooth, certainty soars — whether or not the evidence could actually predict anything."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "How neatly the pieces of the story fit together, with few contradictions",
+                "How much data the judge collected",
+                "How often the judge has been right before",
+                "How long the judge deliberated"
+              ],
+              "q": "According to the lesson, what does confidence in a judgment actually track?",
+              "why": "The fast mind builds confidence out of coherence. Accuracy depends on predictive power, which is a different thing entirely — and the two can drift completely apart."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "They abandon interviews entirely",
+                "They become less confident in every interview afterward",
+                "They start predicting perfectly",
+                "Nothing much — in the next interview they feel the same pull of confidence anyway"
+              ],
+              "q": "What happens when interviewers are shown evidence that unstructured interviews barely predict performance?",
+              "why": "The illusion is built into how impressions form. Knowing the research does not dissolve the feeling, which is why structure, not willpower, is the fix."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "The best firms stay on top for decades",
+                "Rankings shuffle in a way that looks remarkably like chance doing most of the dealing",
+                "Rankings are perfectly stable",
+                "Skill only appears after ten years"
+              ],
+              "q": "What do year-to-year rankings of investment firms suggest about stock-picking skill?",
+              "why": "If picking winners were a strong learnable skill, performance would persist. The reshuffling pattern suggests a great deal of the confident narrative around stock calls is luck in a tailored suit."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "A degree from a top school and twenty years of experience",
+                "High intelligence and a calm temperament",
+                "A regular, learnable environment, and fast, clear feedback on judgments",
+                "Confidence and a strong memory"
+              ],
+              "q": "What are the two conditions required before expert intuition deserves trust?",
+              "why": "Intuition is pattern recognition trained by feedback. Without stable patterns to learn and prompt, unambiguous results to learn from, experience produces confidence rather than accuracy."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Nurses are naturally more intuitive",
+                "Stock pickers are less intelligent",
+                "Hospitals are quieter than trading floors",
+                "Ward medicine has stable, learnable patterns and she quickly and plainly learns whether she was right; markets break patterns and score forecasts poorly"
+              ],
+              "q": "Why does the veteran nurse's intuition about a deteriorating patient deserve more trust than a stock picker's?",
+              "why": "Both experts feel identical inside. The difference is the learning environment: regular cues plus fast, clear feedback on the ward, versus irregular patterns and murky feedback in the market."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Formulas secretly use more information",
+                "Experts do not try hard in studies",
+                "Formulas apply the same weights every time — they never get tired, fall for a story, or let one vivid detail swamp the base rate",
+                "Formulas are newer technology"
+              ],
+              "q": "Why do simple formulas so often match or beat experienced experts?",
+              "why": "The expert's great enemy is inconsistency, not ignorance. A mechanical rule that combines a few factors the same way every time avoids the noise human judgment adds."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Make interviews longer and more free-flowing",
+                "Decide the key qualities in advance, score each candidate on each one independently, and only then form an overall impression",
+                "Let the most senior person decide alone",
+                "Add more interviewers to each panel"
+              ],
+              "q": "You are redesigning your team's hiring process based on this lesson. What is the first structural change?",
+              "why": "Structured scoring fences judgment into independent observations made before the global story forms — the same reason pilots and surgical teams lean on checklists."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "How many followers does he have?",
+                "Is this a learnable environment, and has this person actually been scored by reality on past forecasts?",
+                "Did he study at a famous university?",
+                "Does his story sound coherent?"
+              ],
+              "q": "A forecaster speaks with total certainty about events ten years out. Using this lesson's filter, what is the sharpest question to ask?",
+              "why": "Confidence cannot tell you which side of the line an expert sits on — both kinds feel the same. The environment's regularity and the expert's feedback history are the evidence that matters."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It is all speculation with no studies behind it",
+                "The two conditions were proven in one famous experiment",
+                "Formulas have never actually been compared with experts",
+                "The weakness of unstructured interviews and the strength of simple formulas are well supported across many studies; the two conditions for intuition are a well-reasoned framework rather than a single experiment"
+              ],
+              "q": "Per the lesson's honesty note, how solid is the evidence here?",
+              "why": "Calibrating the claims matters: interview weakness and formula performance are among the more replicated findings in the course, while the two conditions are a map drawn from comparing real and illusory expertise."
+            }
+          ],
+          "slug": "illusion-of-validity",
+          "title": "The Illusion of Validity and When Experts Can Be Trusted",
+          "duration": "6 min 59 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-08-planning-fallacy.mp3",
+          "concepts": "Inside view vs outside view · reference-class forecasting · optimism bias · the premortem",
+          "n": 8,
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "The tendency to remember past projects as harder than they were",
+                "The tendency to forecast your own project as if the obstacles that slowed everyone else will step aside for you",
+                "The tendency to overestimate how much work a team can do in a day",
+                "The tendency to blame delays on bad luck rather than bad management"
+              ],
+              "q": "What is the planning fallacy?",
+              "why": "The planning fallacy is the reliable pattern of estimating your own project by its intended path while ignoring the delays and overruns that similar projects actually suffered."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The outside view",
+                "The reference view",
+                "The inside view",
+                "The premortem view"
+              ],
+              "q": "A manager builds a timeline by picturing each step of her own project and how it will unfold. Which view is she taking?",
+              "why": "Focusing on the specifics of your own case and imagining how its steps will play out is the inside view — it feels detailed and responsible, but it leaves out everything that cannot yet be pictured."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "The project's goals and deadlines",
+                "The skills of the people on the team",
+                "The cost of materials and tools",
+                "Unforeseen problems — the vendor who goes quiet, the key person who quits, the approval that stalls"
+              ],
+              "q": "What does the inside view systematically leave out of a forecast?",
+              "why": "An inside-view forecast is built from the plan, and the plan contains no surprises. The disruptions that actually determine timelines are invisible at planning time, so they never make it into the estimate."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Optimism bias — the sincere belief that our own project is a little more skilled, prepared, and lucky than average",
+                "Pressure from senior leadership to promise quick results",
+                "A deliberate strategy of under-promising to look good later",
+                "Simple arithmetic errors in the spreadsheet"
+              ],
+              "q": "According to the lesson, what sits underneath the inside view and makes its forecasts so rosy?",
+              "why": "Optimism bias is not dishonesty or corner-cutting. It is a warm, sincere conviction that our case is special, and it tilts every inside-view estimate toward the best case."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "What is the most efficient sequence of steps for this project?",
+                "Who is accountable if this project runs late?",
+                "When other people attempted something like this, how long did it actually take and what did it actually cost?",
+                "What could possibly go wrong with this particular plan?"
+              ],
+              "q": "What question does the outside view ask first?",
+              "why": "The outside view ignores your case's details at first and consults the record: what happened, not what was planned, when comparable efforts were made by comparable teams."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Interview the team about their confidence level",
+                "Choose a set of past efforts genuinely similar to yours",
+                "Build a detailed model of your project's unique features",
+                "Ask the project sponsor to set the deadline"
+              ],
+              "q": "Which of these is one of the three steps of reference class forecasting?",
+              "why": "Reference class forecasting starts by picking a reference class of genuinely similar past projects, then examines how they actually turned out, then places your project honestly inside that picture."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Six weeks is right, because the team knows its own migration best",
+                "The honest planning figure sits near eleven weeks, the center of gravity of the actual record",
+                "Fourteen weeks, because the worst case is the safest planning basis",
+                "The estimate cannot be made until every detail is specified"
+              ],
+              "q": "A team's five previous platform migrations took nine, ten, eleven, thirteen, and fourteen weeks. The team estimates the next one at six weeks of clean work. What does the outside view say?",
+              "why": "Five comparable efforts clustered between nine and fourteen weeks. Planning around six weeks is not ambition — it is planning to be surprised by a history that is sitting right there."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Because finance departments require it",
+                "Because leaders punish anyone who quotes statistics",
+                "Because it has been proven more accurate in studies",
+                "Because vivid details feel like knowledge while a base rate feels lazy — and being compared to other teams can feel insulting"
+              ],
+              "q": "Why does the inside view usually win the argument in a meeting?",
+              "why": "We experience our own case vividly from the inside and the crowd abstractly from the outside, and vivid beats abstract. A wall of specifics looks rigorous even when it is a story with the surprises edited out."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Imagine the project has succeeded beyond expectations and explain why",
+                "List everything that went wrong on the previous project",
+                "Imagine it is a year later and the project has failed badly, then write the story of how it happened",
+                "Privately rate the project leader's plan on a scale of one to ten"
+              ],
+              "q": "In a premortem, what are team members asked to do?",
+              "why": "The premortem runs the postmortem before the project starts: everyone writes the history of an imagined failure, alone, so real risks get recorded while there is still time to act on them."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Because it is run by an outside consultant with no stake in the plan",
+                "Because it flips the permission structure — doubt becomes the assignment instead of sounding like disloyalty",
+                "Because it is held after the budget is locked, so people feel safer",
+                "Because it replaces discussion with anonymous voting"
+              ],
+              "q": "Why does a premortem surface risks that a normal kickoff meeting suppresses?",
+              "why": "In a normal kickoff, raising doubts can look like not being a team player. The premortem makes pessimism the task itself, so quiet worries about suppliers, dependencies, and missing reviews come out into the open."
+            }
+          ],
+          "slug": "planning-fallacy",
+          "title": "The Planning Fallacy and the Premortem",
+          "duration": "8 min 46 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-09-prospect-theory.mp3",
+          "concepts": "Reference points · diminishing sensitivity · loss aversion",
+          "n": 9,
+          "quiz": [
+            {
+              "answer": 0,
+              "options": [
+                "People evaluate outcomes as gains and losses measured from a reference point, not as absolute final states",
+                "People always choose the option with the highest expected value",
+                "People care about money only in proportion to their total wealth",
+                "People are simply bad at arithmetic when probabilities are involved"
+              ],
+              "q": "What is the central claim of prospect theory?",
+              "why": "Prospect theory begins with the observation that outcomes are coded as changes from wherever you are standing. The same destination can feel like a triumph or a wound depending on the starting point."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Because the raised employee probably works less hard",
+                "Because only the raised employee will pay more tax",
+                "Because feelings track the change from each person's reference point — a gain for one, a loss for the other — even though the final state is identical",
+                "Because salaries are always judged against coworkers, never against one's own past"
+              ],
+              "q": "Two employees end the year at the same salary — one raised into it, one cut down into it. Why does prospect theory predict they feel differently?",
+              "why": "Expected utility looks only at the destination and predicts identical feelings. Prospect theory looks at the direction of travel from the reference point, which is why the two experiences diverge completely."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "As neutral, since the money was never in your account",
+                "As a loss, because your reference point had already moved up to include it",
+                "As a small gain, because expectations were lowered",
+                "As neither — expectations never affect reference points"
+              ],
+              "q": "A bonus you were promised is withdrawn before it is paid. According to the lesson, how is it most likely coded?",
+              "why": "Reference points include firm expectations, not just current possessions. Once the bonus was mentally banked, removing it registers as something being taken away."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Because larger sums are usually invested rather than spent",
+                "Because people round large numbers more aggressively",
+                "Because of a calculation error most people make with big numbers",
+                "Because of diminishing sensitivity — feelings respond to proportional change, so the same absolute step shrinks as outcomes grow"
+              ],
+              "q": "Why does the gap between one hundred and two hundred dollars feel bigger than the gap between ten thousand one hundred and ten thousand two hundred dollars?",
+              "why": "Like our senses with light and sound, our feelings about money respond to proportion, not raw distance. A hundred dollars is a doubling at the low end and a rounding error at the high end."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "They gamble in both cases, because certainty is boring",
+                "They take the sure thing for gains but often prefer to gamble rather than accept a sure loss",
+                "They take the sure thing in both cases, because risk is always unpleasant",
+                "Their behavior is random and shows no pattern"
+              ],
+              "q": "According to the lesson, how do most people behave when facing a sure gain versus a sure loss?",
+              "why": "Diminishing sensitivity makes extra gains feel small, so the sure gain is grabbed. But a sure loss feels final and total, so many people gamble in the hope of escaping it entirely."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "About one hundred dollars — an exactly fair bet",
+                "About one hundred and twenty dollars",
+                "About one hundred and fifty dollars",
+                "About two hundred dollars"
+              ],
+              "q": "In the coin flip test, heads you lose one hundred dollars, tails you win. Roughly how much must the win be before most people accept the bet?",
+              "why": "Most people demand roughly double the upside to offset an even chance of losing one hundred dollars — direct evidence that the pain of the loss weighs about twice the pleasure of the matching gain."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "The tendency to avoid checking your account after a bad week",
+                "Losses loom larger than equivalent gains — they hurt roughly twice as much as the same-size gain feels good",
+                "A personality trait found only in cautious investors",
+                "The refusal to sell any asset once you own it"
+              ],
+              "q": "What is loss aversion?",
+              "why": "Loss aversion is the asymmetry at the heart of prospect theory: a loss and a gain of the same size do not cancel out emotionally. The loss shouts about twice as loud."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Diminishing sensitivity",
+                "The planning fallacy",
+                "Loss aversion — the perk is coded as something being taken away, and losses carry roughly double weight",
+                "Cognitive ease"
+              ],
+              "q": "A company removes a small perk, like free parking, and employees react with fury far beyond its cost. Which concept best explains this?",
+              "why": "Granting the same perk to a team that never had it earns a mild thank-you, because it is a modest gain. Removing it is a loss, and loss aversion inflates the reaction far past the dollar value."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "It showed choices depend on reference points, fading sensitivity, and double-weighted losses — none of which the old theory allows, though they appear in experiment after experiment",
+                "It proved people never think about probabilities at all",
+                "It showed that wealth has no effect on decisions",
+                "It demonstrated that economists had been using the wrong currency units"
+              ],
+              "q": "Why did prospect theory overturn expected-utility thinking rather than merely add to it?",
+              "why": "Expected utility says only final states and probabilities should matter. Prospect theory documented systematic behavior the old framework cannot express, so a theory of real decisions has to be built on the new facts."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "The effect only appears when the stakes are enormous",
+                "The ratio is an average across many people and experiments, not a physical constant — it wobbles with mood, wealth, and what the money is for",
+                "The effect disappears entirely once people are told about it",
+                "It applies only to money, never to time or status"
+              ],
+              "q": "What caution does the lesson attach to the claim that losses hurt about twice as much as gains feel good?",
+              "why": "Roughly two-to-one is a useful summary of the evidence, not a law of nature. Knowing it describes an average helps you notice the shouting of a loss without mistaking the volume for evidence."
+            }
+          ],
+          "slug": "prospect-theory",
+          "title": "Prospect Theory: Gains and Losses Are Not Symmetric",
+          "duration": "7 min 3 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-10-framing.mp3",
+          "concepts": "Framing effects · survival vs death rates · frame invariance",
+          "n": 10,
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "When people reject an option because it is listed last",
+                "When describing the same facts in different words reliably changes the decisions people make",
+                "When a decision improves after it is discussed in a group",
+                "When experts disagree about which facts are relevant"
+              ],
+              "q": "What is a framing effect?",
+              "why": "In framing effects, neither the facts nor the options change — only the language moves, and choices follow the language. That is what makes the effect so quietly alarming."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Patients ignore both descriptions and ask about cost instead",
+                "Doctors are completely immune to the wording because of their training",
+                "People, including physicians, choose the treatment less readily when the identical results are described in terms of deaths",
+                "The survival wording only works on people with no medical background"
+              ],
+              "q": "A surgery leaves ninety of one hundred patients alive after five years, and also kills ten of one hundred. What does the research described in the lesson show?",
+              "why": "Survival and mortality descriptions are arithmetically identical, yet the death frame makes the same treatment feel dangerous. Expertise reduced the effect in the studies; it did not remove it."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "The gamble, because six hundred lives were at stake",
+                "The sure program that saved two hundred",
+                "They split evenly between the two programs",
+                "They refused to choose without more information"
+              ],
+              "q": "In the disease outbreak example, the first group was told a program would save two hundred people for certain, or gamble on saving all six hundred. What did most choose?",
+              "why": "Described in terms of lives saved, the programs were framed as gains — and for gains, people play it safe and take the certain two hundred."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "The sure program — proving people are consistent after all",
+                "The gamble — the opposite of the first group, even though the two problems are exactly the same",
+                "Neither — most said the question was unfair",
+                "The gamble, but only because they misunderstood the numbers"
+              ],
+              "q": "The second group heard the identical problem described as four hundred people dying for certain, or a gamble on how many die. What did most choose, and why is that remarkable?",
+              "why": "Saving two hundred of six hundred means four hundred die; the gambles match coin for coin. Yet wording alone flipped the majority from safety to risk, so most people contradicted themselves within a single page."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "The word saved codes outcomes as gains, where we are cautious; the word die codes them as losses, where we gamble to escape",
+                "People become more emotional whenever diseases are mentioned",
+                "The second group was simply more tired than the first",
+                "Probabilities feel larger when they are attached to deaths"
+              ],
+              "q": "What mechanism from prospect theory explains the flip in the disease example?",
+              "why": "Frames decide whether outcomes land on the gain side or the loss side of our mental machinery. Caution rules gains and risk-seeking rules losses, so the wording quietly selects the behavior."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Invariance means experts should agree with each other; framing shows they often do not",
+                "Invariance means the same problem should get the same answer under any equivalent description — a minimum requirement for rational choice that framing effects break easily",
+                "Invariance means decisions should never be revisited; framing makes people revisit them",
+                "Invariance is a rule about statistics, not about decisions"
+              ],
+              "q": "What is invariance, and why do framing effects matter so much?",
+              "why": "A scale gives the same weight in pounds or kilograms. A decision maker should likewise answer two descriptions of one problem the same way — and framing shows smart people failing that basic test through vocabulary alone."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "The order in which agenda items are discussed",
+                "Whichever option is pre-selected or labeled the standard plan, which becomes the reference point the others are judged against",
+                "The temperature of the meeting room",
+                "Whether the meeting happens before or after lunch"
+              ],
+              "q": "Which of these is a frame operating in an ordinary workplace decision?",
+              "why": "Defaults are frames. Once one option becomes the reference point, every alternative is judged as a gain or a loss against it — so whoever writes the slide has already half-decided the meeting."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Because existing customers are always more profitable",
+                "Because protecting what you have is coded as avoiding a loss, and losses loom larger than equivalent gains",
+                "Because growth proposals require larger budgets by rule",
+                "Because executives prefer shorter proposals"
+              ],
+              "q": "A proposal is described as protecting the customers the company already has, instead of chasing customers it might win. Why does the protecting version usually win the room?",
+              "why": "The same strategy sounds different depending on which side of the reference point it is described from. Loss language recruits loss aversion, and loss aversion usually out-shouts the promise of a gain."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Always choose the option described first",
+                "Ban percentages from decision documents",
+                "Let the most senior person decide without discussion",
+                "Restate the decision in the opposite frame — if a plan saves two hundred, ask how many it loses — and ask whether you would still choose it described the other way"
+              ],
+              "q": "Which of these is a defense against framing recommended in the lesson?",
+              "why": "You cannot escape frames, but you can refuse to be pushed by the one in front of you. Putting both frames on the table side by side exposes choices that belonged to the wording rather than to you."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Honest framing uses only survival statistics",
+                "Manipulation is only possible in advertising, not in internal meetings",
+                "Honest framing shows the full picture in both frames; manipulation picks the frame that will stampede the room — a good test is whether you would comfortably show the other frame too",
+                "There is no difference; all framing is manipulation"
+              ],
+              "q": "According to the lesson, what separates honest framing from manipulation?",
+              "why": "Every presentation must choose some words, so framing itself is unavoidable. The ethical line is whether the frame clarifies the whole picture or exploits gain-and-loss wiring to force an answer."
+            }
+          ],
+          "slug": "framing",
+          "title": "Framing: Same Facts, Different Decision",
+          "duration": "7 min 8 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-11-fourfold-pattern-and-mental-accounting.mp3",
+          "concepts": "Fourfold pattern of risk attitudes · mental accounting · sunk cost",
+          "n": 11,
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "The sunk cost fallacy",
+                "The certainty effect — the step from very likely to guaranteed feels far bigger than the numbers suggest",
+                "The possibility effect",
+                "Mental accounting"
+              ],
+              "q": "Offered a sure gain of nine hundred dollars or a ninety-five percent chance of one thousand dollars, most people take the sure thing, even though the gamble is worth more on paper. Which idea from the lesson best explains this?",
+              "why": "Near certainty, people pay a premium for a guaranteed outcome. Moving from ninety-five percent to one hundred percent looms much larger in the mind than the small numerical difference."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "High probability gains — risk averse",
+                "Low probability gains — risk seeking",
+                "High probability losses — risk seeking, gambling to escape a near-certain loss",
+                "Low probability losses — risk averse"
+              ],
+              "q": "A manager whose quarter will almost certainly miss its target doubles down on a long-shot feature rather than accept the shortfall. Which quadrant of the fourfold pattern is she in?",
+              "why": "When a loss feels almost certain, people become gamblers: they would rather risk a bigger loss for a chance of losing nothing than accept the sure loss."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "The jump from impossible to possible feels dramatic, so tiny chances get overweighted — a move from zero to five percent feels bigger than from fifty to fifty-five",
+                "People always prefer the option with the highest possible prize",
+                "Possible outcomes are ignored until they become probable",
+                "Any outcome above fifty percent is treated as certain"
+              ],
+              "q": "What is the possibility effect?",
+              "why": "The lesson stresses that a chance which is possible at all glows in the mind. Equal-sized steps in probability feel much larger at the low end, which is why lottery tickets sell."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "The sunk cost fallacy",
+                "Regret about money already spent on lawyers",
+                "The possibility effect applied to gains",
+                "Overweighting a small probability of a large loss — the same box that makes insurance attractive"
+              ],
+              "q": "Your company settles a lawsuit for a large sum even though the chance of a catastrophic verdict is small. By the lesson's logic, what is driving the decision?",
+              "why": "A small chance of a very large loss makes people cautious; they pay more than the risk is worth on paper to convert a possible disaster into a guaranteed smaller cost."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Loss aversion is twice as strong for tickets as for cash",
+                "Mental accounting — the lost ticket charges the theater account, so the evening feels overpriced, while lost cash lands in a general account",
+                "The certainty effect",
+                "Duration neglect"
+              ],
+              "q": "You lose a prepaid theater ticket and refuse to buy a replacement, yet losing the same amount in cash would not stop you going to the show. What explains the difference?",
+              "why": "The money loss is identical either way; only the mental label differs. Because the ticket loss is filed under the theater budget, replacing it feels like paying double for one show."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The fourfold pattern",
+                "The certainty effect",
+                "Money treated differently depending on its label — the refund is filed as a windfall in a separate mental account",
+                "Regression to the mean"
+              ],
+              "q": "A tax refund gets spent on a vacation while the same amount paid as salary would have been saved. What is this an example of?",
+              "why": "Money is interchangeable, but the mind files it into labeled accounts. Windfalls sit in a spend-freely account, while salary sits in a careful one, so identical amounts behave differently."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "The halo effect; ask who championed the project",
+                "Anchoring; ask what the original estimate was",
+                "Framing; ask how the options are worded",
+                "The sunk cost fallacy; ask whether you would start this project today, knowing what you know now, if nothing had been spent yet"
+              ],
+              "q": "A team argues a failing project cannot be stopped because two years of budget have already been spent on it. Which fallacy is at work, and what is the honest replacement question?",
+              "why": "Money already spent is gone either way and should not vote on the future. The clean test is whether the project would win funding starting fresh from today's knowledge."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Cautious with likely gains, reckless with likely losses, hopeful with unlikely gains, fearful with unlikely losses",
+                "Risk seeking everywhere except with losses",
+                "People are risk averse in all four boxes",
+                "Probability makes no difference to risk attitudes"
+              ],
+              "q": "Which summary of the fourfold pattern matches the lesson?",
+              "why": "Risk attitude flips by quadrant: certainty is prized for likely gains, gambles are taken to dodge likely losses, long shots tempt us for gains, and small chances of disaster make us buy protection."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Insurance buyers are simply inconsistent people",
+                "Both products exploit loss aversion only",
+                "Both involve overweighting the ends of the probability scale — paying to eliminate a small chance of disaster, and paying for a small chance of a fortune",
+                "Lottery tickets are a form of insurance"
+              ],
+              "q": "Why do the certainty effect and the possibility effect together explain someone who buys both insurance and lottery tickets?",
+              "why": "At the low-probability end we overweight tiny chances in both directions: fearful for losses (insurance) and hopeful for gains (lotteries). The same mind can hold both habits quite consistently."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Abolish budgets and categories entirely",
+                "Periodically merge the accounts mentally — ask what you would choose if all your money were one unlabeled pile",
+                "Only ever spend cash, never cards",
+                "Let the largest account win every argument"
+              ],
+              "q": "According to the lesson, what is the practical defense against mental accounting mistakes?",
+              "why": "Mental accounts are useful for saving and organizing, so the lesson recommends auditing them: strip the labels, view the money as a single pile, and see whether the decision still makes sense."
+            }
+          ],
+          "slug": "fourfold-pattern-and-mental-accounting",
+          "title": "The Fourfold Pattern and Mental Accounting",
+          "duration": "7 min 13 sec"
+        },
+        {
+          "audio": "assets/audio/lesson-12-the-two-selves.mp3",
+          "concepts": "Experiencing vs remembering self · peak-end rule · duration neglect · focusing illusion",
+          "n": 12,
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "The experiencing self plans the future; the remembering self lives in the present",
+                "The experiencing self is rational; the remembering self is emotional",
+                "The experiencing self lives each moment as it happens, while the remembering self keeps a selective story of the past and makes nearly all the decisions",
+                "They are two names for the same process"
+              ],
+              "q": "What is the key difference between the experiencing self and the remembering self?",
+              "why": "Only the experiencing self actually lives your moments, almost all of which are forgotten. The remembering self keeps highlights, tells the story, and chooses what you will do next."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "A bad afternoon, because memory's verdict leans heavily on the peak moment and the ending",
+                "A good afternoon, because most of it was pleasant",
+                "A neutral afternoon, since the moments average out",
+                "Whatever the longest part of the afternoon felt like"
+              ],
+              "q": "According to the peak-end rule, a mostly pleasant afternoon that ends in an argument will be remembered as:",
+              "why": "The remembering self judges an episode mainly by its most intense moment and how it finished. A bad ending can drag a mostly good experience into the bad column."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "The total amount of pain across the whole procedure",
+                "How long the procedure lasted",
+                "The average pain in the first half",
+                "The worst level of pain and how the patient felt near the end"
+              ],
+              "q": "In the colonoscopy studies described in the lesson, what predicted how bad patients later said the procedure had been?",
+              "why": "Patients' retrospective ratings tracked the peak pain and the ending, not the accumulated suffering — the signature of the peak-end rule combined with duration neglect."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Forgetting how an experience ended",
+                "The length of an experience barely counting in how it is remembered, however much it mattered while it lasted",
+                "Underestimating how long a task will take",
+                "Ignoring experiences that last less than a minute"
+              ],
+              "q": "What is duration neglect?",
+              "why": "A longer ordeal can be remembered as better than a shorter one if it ends more gently, because the remembering self largely drops duration from its account."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Shortening the procedure as much as possible",
+                "Increasing sedation at the start",
+                "Adding a short, gentler period at the end — even though it made the procedure longer overall",
+                "Asking patients not to think about it afterward"
+              ],
+              "q": "Doctors found they could make patients remember a colonoscopy as less awful by doing what?",
+              "why": "Because the ending weighs so heavily and duration is neglected, an eased-off ending improved the memory, even while adding to the total discomfort experienced."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Its ending was less bad, and the remembering self — which makes the choice — judges by peak and end, not by total discomfort",
+                "They had forgotten taking part in the study",
+                "The longer trial was actually less painful overall",
+                "They wanted to appear tough to the researchers"
+              ],
+              "q": "In the cold-water experiment from the lesson, most people chose to repeat the longer trial afterwards. Why?",
+              "why": "The longer trial contained everything painful in the short one plus extra time, but its gentler ending won the memory, and the remembering self is the one who decides."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "The experiencing self, since it lives every moment",
+                "Neither — vacations are chosen by habit",
+                "Your future self's bank account",
+                "The remembering self — it keeps the peaks and the ending, so trips get designed for photographs and a strong finish"
+              ],
+              "q": "When you plan a vacation, the lesson suggests you are mostly shopping for which self?",
+              "why": "Days of mild comfort leave little trace in memory, while one peak moment and a good final evening are nearly all that gets kept. Knowing which self you are buying for changes the plan."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "The belief that multitasking improves focus",
+                "When you concentrate on any one feature of life, your mind inflates how much that feature matters",
+                "An optical trick that makes objects look larger",
+                "Judging an experience only by its ending"
+              ],
+              "q": "What is the focusing illusion?",
+              "why": "Attention exaggerates importance: while a feature is in focus — weather, a car, a salary — it looms enormous, then shrinks once it fades into the background of daily life."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Sunny places are actually less sunny than reported",
+                "People adapt instantly to any climate",
+                "Daily life is mostly spent indoors, at work, and in traffic, so the climate people focus on plays only a small part in lived experience",
+                "Happiness cannot be measured at all"
+              ],
+              "q": "Why did the sunny-climate example in the lesson turn out to be weaker than people expected?",
+              "why": "People imagining a move focus on the weather, inflating its role. In practice, most hours are spent the same way everywhere, so the focused-on feature contributes far less than expected."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "The remembering self is another product of the mind's fast, story-telling side — the course's biases and shortcuts shape not just our judgments but the story of our lives that we keep",
+                "System two turns out to be the remembering self",
+                "It does not connect; the two selves replace the two systems",
+                "The experiencing self is the same as system two"
+              ],
+              "q": "How does this final lesson tie back to the two systems from lesson one?",
+              "why": "From anchoring to framing, the fast mind's habits run through the whole course, and the remembering self is its narrator — keeping only peaks and endings of a life the slow mind rarely audited."
+            }
+          ],
+          "slug": "the-two-selves",
+          "title": "The Two Selves: The Life You Live vs The Life You Remember",
+          "duration": "7 min 21 sec"
+        }
+      ],
+      "slug": "thinking-fast-and-slow",
+      "title": "Thinking, Fast and Slow"
+    }
+  ]
+}
