@@ -2,15 +2,16 @@
 
 Short audio courses on the few books worth a second, deeper pass.
 
-Each course breaks a book into its key concepts and chapters. Every chapter is a 5–10 minute single-narrator audio lesson, followed by a collapsed 10-question quiz card — click the card to reveal the questions, answer all 10, submit, and the page marks your answers and explains why each correct answer is right. Collapsing the card again keeps your answers (it does not re-render or reset them).
+Each course breaks a book into its key concepts and chapters. Every chapter is a 10–15 minute single-narrator audio lesson (up to 20 minutes where a chapter needs it), followed by a collapsed 10-question quiz card — click the card to reveal the questions, answer all 10, submit, and the page marks your answers and explains why each correct answer is right. Collapsing the card again keeps your answers (it does not re-render or reset them). The audio lessons themselves do not end with questions: each closes with a short summary, so a course can be listened to straight through.
 
 Continuous play is on by default: when a chapter's audio ends, the next chapter starts automatically and scrolls into view, so a course plays straight through like a podcast. Untick "Continuous play" at the top of a course page to stop at the end of each chapter.
 
 **Live site:** https://zanyaziz.github.io/second-pass/
 
-## First course
+## Courses
 
-- **Thinking, Fast and Slow** by Daniel Kahneman — 12 chapters. Chapter 1 (The Two Systems) is live with audio + quiz; the remaining chapters are listed and added as their audio is produced.
+- **Thinking, Fast and Slow** by Daniel Kahneman — 12 chapters, all live with audio + quiz (about 2 hours 48 minutes total).
+- **The Conquest of Happiness** by Bertrand Russell — 17 chapters, all live with audio + quiz (about 4 hours 3 minutes total).
 
 ## How it is built
 

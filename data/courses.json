@@ -2,12 +2,12 @@
   "courses": [
     {
       "author": "Daniel Kahneman",
-      "blurb": "The landmark tour of the two systems of the mind — the fast, intuitive one and the slow, deliberate one — and the biases, shortcuts, and illusions their partnership produces. Twelve short audio chapters, each with a 10-question quiz to make the ideas stick.",
+      "blurb": "The landmark tour of the two systems of the mind \u2014 the fast, intuitive one and the slow, deliberate one \u2014 and the biases, shortcuts, and illusions their partnership produces. Twelve short audio chapters, each with a 10-question quiz to make the ideas stick.",
       "chapters": [
         {
           "audio": "assets/audio/lesson-01-the-two-systems.mp3",
-          "concepts": "System 1 vs System 2 · cognitive ease · priming (with a replication caution) · halo effect · WYSIATI · substitution",
-          "duration": "6 min 19 sec",
+          "concepts": "System 1 vs System 2 \u00b7 cognitive ease \u00b7 priming (with a replication caution) \u00b7 halo effect \u00b7 WYSIATI \u00b7 substitution",
+          "duration": "15 min 29 sec",
           "n": 1,
           "quiz": [
             {
@@ -18,15 +18,15 @@
                 "Checking a contract clause by clause",
                 "Parking a car in an awkwardly tight space"
               ],
-              "q": "Which of these is System 1 — the fast mind — at work?",
-              "why": "Detecting emotion in a voice is automatic, instant, and effortless — the signature of System 1. The others all demand slow, deliberate System 2 effort."
+              "q": "Which of these is System 1 \u2014 the fast mind \u2014 at work?",
+              "why": "Detecting emotion in a voice is automatic, instant, and effortless \u2014 the signature of System 1. The others all demand slow, deliberate System 2 effort."
             },
             {
               "answer": 2,
               "options": [
                 "It cannot access memories",
                 "It only switches on during sleep",
-                "It is lazy — it rations effort and usually endorses System 1's suggestions without re-examining them",
+                "It is lazy \u2014 it rations effort and usually endorses System 1's suggestions without re-examining them",
                 "It processes information more slowly than it arrives"
               ],
               "q": "Why does System 2 so often fail to catch System 1's mistakes?",
@@ -41,15 +41,15 @@
                 "Regression to the mean"
               ],
               "q": "The same statement feels more believable printed in crisp, clear type than in a faint, blurry font. This is mainly an effect of:",
-              "why": "When processing feels fluent and easy, the fast mind relaxes — and that relaxed feeling gets misread as truth, safety, and quality."
+              "why": "When processing feels fluent and easy, the fast mind relaxes \u2014 and that relaxed feeling gets misread as truth, safety, and quality."
             },
             {
               "answer": 1,
               "options": [
                 "Plans always improve with each presentation",
-                "Repetition creates familiarity, and familiarity creates ease — which the mind mistakes for merit",
+                "Repetition creates familiarity, and familiarity creates ease \u2014 which the mind mistakes for merit",
                 "Senior people have probably endorsed it by now",
-                "Nothing — repeated exposure is a good test of quality"
+                "Nothing \u2014 repeated exposure is a good test of quality"
               ],
               "q": "A plan has been presented to your team three times and now feels obviously correct. What should make you suspicious of that feeling?",
               "why": "Ease grows with exposure. A circulating proposal arrives preloaded with fluency and can feel stronger than a better plan seen only once."
@@ -59,7 +59,7 @@
               "options": [
                 "All priming results are fabricated",
                 "Priming proves the environment controls us like puppets",
-                "Some famous priming findings replicated poorly, so strong claims deserve caution — though context genuinely does nudge thought",
+                "Some famous priming findings replicated poorly, so strong claims deserve caution \u2014 though context genuinely does nudge thought",
                 "Priming only works with words about money"
               ],
               "q": "Which statement about priming is the most accurate, based on the lesson?",
@@ -74,7 +74,7 @@
                 "Anchoring"
               ],
               "q": "A candidate's first two minutes in an interview impress you, and everything after sounds strong too. What is most likely happening?",
-              "why": "A strong first impression sets a curve for everything that follows — later evidence gets interpreted generously, so the verdict feels objective but was largely reached in the first minutes."
+              "why": "A strong first impression sets a curve for everything that follows \u2014 later evidence gets interpreted generously, so the verdict feels objective but was largely reached in the first minutes."
             },
             {
               "answer": 0,
@@ -95,7 +95,7 @@
                 "Priming",
                 "The availability cascade"
               ],
-              "q": "You ask yourself, \"Will this startup succeed?\" — and notice you actually answered \"Do I like this founder?\" That swap is called:",
+              "q": "You ask yourself, \"Will this startup succeed?\" \u2014 and notice you actually answered \"Do I like this founder?\" That swap is called:",
               "why": "Faced with a hard target question, the fast mind quietly substitutes an easier one and reports the easy answer as if it were the hard one."
             },
             {
@@ -107,7 +107,7 @@
                 "How long the judge deliberated"
               ],
               "q": "According to the lesson, confidence in a judgment mostly tracks:",
-              "why": "Confidence measures the smoothness and consistency of the story in your head — not the completeness or accuracy of the evidence behind it."
+              "why": "Confidence measures the smoothness and consistency of the story in your head \u2014 not the completeness or accuracy of the evidence behind it."
             },
             {
               "answer": 3,
@@ -118,7 +118,7 @@
                 "Checking whether an argument actually makes sense"
               ],
               "q": "Which of these is primarily System 2 work?",
-              "why": "Deliberately verifying logic is slow, effortful, and optional — exactly the kind of work System 2 does and System 1 skips."
+              "why": "Deliberately verifying logic is slow, effortful, and optional \u2014 exactly the kind of work System 2 does and System 1 skips."
             }
           ],
           "slug": "the-two-systems",
@@ -126,7 +126,7 @@
         },
         {
           "audio": "assets/audio/lesson-02-anchoring.mp3",
-          "concepts": "Anchor effect · insufficient adjustment · anchors in negotiation, budgets, and estimates",
+          "concepts": "Anchor effect \u00b7 insufficient adjustment \u00b7 anchors in negotiation, budgets, and estimates",
           "n": 2,
           "quiz": [
             {
@@ -138,7 +138,7 @@
                 "The groups differed in mathematical ability"
               ],
               "q": "In the wheel demonstration, one group saw the wheel stop at ten and another saw it stop at sixty five, yet both groups knew the wheel told them nothing about the question that followed. Why did their estimates still land far apart?",
-              "why": "The anchor works through two channels: it wakes up evidence that agrees with it, and it serves as the starting line from which people adjust — and adjustment almost always stops too soon."
+              "why": "The anchor works through two channels: it wakes up evidence that agrees with it, and it serves as the starting line from which people adjust \u2014 and adjustment almost always stops too soon."
             },
             {
               "answer": 0,
@@ -160,7 +160,7 @@
                 "Your offer will be lower than the asking price but still higher than it would have been against a realistic list price"
               ],
               "q": "A seller lists a house well above what you believe it is worth. What does the anchoring research predict about your eventual offer?",
-              "why": "Counters are adjustments from the opening figure, and adjustments stop early — so an inflated anchor quietly raises the whole negotiation, even for buyers who see through it."
+              "why": "Counters are adjustments from the opening figure, and adjustments stop early \u2014 so an inflated anchor quietly raises the whole negotiation, even for buyers who see through it."
             },
             {
               "answer": 3,
@@ -182,7 +182,7 @@
                 "Only the trainees in the study were influenced"
               ],
               "q": "In the study with experienced legal professionals and a pair of dice, what happened?",
-              "why": "Even domain experts, judging in their own field, had their sentences dragged by a number they knew was meaningless — expertise is a weak shield against anchors."
+              "why": "Even domain experts, judging in their own field, had their sentences dragged by a number they knew was meaningless \u2014 expertise is a weak shield against anchors."
             },
             {
               "answer": 0,
@@ -204,7 +204,7 @@
                 "Waiting a day and then accepting the anchor"
               ],
               "q": "A manager wants to counteract an anchor she suspects is too high. According to the lesson, which mental move helps?",
-              "why": "Anchors gain power by gathering one-sided evidence. Arguing the opposite case on purpose — considering why the number could be badly wrong — unhooks some of that bias."
+              "why": "Anchors gain power by gathering one-sided evidence. Arguing the opposite case on purpose \u2014 considering why the number could be badly wrong \u2014 unhooks some of that bias."
             },
             {
               "answer": 2,
@@ -242,11 +242,11 @@
           ],
           "slug": "anchoring",
           "title": "Anchoring: The First Number Sticks",
-          "duration": "6 min 36 sec"
+          "duration": "13 min 41 sec"
         },
         {
           "audio": "assets/audio/lesson-03-availability.mp3",
-          "concepts": "Ease of recall · media-driven risk perception · availability cascade",
+          "concepts": "Ease of recall \u00b7 media-driven risk perception \u00b7 availability cascade",
           "n": 3,
           "quiz": [
             {
@@ -258,7 +258,7 @@
                 "How expensive would it be to be wrong?"
               ],
               "q": "What question is your fast mind actually answering when it judges how common or dangerous something is, according to this lesson?",
-              "why": "Instead of consulting real frequencies, the fast mind substitutes ease of recall — if examples surface quickly and vividly, the thing feels common, likely, and dangerous."
+              "why": "Instead of consulting real frequencies, the fast mind substitutes ease of recall \u2014 if examples surface quickly and vividly, the thing feels common, likely, and dangerous."
             },
             {
               "answer": 0,
@@ -277,7 +277,7 @@
                 "Driving is the more dangerous choice mile for mile, so reacting to the vivid risk increases their total risk",
                 "Airlines raise prices after crashes",
                 "Driving is slower, so they lose vacation time",
-                "There is no problem — fear is always informative"
+                "There is no problem \u2014 fear is always informative"
               ],
               "q": "After a heavily reported plane crash, many travelers switch to driving the same route. What is the problem with that reaction, per the lesson?",
               "why": "The crash is vivid and available while the steady danger of the highway is not, so people trade a small pictured risk for a larger unpictured one."
@@ -291,7 +291,7 @@
                 "A striking story is repeated, repetition makes the danger feel bigger and more urgent, which earns more coverage and public pressure, sometimes producing a response out of proportion to the real risk"
               ],
               "q": "Which sequence best describes an availability cascade?",
-              "why": "Each retelling makes examples easier to recall, ease of recall inflates the feeling of danger, and the inflated feeling earns still more coverage — a loop in which feeling does the measuring."
+              "why": "Each retelling makes examples easier to recall, ease of recall inflates the feeling of danger, and the inflated feeling earns still more coverage \u2014 a loop in which feeling does the measuring."
             },
             {
               "answer": 3,
@@ -299,7 +299,7 @@
                 "Twelve examples made them realize they were rude",
                 "Counting that high made them tired of the survey",
                 "They were a less assertive group to begin with",
-                "Digging up twelve examples felt difficult, and the mind read that difficulty as evidence the behavior must be rare — ease of recall beat the number recalled"
+                "Digging up twelve examples felt difficult, and the mind read that difficulty as evidence the behavior must be rare \u2014 ease of recall beat the number recalled"
               ],
               "q": "In the assertiveness study, people who recalled twelve examples of acting assertively rated themselves lower than people who recalled six. Why?",
               "why": "The fast mind judges by how the search felt, not by what it found. A hard search feels like scarcity, even when the hard search actually produced more evidence."
@@ -307,7 +307,7 @@
             {
               "answer": 0,
               "options": [
-                "The recent, vivid misses come to mind instantly, while routine on-time deliveries must be excavated — availability, fed by recency",
+                "The recent, vivid misses come to mind instantly, while routine on-time deliveries must be excavated \u2014 availability, fed by recency",
                 "She dislikes the team",
                 "Two data points are statistically sufficient",
                 "The log must be inaccurate"
@@ -320,7 +320,7 @@
               "options": [
                 "Whether the rival will share their incident report",
                 "How many news outlets covered the story",
-                "The actual base rates — which attack types cause most breaches, including boring ones like password reuse",
+                "The actual base rates \u2014 which attack types cause most breaches, including boring ones like password reuse",
                 "Whether your company has been mentioned in the coverage"
               ],
               "q": "A rival company suffers a spectacular, exotic data breach that dominates the news. Your leadership wants the entire security budget spent on that exact attack type. What does this lesson suggest checking first?",
@@ -331,7 +331,7 @@
               "options": [
                 "Anchoring and the conjunction fallacy",
                 "Substitution and the halo effect",
-                "Availability through repetition, riding on the cognitive ease from lesson one — familiarity misread as truth",
+                "Availability through repetition, riding on the cognitive ease from lesson one \u2014 familiarity misread as truth",
                 "Regression to the mean and framing"
               ],
               "q": "A claim keeps appearing in your social feed until it simply feels established. Which two ideas from the course are combining here?",
@@ -342,7 +342,7 @@
               "options": [
                 "Trust the first example that comes to mind",
                 "Ask people who watch the most news",
-                "Go and get the actual count — logs, records, base rates — instead of relying on what memory volunteers",
+                "Go and get the actual count \u2014 logs, records, base rates \u2014 instead of relying on what memory volunteers",
                 "Wait until the feeling of danger passes"
               ],
               "q": "Which of these is a defense against availability recommended in the lesson?",
@@ -354,7 +354,7 @@
                 "The effect disappeared entirely when retested",
                 "Availability applies to risks but never to workplace judgments",
                 "The studies only work on people who watch television",
-                "The exact figures in the older causes of death studies vary from study to study, but the direction — dramatic causes overweighted, quiet causes underweighted — has been consistent"
+                "The exact figures in the older causes of death studies vary from study to study, but the direction \u2014 dramatic causes overweighted, quiet causes underweighted \u2014 has been consistent"
               ],
               "q": "What honest caution does the lesson attach to the availability research itself?",
               "why": "The course distinguishes the robust pattern from the precise numbers. Quote the direction with confidence; do not quote exact ratios from decades-old studies as settled fact."
@@ -362,11 +362,11 @@
           ],
           "slug": "availability",
           "title": "Availability: What Comes to Mind Feels True",
-          "duration": "6 min 58 sec"
+          "duration": "12 min 35 sec"
         },
         {
           "audio": "assets/audio/lesson-04-representativeness.mp3",
-          "concepts": "Judging by resemblance · conjunction fallacy · insensitivity to sample size",
+          "concepts": "Judging by resemblance \u00b7 conjunction fallacy \u00b7 insensitivity to sample size",
           "n": 4,
           "quiz": [
             {
@@ -378,14 +378,14 @@
                 "What did I decide last time?"
               ],
               "q": "When your fast mind uses representativeness, what question does it answer in place of a probability calculation?",
-              "why": "Representativeness swaps likelihood for resemblance. If something fits the mental picture of a category, it feels probable — even when the category itself is rare."
+              "why": "Representativeness swaps likelihood for resemblance. If something fits the mental picture of a category, it feels probable \u2014 even when the category itself is rare."
             },
             {
               "answer": 2,
               "options": [
                 "Because most bank tellers dislike activism",
                 "Because the description gives no evidence about banking",
-                "Because every feminist bank teller is also a bank teller, so the first group contains the second — adding a condition can only shrink a probability, never grow it",
+                "Because every feminist bank teller is also a bank teller, so the first group contains the second \u2014 adding a condition can only shrink a probability, never grow it",
                 "Because the puzzle is a trick with no correct answer"
               ],
               "q": "In the Linda puzzle, why can the option 'bank teller and active in the feminist movement' never be more likely than simply 'bank teller'?",
@@ -397,7 +397,7 @@
                 "Only people who dislike banks fall for it",
                 "It works only when the description is very long",
                 "It disappears completely with a moment's thought",
-                "Even people trained in statistics commit it when the story is vivid — the better the story fits, the less probable it quietly becomes"
+                "Even people trained in statistics commit it when the story is vivid \u2014 the better the story fits, the less probable it quietly becomes"
               ],
               "q": "What makes the Linda error so instructive, according to the lesson?",
               "why": "The error is not ignorance of probability rules; most people know them. It is that resemblance speaks first and louder, so detail feels like evidence while it is actually subtracting likelihood."
@@ -408,7 +408,7 @@
                 "The large hospital, because it has more births",
                 "They should be about equal",
                 "The small hospital, by a wide margin, because small samples swing much more wildly",
-                "Neither — such days are impossible"
+                "Neither \u2014 such days are impossible"
               ],
               "q": "A large hospital records about forty five births a day and a small one about fifteen. Over a year, which records more days when over sixty percent of the babies are boys?",
               "why": "Percentages from tiny samples are noisy. With fifteen births a lopsided day is a common accident; with forty five, the daily percentage hugs the average far more tightly."
@@ -422,7 +422,7 @@
                 "The rollout should wait for a better testimonial writer"
               ],
               "q": "A pilot program with four users produces three glowing testimonials, and leadership wants to roll the product out to everyone. What is the representativeness problem?",
-              "why": "People expect every sample to mirror the whole in miniature, however tiny it is. Before asking what a sample says, ask how big it is — small samples mostly report weather, not climate."
+              "why": "People expect every sample to mirror the whole in miniature, however tiny it is. Before asking what a sample says, ask how big it is \u2014 small samples mostly report weather, not climate."
             },
             {
               "answer": 0,
@@ -438,7 +438,7 @@
             {
               "answer": 2,
               "options": [
-                "Nothing — long runs really do correct themselves quickly",
+                "Nothing \u2014 long runs really do correct themselves quickly",
                 "Black is simply the unluckier color",
                 "The wheel has no memory; each spin is independent, so a run of reds does not raise the chance of black on the next spin",
                 "He should have bet on red because of the hot hand"
@@ -451,7 +451,7 @@
               "options": [
                 "The original nineteen eighties analysis settled it forever: the hot hand is pure illusion",
                 "Fans were right all along and streaks are enormous",
-                "Later researchers found a subtle statistical bias in the original analysis, and corrected work suggests a small but real hot hand — far smaller than what fans perceive",
+                "Later researchers found a subtle statistical bias in the original analysis, and corrected work suggests a small but real hot hand \u2014 far smaller than what fans perceive",
                 "The effect exists in practice games but never in real ones"
               ],
               "q": "What is the honest current position on the hot hand in basketball, as the lesson presents it?",
@@ -460,19 +460,19 @@
             {
               "answer": 3,
               "options": [
-                "Skip the test — resemblance that strong is decisive",
+                "Skip the test \u2014 resemblance that strong is decisive",
                 "Ask the best-ever hire to interview her alone",
                 "Hire her before a competitor notices the same match",
                 "Ask how common each option is in general, and how much evidence the resemblance rests on, before letting fit substitute for frequencies"
               ],
               "q": "A candidate's background matches your best-ever hire almost point for point, and the panel is ready to skip the work sample test. What does this lesson advise?",
-              "why": "A perfect story fit is the signature of representativeness at work. Frequencies first, resemblance second — and a structured test produces evidence that a matching biography cannot."
+              "why": "A perfect story fit is the signature of representativeness at work. Frequencies first, resemblance second \u2014 and a structured test produces evidence that a matching biography cannot."
             },
             {
               "answer": 1,
               "options": [
                 "Probability rises and it feels more convincing",
-                "Probability falls while it feels more convincing — every added detail is one more thing that must be true at once",
+                "Probability falls while it feels more convincing \u2014 every added detail is one more thing that must be true at once",
                 "Probability falls and it feels less convincing",
                 "Neither changes; detail is neutral"
               ],
@@ -482,11 +482,11 @@
           ],
           "slug": "representativeness",
           "title": "Representativeness: Stories That Look Right",
-          "duration": "6 min 37 sec"
+          "duration": "13 min 5 sec"
         },
         {
           "audio": "assets/audio/lesson-05-small-numbers-and-regression.mp3",
-          "concepts": "Law of small numbers · regression to the mean · base rates vs causal stories",
+          "concepts": "Law of small numbers \u00b7 regression to the mean \u00b7 base rates vs causal stories",
           "n": 5,
           "quiz": [
             {
@@ -498,7 +498,7 @@
                 "Ignoring the most recent data point"
               ],
               "q": "What is the core mistake behind the law of small numbers?",
-              "why": "The fast mind treats a small, noisy sample as if it were a miniature of the whole — but small samples swing wildly, so patterns seen in them are often just noise."
+              "why": "The fast mind treats a small, noisy sample as if it were a miniature of the whole \u2014 but small samples swing wildly, so patterns seen in them are often just noise."
             },
             {
               "answer": 2,
@@ -506,7 +506,7 @@
                 "The eighty-person office, because more people means more chances of a star",
                 "They will be about the same",
                 "The eight-person office, because each person's month moves its total far more",
-                "Neither — extremes come only from management quality"
+                "Neither \u2014 extremes come only from management quality"
               ],
               "q": "Two offices have the same average performance. One has eight salespeople, the other eighty. Over a year, which office will post more extreme quarters, both the best and the worst?",
               "why": "With fewer people, individual luck and slumps shift the average much more, so small units produce more extreme results in both directions purely by arithmetic."
@@ -520,7 +520,7 @@
                 "Exceptionally good or bad attempts are mostly luck, so the next attempt naturally drifts back toward the trainee's usual level regardless of feedback"
               ],
               "q": "Flight instructors noticed trainees usually flew worse after praise and better after being shouted at, and concluded punishment works better than praise. What is the better explanation?",
-              "why": "An extreme attempt blends skill with unusual luck. The luck is redrawn on the next try and is usually less extreme, so performance regresses on its own — praise and punishment were largely bystanders."
+              "why": "An extreme attempt blends skill with unusual luck. The luck is redrawn on the next try and is usually less extreme, so performance regresses on its own \u2014 praise and punishment were largely bystanders."
             },
             {
               "answer": 1,
@@ -564,7 +564,7 @@
                 "Most people have never seen an average"
               ],
               "q": "Why does regression to the mean so often get missed in everyday reasoning?",
-              "why": "Regression is invisible and unintuitive. The mind reaches for a cause sitting in the timeline — a speech, a scolding, a new policy — and credits it for a drift that statistics would have produced anyway."
+              "why": "Regression is invisible and unintuitive. The mind reaches for a cause sitting in the timeline \u2014 a speech, a scolding, a new policy \u2014 and credits it for a drift that statistics would have produced anyway."
             },
             {
               "answer": 1,
@@ -582,7 +582,7 @@
               "options": [
                 "It is a contested theory that may not be real",
                 "It proves praise and punishment never have any effect",
-                "It is plain statistics and very solid — but real changes happen too, so it should not be used to wave away every cause",
+                "It is plain statistics and very solid \u2014 but real changes happen too, so it should not be used to wave away every cause",
                 "It only applies when samples are large"
               ],
               "q": "Which statement about regression to the mean is the most accurate, per the lesson's honesty flag?",
@@ -602,11 +602,11 @@
           ],
           "slug": "small-numbers-and-regression",
           "title": "Small Numbers and Regression: Why Extremes Bounce Back",
-          "duration": "6 min 18 sec"
+          "duration": "14 min 10 sec"
         },
         {
           "audio": "assets/audio/lesson-06-the-story-machine.mp3",
-          "concepts": "Narrative fallacy · hindsight bias · outcome bias",
+          "concepts": "Narrative fallacy \u00b7 hindsight bias \u00b7 outcome bias",
           "n": 6,
           "quiz": [
             {
@@ -629,14 +629,14 @@
                 "Quotes from employees"
               ],
               "q": "A magazine profile explains a founder's success through three bold decisions and never mentions market timing or the many similar founders who failed. What does the profile mainly leave out?",
-              "why": "Success stories select the visible causes and skip the denominator — all the people who made identical bold decisions and vanished — which makes luck look like a recipe."
+              "why": "Success stories select the visible causes and skip the denominator \u2014 all the people who made identical bold decisions and vanished \u2014 which makes luck look like a recipe."
             },
             {
               "answer": 2,
               "options": [
                 "The team is lying to protect itself",
                 "Someone hid the warning signs",
-                "Knowing the outcome edited their memories of what they believed beforehand — hindsight bias",
+                "Knowing the outcome edited their memories of what they believed beforehand \u2014 hindsight bias",
                 "The warning signs genuinely grew stronger over time"
               ],
               "q": "In a project review, everyone insists the failure's warning signs were obvious all along, though at the time the signals were mixed. What has most likely happened?",
@@ -647,16 +647,16 @@
               "options": [
                 "The narrative fallacy",
                 "Anchoring",
-                "Outcome bias — grading decisions by results instead of by how sensible they were with what was known at the time",
+                "Outcome bias \u2014 grading decisions by results instead of by how sensible they were with what was known at the time",
                 "The halo effect"
               ],
               "q": "Two managers make the same risky call with the same information. One gets lucky and is promoted; the other is unlucky and disciplined. What error is the company committing?",
-              "why": "Judging identical decisions differently because of luck rewards lucky gamblers and punishes the careful unlucky — and teaches everyone to hide risk rather than price it."
+              "why": "Judging identical decisions differently because of luck rewards lucky gamblers and punishes the careful unlucky \u2014 and teaches everyone to hide risk rather than price it."
             },
             {
               "answer": 0,
               "options": [
-                "The known ending rewrites the story — winning moves look wise, losing moves look reckless — so luck gets recorded as strategy or as folly",
+                "The known ending rewrites the story \u2014 winning moves look wise, losing moves look reckless \u2014 so luck gets recorded as strategy or as folly",
                 "They are usually written by junior staff",
                 "Nobody reads them",
                 "They focus too much on statistics"
@@ -669,7 +669,7 @@
               "options": [
                 "How complete the evidence is",
                 "How intelligent the storyteller is",
-                "How coherent the story feels — not how accurate or complete the understanding behind it is",
+                "How coherent the story feels \u2014 not how accurate or complete the understanding behind it is",
                 "How memorable the events were"
               ],
               "q": "According to the lesson, what does the smoothness of a story actually measure?",
@@ -695,14 +695,14 @@
                 "Write predictions down before outcomes arrive, including how confident you are"
               ],
               "q": "What is the single most practical defense against your own hindsight bias?",
-              "why": "Memory edits itself after the fact, so the only reliable record of what you actually believed is one written before the outcome was known — and rereading it is a humbling education."
+              "why": "Memory edits itself after the fact, so the only reliable record of what you actually believed is one written before the outcome was known \u2014 and rereading it is a humbling education."
             },
             {
               "answer": 2,
               "options": [
                 "Who can tell it better?",
                 "Can we shorten it for the all-hands meeting?",
-                "What does it leave out — who else did the same things and failed, and what did the deciders actually know at the time?",
+                "What does it leave out \u2014 who else did the same things and failed, and what did the deciders actually know at the time?",
                 "How do we make it more inspiring?"
               ],
               "q": "When a story about the past feels irresistibly clean, what is the best follow-up question?",
@@ -717,16 +717,16 @@
                 "Outcome bias is the only one that matters in practice"
               ],
               "q": "Per the lesson's honesty note, how should you hold these ideas?",
-              "why": "Hindsight bias has been shown many times, including among professionals judging their own fields. The narrative fallacy is a broader interpretive pattern — worth heeding, but calibrated differently."
+              "why": "Hindsight bias has been shown many times, including among professionals judging their own fields. The narrative fallacy is a broader interpretive pattern \u2014 worth heeding, but calibrated differently."
             }
           ],
           "slug": "the-story-machine",
           "title": "The Story Machine: Narrative Fallacy and Hindsight",
-          "duration": "6 min 48 sec"
+          "duration": "13 min 34 sec"
         },
         {
           "audio": "assets/audio/lesson-07-illusion-of-validity.mp3",
-          "concepts": "Confidence vs accuracy · conditions for real expert intuition · formulas and checklists",
+          "concepts": "Confidence vs accuracy \u00b7 conditions for real expert intuition \u00b7 formulas and checklists",
           "n": 7,
           "quiz": [
             {
@@ -738,7 +738,7 @@
                 "Mistaking a confident tone for rudeness"
               ],
               "q": "What is the illusion of validity?",
-              "why": "Confidence is manufactured from the coherence of the story in your head. When that story is smooth, certainty soars — whether or not the evidence could actually predict anything."
+              "why": "Confidence is manufactured from the coherence of the story in your head. When that story is smooth, certainty soars \u2014 whether or not the evidence could actually predict anything."
             },
             {
               "answer": 0,
@@ -749,7 +749,7 @@
                 "How long the judge deliberated"
               ],
               "q": "According to the lesson, what does confidence in a judgment actually track?",
-              "why": "The fast mind builds confidence out of coherence. Accuracy depends on predictive power, which is a different thing entirely — and the two can drift completely apart."
+              "why": "The fast mind builds confidence out of coherence. Accuracy depends on predictive power, which is a different thing entirely \u2014 and the two can drift completely apart."
             },
             {
               "answer": 3,
@@ -757,7 +757,7 @@
                 "They abandon interviews entirely",
                 "They become less confident in every interview afterward",
                 "They start predicting perfectly",
-                "Nothing much — in the next interview they feel the same pull of confidence anyway"
+                "Nothing much \u2014 in the next interview they feel the same pull of confidence anyway"
               ],
               "q": "What happens when interviewers are shown evidence that unstructured interviews barely predict performance?",
               "why": "The illusion is built into how impressions form. Knowing the research does not dissolve the feeling, which is why structure, not willpower, is the fix."
@@ -800,7 +800,7 @@
               "options": [
                 "Formulas secretly use more information",
                 "Experts do not try hard in studies",
-                "Formulas apply the same weights every time — they never get tired, fall for a story, or let one vivid detail swamp the base rate",
+                "Formulas apply the same weights every time \u2014 they never get tired, fall for a story, or let one vivid detail swamp the base rate",
                 "Formulas are newer technology"
               ],
               "q": "Why do simple formulas so often match or beat experienced experts?",
@@ -815,7 +815,7 @@
                 "Add more interviewers to each panel"
               ],
               "q": "You are redesigning your team's hiring process based on this lesson. What is the first structural change?",
-              "why": "Structured scoring fences judgment into independent observations made before the global story forms — the same reason pilots and surgical teams lean on checklists."
+              "why": "Structured scoring fences judgment into independent observations made before the global story forms \u2014 the same reason pilots and surgical teams lean on checklists."
             },
             {
               "answer": 1,
@@ -826,7 +826,7 @@
                 "Does his story sound coherent?"
               ],
               "q": "A forecaster speaks with total certainty about events ten years out. Using this lesson's filter, what is the sharpest question to ask?",
-              "why": "Confidence cannot tell you which side of the line an expert sits on — both kinds feel the same. The environment's regularity and the expert's feedback history are the evidence that matters."
+              "why": "Confidence cannot tell you which side of the line an expert sits on \u2014 both kinds feel the same. The environment's regularity and the expert's feedback history are the evidence that matters."
             },
             {
               "answer": 3,
@@ -842,11 +842,11 @@
           ],
           "slug": "illusion-of-validity",
           "title": "The Illusion of Validity and When Experts Can Be Trusted",
-          "duration": "6 min 59 sec"
+          "duration": "15 min 41 sec"
         },
         {
           "audio": "assets/audio/lesson-08-planning-fallacy.mp3",
-          "concepts": "Inside view vs outside view · reference-class forecasting · optimism bias · the premortem",
+          "concepts": "Inside view vs outside view \u00b7 reference-class forecasting \u00b7 optimism bias \u00b7 the premortem",
           "n": 8,
           "quiz": [
             {
@@ -869,7 +869,7 @@
                 "The premortem view"
               ],
               "q": "A manager builds a timeline by picturing each step of her own project and how it will unfold. Which view is she taking?",
-              "why": "Focusing on the specifics of your own case and imagining how its steps will play out is the inside view — it feels detailed and responsible, but it leaves out everything that cannot yet be pictured."
+              "why": "Focusing on the specifics of your own case and imagining how its steps will play out is the inside view \u2014 it feels detailed and responsible, but it leaves out everything that cannot yet be pictured."
             },
             {
               "answer": 3,
@@ -877,7 +877,7 @@
                 "The project's goals and deadlines",
                 "The skills of the people on the team",
                 "The cost of materials and tools",
-                "Unforeseen problems — the vendor who goes quiet, the key person who quits, the approval that stalls"
+                "Unforeseen problems \u2014 the vendor who goes quiet, the key person who quits, the approval that stalls"
               ],
               "q": "What does the inside view systematically leave out of a forecast?",
               "why": "An inside-view forecast is built from the plan, and the plan contains no surprises. The disruptions that actually determine timelines are invisible at planning time, so they never make it into the estimate."
@@ -885,7 +885,7 @@
             {
               "answer": 0,
               "options": [
-                "Optimism bias — the sincere belief that our own project is a little more skilled, prepared, and lucky than average",
+                "Optimism bias \u2014 the sincere belief that our own project is a little more skilled, prepared, and lucky than average",
                 "Pressure from senior leadership to promise quick results",
                 "A deliberate strategy of under-promising to look good later",
                 "Simple arithmetic errors in the spreadsheet"
@@ -924,7 +924,7 @@
                 "The estimate cannot be made until every detail is specified"
               ],
               "q": "A team's five previous platform migrations took nine, ten, eleven, thirteen, and fourteen weeks. The team estimates the next one at six weeks of clean work. What does the outside view say?",
-              "why": "Five comparable efforts clustered between nine and fourteen weeks. Planning around six weeks is not ambition — it is planning to be surprised by a history that is sitting right there."
+              "why": "Five comparable efforts clustered between nine and fourteen weeks. Planning around six weeks is not ambition \u2014 it is planning to be surprised by a history that is sitting right there."
             },
             {
               "answer": 3,
@@ -932,7 +932,7 @@
                 "Because finance departments require it",
                 "Because leaders punish anyone who quotes statistics",
                 "Because it has been proven more accurate in studies",
-                "Because vivid details feel like knowledge while a base rate feels lazy — and being compared to other teams can feel insulting"
+                "Because vivid details feel like knowledge while a base rate feels lazy \u2014 and being compared to other teams can feel insulting"
               ],
               "q": "Why does the inside view usually win the argument in a meeting?",
               "why": "We experience our own case vividly from the inside and the crowd abstractly from the outside, and vivid beats abstract. A wall of specifics looks rigorous even when it is a story with the surprises edited out."
@@ -952,7 +952,7 @@
               "answer": 1,
               "options": [
                 "Because it is run by an outside consultant with no stake in the plan",
-                "Because it flips the permission structure — doubt becomes the assignment instead of sounding like disloyalty",
+                "Because it flips the permission structure \u2014 doubt becomes the assignment instead of sounding like disloyalty",
                 "Because it is held after the budget is locked, so people feel safer",
                 "Because it replaces discussion with anonymous voting"
               ],
@@ -962,11 +962,11 @@
           ],
           "slug": "planning-fallacy",
           "title": "The Planning Fallacy and the Premortem",
-          "duration": "8 min 46 sec"
+          "duration": "14 min 22 sec"
         },
         {
           "audio": "assets/audio/lesson-09-prospect-theory.mp3",
-          "concepts": "Reference points · diminishing sensitivity · loss aversion",
+          "concepts": "Reference points \u00b7 diminishing sensitivity \u00b7 loss aversion",
           "n": 9,
           "quiz": [
             {
@@ -985,10 +985,10 @@
               "options": [
                 "Because the raised employee probably works less hard",
                 "Because only the raised employee will pay more tax",
-                "Because feelings track the change from each person's reference point — a gain for one, a loss for the other — even though the final state is identical",
+                "Because feelings track the change from each person's reference point \u2014 a gain for one, a loss for the other \u2014 even though the final state is identical",
                 "Because salaries are always judged against coworkers, never against one's own past"
               ],
-              "q": "Two employees end the year at the same salary — one raised into it, one cut down into it. Why does prospect theory predict they feel differently?",
+              "q": "Two employees end the year at the same salary \u2014 one raised into it, one cut down into it. Why does prospect theory predict they feel differently?",
               "why": "Expected utility looks only at the destination and predicts identical feelings. Prospect theory looks at the direction of travel from the reference point, which is why the two experiences diverge completely."
             },
             {
@@ -997,7 +997,7 @@
                 "As neutral, since the money was never in your account",
                 "As a loss, because your reference point had already moved up to include it",
                 "As a small gain, because expectations were lowered",
-                "As neither — expectations never affect reference points"
+                "As neither \u2014 expectations never affect reference points"
               ],
               "q": "A bonus you were promised is withdrawn before it is paid. According to the lesson, how is it most likely coded?",
               "why": "Reference points include firm expectations, not just current possessions. Once the bonus was mentally banked, removing it registers as something being taken away."
@@ -1008,7 +1008,7 @@
                 "Because larger sums are usually invested rather than spent",
                 "Because people round large numbers more aggressively",
                 "Because of a calculation error most people make with big numbers",
-                "Because of diminishing sensitivity — feelings respond to proportional change, so the same absolute step shrinks as outcomes grow"
+                "Because of diminishing sensitivity \u2014 feelings respond to proportional change, so the same absolute step shrinks as outcomes grow"
               ],
               "q": "Why does the gap between one hundred and two hundred dollars feel bigger than the gap between ten thousand one hundred and ten thousand two hundred dollars?",
               "why": "Like our senses with light and sound, our feelings about money respond to proportion, not raw distance. A hundred dollars is a doubling at the low end and a rounding error at the high end."
@@ -1027,19 +1027,19 @@
             {
               "answer": 3,
               "options": [
-                "About one hundred dollars — an exactly fair bet",
+                "About one hundred dollars \u2014 an exactly fair bet",
                 "About one hundred and twenty dollars",
                 "About one hundred and fifty dollars",
                 "About two hundred dollars"
               ],
               "q": "In the coin flip test, heads you lose one hundred dollars, tails you win. Roughly how much must the win be before most people accept the bet?",
-              "why": "Most people demand roughly double the upside to offset an even chance of losing one hundred dollars — direct evidence that the pain of the loss weighs about twice the pleasure of the matching gain."
+              "why": "Most people demand roughly double the upside to offset an even chance of losing one hundred dollars \u2014 direct evidence that the pain of the loss weighs about twice the pleasure of the matching gain."
             },
             {
               "answer": 1,
               "options": [
                 "The tendency to avoid checking your account after a bad week",
-                "Losses loom larger than equivalent gains — they hurt roughly twice as much as the same-size gain feels good",
+                "Losses loom larger than equivalent gains \u2014 they hurt roughly twice as much as the same-size gain feels good",
                 "A personality trait found only in cautious investors",
                 "The refusal to sell any asset once you own it"
               ],
@@ -1051,7 +1051,7 @@
               "options": [
                 "Diminishing sensitivity",
                 "The planning fallacy",
-                "Loss aversion — the perk is coded as something being taken away, and losses carry roughly double weight",
+                "Loss aversion \u2014 the perk is coded as something being taken away, and losses carry roughly double weight",
                 "Cognitive ease"
               ],
               "q": "A company removes a small perk, like free parking, and employees react with fury far beyond its cost. Which concept best explains this?",
@@ -1060,7 +1060,7 @@
             {
               "answer": 0,
               "options": [
-                "It showed choices depend on reference points, fading sensitivity, and double-weighted losses — none of which the old theory allows, though they appear in experiment after experiment",
+                "It showed choices depend on reference points, fading sensitivity, and double-weighted losses \u2014 none of which the old theory allows, though they appear in experiment after experiment",
                 "It proved people never think about probabilities at all",
                 "It showed that wealth has no effect on decisions",
                 "It demonstrated that economists had been using the wrong currency units"
@@ -1072,7 +1072,7 @@
               "answer": 1,
               "options": [
                 "The effect only appears when the stakes are enormous",
-                "The ratio is an average across many people and experiments, not a physical constant — it wobbles with mood, wealth, and what the money is for",
+                "The ratio is an average across many people and experiments, not a physical constant \u2014 it wobbles with mood, wealth, and what the money is for",
                 "The effect disappears entirely once people are told about it",
                 "It applies only to money, never to time or status"
               ],
@@ -1082,11 +1082,11 @@
           ],
           "slug": "prospect-theory",
           "title": "Prospect Theory: Gains and Losses Are Not Symmetric",
-          "duration": "7 min 3 sec"
+          "duration": "13 min 16 sec"
         },
         {
           "audio": "assets/audio/lesson-10-framing.mp3",
-          "concepts": "Framing effects · survival vs death rates · frame invariance",
+          "concepts": "Framing effects \u00b7 survival vs death rates \u00b7 frame invariance",
           "n": 10,
           "quiz": [
             {
@@ -1098,7 +1098,7 @@
                 "When experts disagree about which facts are relevant"
               ],
               "q": "What is a framing effect?",
-              "why": "In framing effects, neither the facts nor the options change — only the language moves, and choices follow the language. That is what makes the effect so quietly alarming."
+              "why": "In framing effects, neither the facts nor the options change \u2014 only the language moves, and choices follow the language. That is what makes the effect so quietly alarming."
             },
             {
               "answer": 2,
@@ -1120,14 +1120,14 @@
                 "They refused to choose without more information"
               ],
               "q": "In the disease outbreak example, the first group was told a program would save two hundred people for certain, or gamble on saving all six hundred. What did most choose?",
-              "why": "Described in terms of lives saved, the programs were framed as gains — and for gains, people play it safe and take the certain two hundred."
+              "why": "Described in terms of lives saved, the programs were framed as gains \u2014 and for gains, people play it safe and take the certain two hundred."
             },
             {
               "answer": 1,
               "options": [
-                "The sure program — proving people are consistent after all",
-                "The gamble — the opposite of the first group, even though the two problems are exactly the same",
-                "Neither — most said the question was unfair",
+                "The sure program \u2014 proving people are consistent after all",
+                "The gamble \u2014 the opposite of the first group, even though the two problems are exactly the same",
+                "Neither \u2014 most said the question was unfair",
                 "The gamble, but only because they misunderstood the numbers"
               ],
               "q": "The second group heard the identical problem described as four hundred people dying for certain, or a gamble on how many die. What did most choose, and why is that remarkable?",
@@ -1148,12 +1148,12 @@
               "answer": 1,
               "options": [
                 "Invariance means experts should agree with each other; framing shows they often do not",
-                "Invariance means the same problem should get the same answer under any equivalent description — a minimum requirement for rational choice that framing effects break easily",
+                "Invariance means the same problem should get the same answer under any equivalent description \u2014 a minimum requirement for rational choice that framing effects break easily",
                 "Invariance means decisions should never be revisited; framing makes people revisit them",
                 "Invariance is a rule about statistics, not about decisions"
               ],
               "q": "What is invariance, and why do framing effects matter so much?",
-              "why": "A scale gives the same weight in pounds or kilograms. A decision maker should likewise answer two descriptions of one problem the same way — and framing shows smart people failing that basic test through vocabulary alone."
+              "why": "A scale gives the same weight in pounds or kilograms. A decision maker should likewise answer two descriptions of one problem the same way \u2014 and framing shows smart people failing that basic test through vocabulary alone."
             },
             {
               "answer": 1,
@@ -1164,7 +1164,7 @@
                 "Whether the meeting happens before or after lunch"
               ],
               "q": "Which of these is a frame operating in an ordinary workplace decision?",
-              "why": "Defaults are frames. Once one option becomes the reference point, every alternative is judged as a gain or a loss against it — so whoever writes the slide has already half-decided the meeting."
+              "why": "Defaults are frames. Once one option becomes the reference point, every alternative is judged as a gain or a loss against it \u2014 so whoever writes the slide has already half-decided the meeting."
             },
             {
               "answer": 1,
@@ -1183,7 +1183,7 @@
                 "Always choose the option described first",
                 "Ban percentages from decision documents",
                 "Let the most senior person decide without discussion",
-                "Restate the decision in the opposite frame — if a plan saves two hundred, ask how many it loses — and ask whether you would still choose it described the other way"
+                "Restate the decision in the opposite frame \u2014 if a plan saves two hundred, ask how many it loses \u2014 and ask whether you would still choose it described the other way"
               ],
               "q": "Which of these is a defense against framing recommended in the lesson?",
               "why": "You cannot escape frames, but you can refuse to be pushed by the one in front of you. Putting both frames on the table side by side exposes choices that belonged to the wording rather than to you."
@@ -1193,7 +1193,7 @@
               "options": [
                 "Honest framing uses only survival statistics",
                 "Manipulation is only possible in advertising, not in internal meetings",
-                "Honest framing shows the full picture in both frames; manipulation picks the frame that will stampede the room — a good test is whether you would comfortably show the other frame too",
+                "Honest framing shows the full picture in both frames; manipulation picks the frame that will stampede the room \u2014 a good test is whether you would comfortably show the other frame too",
                 "There is no difference; all framing is manipulation"
               ],
               "q": "According to the lesson, what separates honest framing from manipulation?",
@@ -1202,18 +1202,18 @@
           ],
           "slug": "framing",
           "title": "Framing: Same Facts, Different Decision",
-          "duration": "7 min 8 sec"
+          "duration": "13 min 14 sec"
         },
         {
           "audio": "assets/audio/lesson-11-fourfold-pattern-and-mental-accounting.mp3",
-          "concepts": "Fourfold pattern of risk attitudes · mental accounting · sunk cost",
+          "concepts": "Fourfold pattern of risk attitudes \u00b7 mental accounting \u00b7 sunk cost",
           "n": 11,
           "quiz": [
             {
               "answer": 1,
               "options": [
                 "The sunk cost fallacy",
-                "The certainty effect — the step from very likely to guaranteed feels far bigger than the numbers suggest",
+                "The certainty effect \u2014 the step from very likely to guaranteed feels far bigger than the numbers suggest",
                 "The possibility effect",
                 "Mental accounting"
               ],
@@ -1223,10 +1223,10 @@
             {
               "answer": 2,
               "options": [
-                "High probability gains — risk averse",
-                "Low probability gains — risk seeking",
-                "High probability losses — risk seeking, gambling to escape a near-certain loss",
-                "Low probability losses — risk averse"
+                "High probability gains \u2014 risk averse",
+                "Low probability gains \u2014 risk seeking",
+                "High probability losses \u2014 risk seeking, gambling to escape a near-certain loss",
+                "Low probability losses \u2014 risk averse"
               ],
               "q": "A manager whose quarter will almost certainly miss its target doubles down on a long-shot feature rather than accept the shortfall. Which quadrant of the fourfold pattern is she in?",
               "why": "When a loss feels almost certain, people become gamblers: they would rather risk a bigger loss for a chance of losing nothing than accept the sure loss."
@@ -1234,7 +1234,7 @@
             {
               "answer": 0,
               "options": [
-                "The jump from impossible to possible feels dramatic, so tiny chances get overweighted — a move from zero to five percent feels bigger than from fifty to fifty-five",
+                "The jump from impossible to possible feels dramatic, so tiny chances get overweighted \u2014 a move from zero to five percent feels bigger than from fifty to fifty-five",
                 "People always prefer the option with the highest possible prize",
                 "Possible outcomes are ignored until they become probable",
                 "Any outcome above fifty percent is treated as certain"
@@ -1248,7 +1248,7 @@
                 "The sunk cost fallacy",
                 "Regret about money already spent on lawyers",
                 "The possibility effect applied to gains",
-                "Overweighting a small probability of a large loss — the same box that makes insurance attractive"
+                "Overweighting a small probability of a large loss \u2014 the same box that makes insurance attractive"
               ],
               "q": "Your company settles a lawsuit for a large sum even though the chance of a catastrophic verdict is small. By the lesson's logic, what is driving the decision?",
               "why": "A small chance of a very large loss makes people cautious; they pay more than the risk is worth on paper to convert a possible disaster into a guaranteed smaller cost."
@@ -1257,7 +1257,7 @@
               "answer": 1,
               "options": [
                 "Loss aversion is twice as strong for tickets as for cash",
-                "Mental accounting — the lost ticket charges the theater account, so the evening feels overpriced, while lost cash lands in a general account",
+                "Mental accounting \u2014 the lost ticket charges the theater account, so the evening feels overpriced, while lost cash lands in a general account",
                 "The certainty effect",
                 "Duration neglect"
               ],
@@ -1269,7 +1269,7 @@
               "options": [
                 "The fourfold pattern",
                 "The certainty effect",
-                "Money treated differently depending on its label — the refund is filed as a windfall in a separate mental account",
+                "Money treated differently depending on its label \u2014 the refund is filed as a windfall in a separate mental account",
                 "Regression to the mean"
               ],
               "q": "A tax refund gets spent on a vacation while the same amount paid as salary would have been saved. What is this an example of?",
@@ -1302,7 +1302,7 @@
               "options": [
                 "Insurance buyers are simply inconsistent people",
                 "Both products exploit loss aversion only",
-                "Both involve overweighting the ends of the probability scale — paying to eliminate a small chance of disaster, and paying for a small chance of a fortune",
+                "Both involve overweighting the ends of the probability scale \u2014 paying to eliminate a small chance of disaster, and paying for a small chance of a fortune",
                 "Lottery tickets are a form of insurance"
               ],
               "q": "Why do the certainty effect and the possibility effect together explain someone who buys both insurance and lottery tickets?",
@@ -1312,7 +1312,7 @@
               "answer": 1,
               "options": [
                 "Abolish budgets and categories entirely",
-                "Periodically merge the accounts mentally — ask what you would choose if all your money were one unlabeled pile",
+                "Periodically merge the accounts mentally \u2014 ask what you would choose if all your money were one unlabeled pile",
                 "Only ever spend cash, never cards",
                 "Let the largest account win every argument"
               ],
@@ -1322,11 +1322,11 @@
           ],
           "slug": "fourfold-pattern-and-mental-accounting",
           "title": "The Fourfold Pattern and Mental Accounting",
-          "duration": "7 min 13 sec"
+          "duration": "15 min 2 sec"
         },
         {
           "audio": "assets/audio/lesson-12-the-two-selves.mp3",
-          "concepts": "Experiencing vs remembering self · peak-end rule · duration neglect · focusing illusion",
+          "concepts": "Experiencing vs remembering self \u00b7 peak-end rule \u00b7 duration neglect \u00b7 focusing illusion",
           "n": 12,
           "quiz": [
             {
@@ -1360,7 +1360,7 @@
                 "The worst level of pain and how the patient felt near the end"
               ],
               "q": "In the colonoscopy studies described in the lesson, what predicted how bad patients later said the procedure had been?",
-              "why": "Patients' retrospective ratings tracked the peak pain and the ending, not the accumulated suffering — the signature of the peak-end rule combined with duration neglect."
+              "why": "Patients' retrospective ratings tracked the peak pain and the ending, not the accumulated suffering \u2014 the signature of the peak-end rule combined with duration neglect."
             },
             {
               "answer": 1,
@@ -1378,7 +1378,7 @@
               "options": [
                 "Shortening the procedure as much as possible",
                 "Increasing sedation at the start",
-                "Adding a short, gentler period at the end — even though it made the procedure longer overall",
+                "Adding a short, gentler period at the end \u2014 even though it made the procedure longer overall",
                 "Asking patients not to think about it afterward"
               ],
               "q": "Doctors found they could make patients remember a colonoscopy as less awful by doing what?",
@@ -1387,7 +1387,7 @@
             {
               "answer": 0,
               "options": [
-                "Its ending was less bad, and the remembering self — which makes the choice — judges by peak and end, not by total discomfort",
+                "Its ending was less bad, and the remembering self \u2014 which makes the choice \u2014 judges by peak and end, not by total discomfort",
                 "They had forgotten taking part in the study",
                 "The longer trial was actually less painful overall",
                 "They wanted to appear tough to the researchers"
@@ -1399,9 +1399,9 @@
               "answer": 3,
               "options": [
                 "The experiencing self, since it lives every moment",
-                "Neither — vacations are chosen by habit",
+                "Neither \u2014 vacations are chosen by habit",
                 "Your future self's bank account",
-                "The remembering self — it keeps the peaks and the ending, so trips get designed for photographs and a strong finish"
+                "The remembering self \u2014 it keeps the peaks and the ending, so trips get designed for photographs and a strong finish"
               ],
               "q": "When you plan a vacation, the lesson suggests you are mostly shopping for which self?",
               "why": "Days of mild comfort leave little trace in memory, while one peak moment and a good final evening are nearly all that gets kept. Knowing which self you are buying for changes the plan."
@@ -1415,7 +1415,7 @@
                 "Judging an experience only by its ending"
               ],
               "q": "What is the focusing illusion?",
-              "why": "Attention exaggerates importance: while a feature is in focus — weather, a car, a salary — it looms enormous, then shrinks once it fades into the background of daily life."
+              "why": "Attention exaggerates importance: while a feature is in focus \u2014 weather, a car, a salary \u2014 it looms enormous, then shrinks once it fades into the background of daily life."
             },
             {
               "answer": 2,
@@ -1431,22 +1431,2070 @@
             {
               "answer": 0,
               "options": [
-                "The remembering self is another product of the mind's fast, story-telling side — the course's biases and shortcuts shape not just our judgments but the story of our lives that we keep",
+                "The remembering self is another product of the mind's fast, story-telling side \u2014 the course's biases and shortcuts shape not just our judgments but the story of our lives that we keep",
                 "System two turns out to be the remembering self",
                 "It does not connect; the two selves replace the two systems",
                 "The experiencing self is the same as system two"
               ],
               "q": "How does this final lesson tie back to the two systems from lesson one?",
-              "why": "From anchoring to framing, the fast mind's habits run through the whole course, and the remembering self is its narrator — keeping only peaks and endings of a life the slow mind rarely audited."
+              "why": "From anchoring to framing, the fast mind's habits run through the whole course, and the remembering self is its narrator \u2014 keeping only peaks and endings of a life the slow mind rarely audited."
             }
           ],
           "slug": "the-two-selves",
           "title": "The Two Selves: The Life You Live vs The Life You Remember",
-          "duration": "7 min 21 sec"
+          "duration": "14 min 17 sec"
         }
       ],
       "slug": "thinking-fast-and-slow",
       "title": "Thinking, Fast and Slow"
+    },
+    {
+      "title": "The Conquest of Happiness",
+      "author": "Bertrand Russell",
+      "slug": "conquest-of-happiness",
+      "blurb": "Bertrand Russell's 1930 guide to happiness, in two parts: first the causes of unhappiness \u2014 competition, envy, boredom, fatigue and fear of opinion \u2014 then the causes of happiness \u2014 zest, affection, family, work and impersonal interests. Seventeen audio chapters, each with a 10-question quiz to make the ideas stick.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "What Makes People Unhappy?",
+          "slug": "what-makes-people-unhappy",
+          "concepts": "Self-absorption vs outward attention \u00b7 mistaken beliefs about happiness \u00b7 happiness as conquest",
+          "audio": "assets/audio/lesson-01-what-makes-people-unhappy.mp3",
+          "duration": "15 min 46 sec",
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "Most people are secretly dissatisfied with their health",
+                "Modern life offers too few material goods",
+                "People who are healthy and reasonably comfortable can still be unhappy in an everyday, dull way",
+                "Happiness depends mainly on having an unusual talent"
+              ],
+              "q": "What puzzle does Russell start from in this lesson?",
+              "why": "The puzzle is that unhappiness persists even when basic needs are met, so circumstances alone cannot explain it."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "The wanting usually moves somewhere else once the prize becomes normal",
+                "People do not really want the things they say they want",
+                "Material goods always make people more anxious",
+                "No one ever reaches the goals they set"
+              ],
+              "q": "A person gets the promotion they long wanted, then soon feels unhappy again about a new comparison. What does the lesson say is happening?",
+              "why": "The mind adapts to the new normal, so a fresh lack appears and the underlying habit of attention has not changed."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "A prize to be won by luck",
+                "A feeling that arrives once all problems are solved",
+                "A quality some temperaments simply have",
+                "Something closer to a skill that is won by effort and kept by habit"
+              ],
+              "q": "How does Russell picture happiness, as opposed to a prize to be chased?",
+              "why": "He calls the book a conquest because happiness is practised and maintained, not found once and for all."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "It makes people more selfish toward strangers",
+                "It makes feelings seem unsteady, so small slights grow large and quiet evenings feel empty",
+                "It makes people unable to enjoy other people's company at all",
+                "It makes people forget their own problems"
+              ],
+              "q": "Why is self-absorption, as Russell describes it, a trap rather than just self-knowledge?",
+              "why": "Constantly checking one's own feelings makes them seem unsteady, and turns other people into an audience or a measure of the self."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Thinking positively about yourself every morning",
+                "Avoiding all unpleasant feelings",
+                "Attention that genuinely leaves the self behind for a while, in work, affection, or curiosity",
+                "Keeping a daily record of how happy you feel"
+              ],
+              "q": "Which of these best matches Russell's idea of outward attention?",
+              "why": "Outward attention is absorption in something other than the self, so the self stops being the whole world and its troubles shrink to a more honest size."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "He changed his circumstances until they became perfect, and then his mood followed",
+                "He discovered a single revelation that cured his unhappiness",
+                "He stopped caring about other people and focused on himself",
+                "He learned that his life improved as his interests widened beyond himself"
+              ],
+              "q": "According to the lesson, what changed for Russell himself as a young man?",
+              "why": "His improvement came not from perfect circumstances but from a slow re-education of attention toward ideas, people, and the world."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "A secret trick for becoming happy quickly",
+                "A promise that life will become easy",
+                "A theory that only applies to philosophers",
+                "A diagnosis of the causes of unhappiness followed by remedies for happiness"
+              ],
+              "q": "How is the book organised, as described in this lesson?",
+              "why": "The first half diagnoses causes of unhappiness and the second half examines causes of happiness, with no single secret or easy promise."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "It means happiness is impossible for them",
+                "It means their unhappiness comes mainly from habits of mind rather than disaster, illness, or poverty",
+                "It means their problems are not real",
+                "It means they should ignore their feelings entirely"
+              ],
+              "q": "The lesson says Russell is talking about the ordinary unhappiness of people who are basically safe and fed. What follows from that limit?",
+              "why": "The argument is about habits of attention in that range; it does not claim outward attention solves every kind of suffering."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Buy something new to lift the mood",
+                "Ask friends whether they think you seem happy",
+                "Spend an absorbed hour on work, a person, or a curiosity without checking your own feelings",
+                "Make a list of everything you still lack"
+              ],
+              "q": "A person keeps asking themselves all day, am I happy yet, and feels worse each time. Which response best fits Russell's lesson?",
+              "why": "The checking itself feeds the trap, so the practical move is absorbed outward attention rather than more self-monitoring."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Habits of attention can be examined and changed without waiting for the world to change first",
+                "Circumstances are irrelevant to happiness",
+                "Unhappiness is always a personal failure",
+                "Happiness comes from wanting less and doing less"
+              ],
+              "q": "What practical conclusion does the lesson draw from treating unhappiness as partly a habit?",
+              "why": "If attention can be trained outward, a life can be changed by examining habits rather than waiting for perfect circumstances."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Byronic Unhappiness",
+          "slug": "byronic-unhappiness",
+          "concepts": "Romanticising misery \u00b7 pride in gloom \u00b7 the pose of depth",
+          "audio": "assets/audio/lesson-02-byronic-unhappiness.mp3",
+          "duration": "15 min 35 sec",
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "A poet who was unusually cheerful",
+                "A medical condition that causes low mood",
+                "A posture in which gloom is worn as proof of depth and sensitivity",
+                "A political movement that rejected romantic poetry"
+              ],
+              "q": "What does Russell mean by Byronic unhappiness?",
+              "why": "It is a story a person tells about themselves, in which being unhappy is treated as evidence of seeing the world more deeply."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It helps them sleep better",
+                "It makes their friends admire their optimism",
+                "It protects the ego, flatters the self, and excuses inaction",
+                "It proves that ordinary pleasures are genuinely worthless"
+              ],
+              "q": "In Russell's account, why does the Byronic pose pay off, even though it makes a person unhappy?",
+              "why": "Declaring nothing worthwhile avoids disappointment and judgment, feels like superior sensitivity, and gives a reason to stay still."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "It wants an audience and treats practical suggestions as proof the other person does not understand",
+                "It always asks for professional help immediately",
+                "It disappears whenever friends offer company",
+                "It only affects people who read poetry"
+              ],
+              "q": "How, in the lesson, can a Byronic posture be distinguished from genuine sorrow?",
+              "why": "Genuine sorrow usually wants relief or company, while the posture wants its gloom admired and resists practical help."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "They become more curious and humble",
+                "They become more willing to act",
+                "They become more interested in other people",
+                "They avoid experiences that might lift them, then take the resulting emptiness as proof that life is empty"
+              ],
+              "q": "Why does the Byronic circle keep a person stuck?",
+              "why": "Believing cheerfulness is shallow leads a person to avoid lifting experiences, and the emptiness that follows confirms the belief."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Feeling intensely about oneself is the same as understanding the world",
+                "Feeling intensely about oneself is nearly the opposite of understanding the world",
+                "Understanding the world requires feeling nothing at all",
+                "Only unhappy people can understand other people"
+              ],
+              "q": "What mistake does the lesson say the romantic hero makes about depth?",
+              "why": "Real depth comes from close attention to the world, a craft, or another person, not from intense feeling about oneself."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Everyone becomes more honest",
+                "Sincerity becomes embarrassing and irony becomes a shield",
+                "People enjoy simple pleasures more openly",
+                "Groups become more willing to try new things"
+              ],
+              "q": "What happens when a social circle rewards gloom, according to the lesson?",
+              "why": "When cynicism is the smart position, enthusiasm risks looking foolish, so people compete to seem the most disillusioned."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Force yourself to be cheerful at all times",
+                "Argue yourself into optimism",
+                "Practise outward attention in small, unglamorous ways",
+                "Avoid all quiet activities until you feel better"
+              ],
+              "q": "What way out does Russell recommend, rather than forced cheerfulness?",
+              "why": "Forced cheerfulness is another pose; small outward acts, like learning a skill or really listening to a friend, gradually loosen the habit."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The world is genuinely empty, so no action can help",
+                "A mind trained in gloom has forgotten how to enjoy without commentary, so flatness at first is a loosening habit, not proof",
+                "Ordinary activities are objectively worthless",
+                "The person has not tried hard enough to be happy"
+              ],
+              "q": "A person tries a walk and a conversation and finds both flat at first. How should that flatness be understood in this lesson?",
+              "why": "Initial flatness may show a habit loosening, not that the world is empty, since enjoyment without commentary has to be relearned."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Whether it makes you feel deeper, wiser, and more interesting than other people",
+                "Whether other people agree that you are unhappy",
+                "Whether your unhappiness is dramatic enough",
+                "Whether you can describe it in beautiful language"
+              ],
+              "q": "What blunt self-check does the lesson suggest for an unhappy feeling?",
+              "why": "If sorrow mainly flatters the sufferer and never leads outward to work, love, or learning, it deserves suspicion."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It usually makes a person more curious, humble, and willing to act",
+                "It usually makes a person withdraw from all company",
+                "It usually makes a person more certain about everything",
+                "It usually proves that action is pointless"
+              ],
+              "q": "What, in the lesson, does true insight usually do, unlike Byronic gloom?",
+              "why": "True insight leads outward and toward action, while the pose leads only back to the sufferer."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Competition",
+          "slug": "competition",
+          "concepts": "Competition as dominant motive \u00b7 success anxiety and comparison \u00b7 measuring life by ranking",
+          "audio": "assets/audio/lesson-03-competition.mp3",
+          "duration": "15 min 7 sec",
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "Love of money for its own sake",
+                "Curiosity about other people's work",
+                "The desire not simply to do well, but to do better than someone else",
+                "A wish to avoid all social contact"
+              ],
+              "q": "What does Russell identify as the ruling passion of many modern lives?",
+              "why": "Competition is the desire to outrun, out-earn, and outshine others, not merely to do good work."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "If happiness depends on being ahead, most people must be unhappy, since only a few can be at the top",
+                "If everyone works hard, everyone can be at the top",
+                "Rankings are always accurate measures of quality",
+                "Competition affects only people who enjoy sport"
+              ],
+              "q": "Why is a race with one winner a poor design for a good life, in Russell's argument?",
+              "why": "By definition most competitors cannot be ahead, so a life judged only by rank guarantees widespread disappointment."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It makes leisure more relaxing",
+                "It removes all anxiety about work",
+                "It has no effect outside the workplace",
+                "It turns holidays, hobbies, and rest into performances and contests, so rest feels like falling behind"
+              ],
+              "q": "How does competition damage leisure, according to the lesson?",
+              "why": "When activities are judged by comparison, they lose their own pleasure and keep only their score."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Joy in winning",
+                "Fear of losing, being outdone, and slipping down the ladder",
+                "A love of fairness",
+                "A desire to help colleagues improve"
+              ],
+              "q": "What mainly drives competitive anxiety, in Russell's account?",
+              "why": "The fear is of losing and of imagined judgment, which is why each win raises the bar instead of bringing peace."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "They have fewer rivals than other people",
+                "They are less ambitious than other people",
+                "They have more to defend, more rivals to watch, and more imagined judgments to manage",
+                "They rarely compare themselves with anyone"
+              ],
+              "q": "Why can wealthy, successful people be among the most worried people, in this lesson?",
+              "why": "Success increases what must be defended, so anxiety returns in a better suit rather than disappearing."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Comparing your ordinary, unedited day with someone else's best moment",
+                "Comparing two people with identical lives",
+                "Looking only at your own past performance",
+                "Asking a friend for honest feedback"
+              ],
+              "q": "What comparison does the lesson say no one can win?",
+              "why": "Your full, ordinary day is measured against another person's curated highlight, while the other side is never fully visible."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Give up all ambition",
+                "Pretend status does not matter",
+                "Move to a place with no competition",
+                "Change the question from am I ahead to is this work worth doing and is this pleasure real"
+              ],
+              "q": "What practical shift does Russell recommend for a competitive life?",
+              "why": "Judging by the worth of the work and the reality of the pleasure restores the activity itself, rather than only its rank."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Start timing the walk against someone else and feel it is pointless",
+                "Notice the switch to comparison and return to the walk itself",
+                "Stop walking entirely",
+                "Choose a more competitive route"
+              ],
+              "q": "A person is enjoying a walk, then starts comparing their pace with a friend's and loses the enjoyment. What response best fits the lesson?",
+              "why": "Noticing when comparison hijacks an activity gives a choice to return to the thing itself and let the score fade."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "They are easy to post and rank online",
+                "They give the mind a place where it is not constantly measuring itself",
+                "They make a person more competitive",
+                "They guarantee promotion at work"
+              ],
+              "q": "Why do unranked interests, like a garden or a piece of music, help against competition?",
+              "why": "Interests that are hard to turn into contests provide a life beyond the race, so a setback in rank need not collapse the whole life."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Competition is always harmful and must be abolished",
+                "Competition is useful in proportion, but harmful when it becomes the dominant lens for judging everything",
+                "Status is the only real measure of a good life",
+                "Only people who lose at competition need other sources of value"
+              ],
+              "q": "What is Russell's overall verdict on competition?",
+              "why": "Competition can spur effort and organise projects, but as the sole measure it makes life precarious, since ranks can always change."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Boredom and Excitement",
+          "slug": "boredom-and-excitement",
+          "concepts": "Boredom as craving for excitement \u00b7 fruitful monotony \u00b7 ordinary pleasures and patience",
+          "audio": "assets/audio/lesson-04-boredom-and-excitement.mp3",
+          "duration": "15 min 32 sec",
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "Simply having nothing to do",
+                "A craving for excitement and a restless hunger for something to happen",
+                "A lack of intelligence",
+                "A dislike of other people"
+              ],
+              "q": "How does Russell define boredom in this lesson?",
+              "why": "Boredom is not empty time alone; it is a hunger for stimulation that makes stillness feel unbearable."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Excitement becomes more satisfying each time",
+                "Ordinary life becomes more colourful by contrast",
+                "People learn to enjoy calm more easily",
+                "Each thrill must be stronger to register, so ordinary life seems flatter by comparison"
+              ],
+              "q": "Why does a life of constant excitement become duller, according to the lesson?",
+              "why": "Reliance on novelty trains the mind to need stronger jolts, and calm then reads as emptiness."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "They cannot sit with themselves for an afternoon, so risk is the loudest way to prove they are alive",
+                "They have carefully calculated that the risk is worthwhile",
+                "They always enjoy danger for its own sake",
+                "They want to impress strangers"
+              ],
+              "q": "Why might a bored person take a reckless risk, in Russell's account?",
+              "why": "Sometimes the chase is not love of risk but an inability to bear stillness, with risk used as proof of aliveness."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Boredom caused by a genuinely empty life and boredom in a full life whose owner cannot attend to it",
+                "Boredom in childhood and boredom in old age",
+                "Boredom at work and boredom at home",
+                "Boredom that is painful and boredom that is pleasant"
+              ],
+              "q": "What two kinds of boredom does the lesson distinguish?",
+              "why": "An empty life is a signal to change, while a full life with inattentive habits misleads by blaming the world for a habit of attention."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "A dull, joyless routine to be endured",
+                "Sitting still and suffering without complaint",
+                "Steady, absorbing rhythms that repeat but deepen with attention, like gardening or a craft",
+                "A life with no routine at all"
+              ],
+              "q": "What does Russell mean by fruitful monotony?",
+              "why": "Repetition from the inside can be rich, as a gardener or musician notices finer differences over time."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It makes all pleasures arrive instantly",
+                "It allows a person to abandon anything that is not immediately exciting",
+                "It gives slow pleasures time to open up, like a book or a friendship",
+                "It proves that patience is more important than enjoyment"
+              ],
+              "q": "Why does patience matter for slow pleasures, in this lesson?",
+              "why": "Many pleasures do not announce themselves at once, so abandoning them early wrongly concludes that nothing satisfies."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "They depend on being better than someone else's pleasures",
+                "They can be posted, ranked, and collected like trophies",
+                "They are available almost every day and do not wear off with use",
+                "They require expensive equipment"
+              ],
+              "q": "What is the value of ordinary, earthy pleasures, like a meal eaten slowly or a walk, in Russell's remedy?",
+              "why": "They need only to be noticed, not chased, bought, performed, or ranked, so they offer a steady source of happiness."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Watch a faster, more exciting video",
+                "Buy something new",
+                "Stay with the book past the dull patch and let attention settle",
+                "Conclude the book is worthless and look for a thrill"
+              ],
+              "q": "A reader finds a good book dull in its early chapters and wants to abandon it for something faster. Which response best fits the lesson?",
+              "why": "The interest may simply be waiting for attention to settle, so staying past the dull patch is the practical training Russell recommends."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Boredom is a minor complaint with no wider effects",
+                "Boredom is only a problem for children",
+                "Boredom drives a frantic search for stimulation, which makes ordinary life feel even more unbearable",
+                "Boredom disappears once a person has enough money"
+              ],
+              "q": "What is the full boredom cycle described in the lesson?",
+              "why": "Craving excitement makes ordinary life feel unbearable, and stronger stimulation then makes ordinary life feel worse still."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "More excitement, sought as quickly as possible",
+                "Better attention, through steady activities, patience, and simple pleasures",
+                "A busier schedule with no quiet time",
+                "Avoiding all routine and repetition"
+              ],
+              "q": "What is Russell's way out of the boredom trap?",
+              "why": "The remedy is not more excitement but better attention, so a quiet life can feel more alive than one spent waiting for the next thrill."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Fatigue",
+          "slug": "fatigue",
+          "concepts": "Nervous fatigue vs physical tiredness \u00b7 worry, hurry and noise \u00b7 rest as a change of attention \u00b7 facing the worst case",
+          "audio": "assets/audio/lesson-05-fatigue.mp3",
+          "duration": "15 min 48 sec",
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "Their muscles are exhausted from sitting still all day",
+                "Their mind has been running without a break, even though their body has done little hard work",
+                "They have not eaten enough to fuel a day at a desk",
+                "They are simply lazy and need to push themselves harder"
+              ],
+              "q": "A person sits at a desk all day, does no heavy physical work, and still comes home drained and unable to sleep. According to the lesson, what is the best explanation?",
+              "why": "This is nervous fatigue: the mind, not the muscles, has been running all day, and a tired mind does not switch off just because work ends."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It always leads directly to a decision and then stops",
+                "It is a useful way to prepare for every possible outcome",
+                "It only happens when a problem is genuinely serious",
+                "It circles without solving anything, rehearsing past and future conversations again and again"
+              ],
+              "q": "How does the lesson distinguish worry from genuinely thinking about a problem?",
+              "why": "Thinking moves toward a decision or an action and then stops; worry goes round in circles and costs energy hour after hour without solving anything."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Hurry makes you spend energy on the fear of falling behind as well as on the work itself",
+                "Hurry always means you are doing more useful work than a steady worker",
+                "Hurry only affects people who are bad at time management",
+                "Hurry is harmless as long as you meet your deadlines"
+              ],
+              "q": "Why can a person who hurries all day feel more tired than a person who works steadily, even if they do the same amount of work?",
+              "why": "Hurry adds a second cost: the constant fear of being late and the effort of trying to do two things at once, on top of the work itself."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Rest means doing absolutely nothing for as long as possible",
+                "Rest means taking a holiday somewhere expensive and exciting",
+                "Rest means a change of attention, giving the mind something steady and outward to attend to",
+                "Rest means catching up on all the exciting things you missed during the week"
+              ],
+              "q": "A friend fills a weekend with parties, travel, and noise, then feels worse on Monday. How would the lesson explain that rest failed?",
+              "why": "Rest is not simply the absence of work; if fatigue comes from hurry and stimulation, more hurry in a prettier place is not a change of attention."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Pretend the bad outcome cannot happen",
+                "Worry about it quietly so you are prepared for anything",
+                "Look at the worst case plainly, decide what you would do if it happened, and then refuse to rehearse it again",
+                "Ask someone else to decide for you so you can stop thinking about it"
+              ],
+              "q": "What does it mean, practically, to face the worst case once and properly?",
+              "why": "Looking at a vague dread in daylight turns it into a manageable possibility, so a mind that has settled a question can finally put it down."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Avoid the difficult task so you do not waste energy on it",
+                "Do the difficult thing, even imperfectly, rather than dreading it for a week",
+                "Wait until you feel fully rested before starting anything difficult",
+                "Keep postponing the task until the worry about it fades on its own"
+              ],
+              "q": "A letter you dread writing sits in the back of your mind all week. According to the lesson, what is usually less tiring than dreading it?",
+              "why": "Avoided difficulties hum in the background and cost energy; doing the thing, even imperfectly, is often less tiring than dreading it."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Attention is a habit, and practising outward attention makes the mind less likely to be trapped by its own anxieties",
+                "Outward attention is only useful for people who are naturally calm",
+                "Thinking about yourself is the only way to solve personal problems",
+                "A walk or a book can cure any kind of tiredness"
+              ],
+              "q": "Why does the lesson recommend deliberately turning attention outward, to a walk, a book, or a piece of work?",
+              "why": "Attention is trainable: a mind practised in attending to the world is less likely to stay trapped attending to its own anxieties."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "All tiredness is nervous fatigue and can be fixed by willpower",
+                "Sleep is unimportant once you have learned mental discipline",
+                "Feeling tired is a sign of weakness and should be ignored",
+                "Some fatigue has a medical cause or comes from broken sleep, and discipline is no substitute for rest or getting a problem checked"
+              ],
+              "q": "What is the lesson's caution about applying its advice about nervous fatigue too broadly?",
+              "why": "Russell is describing fatigue made worse by worry and overstimulation, not every kind of tiredness; medical causes and broken sleep need rest and proper checking, not just effort."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Physical tiredness is cured by worry, while nervous fatigue is cured by sleep",
+                "Physical tiredness comes from bodily effort and is restored by sleep and food, while nervous fatigue comes from a mind that will not stop",
+                "Physical tiredness only affects athletes, while nervous fatigue only affects office workers",
+                "There is no real difference; tiredness is always the same thing"
+              ],
+              "q": "Which statement best captures the lesson's distinction between physical tiredness and nervous fatigue?",
+              "why": "Physical tiredness follows bodily effort and recovers with sleep and food; nervous fatigue follows a mind that keeps running, which is why sleep alone may not cure it."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Give worry a bounded, proper hearing once, settle the decision, and then turn attention outward",
+                "Fill every quiet moment with news and conversation so worry has no room",
+                "Work longer hours so you are too tired to worry at night",
+                "Rehearse every possible outcome each evening until you feel prepared"
+              ],
+              "q": "Which routine best combines the lesson's remedies for nervous fatigue?",
+              "why": "Facing a worry once and settling it, rather than rehearsing it endlessly, plus outward attention and quieter rhythms, directly addresses the causes the lesson identifies."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Envy",
+          "slug": "envy",
+          "concepts": "Envy vs admiration \u00b7 comparison with neighbours \u00b7 equality and envy \u00b7 admiration as the antidote",
+          "audio": "assets/audio/lesson-06-envy.mp3",
+          "duration": "15 min 41 sec",
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "Wanting a better house than the one you have",
+                "Admiring someone's skill and hoping to learn from it",
+                "Feeling that your own life is smaller because someone else has something, even though nothing about your situation has changed",
+                "Wishing you had more time for your hobbies"
+              ],
+              "q": "What turns ordinary wanting into envy, according to the lesson?",
+              "why": "Envy begins when someone else having something makes your own life feel smaller, even though your own situation has not changed at all."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Envy needs someone close enough that their success feels like a comment on your failure",
+                "Envy only happens between people who dislike each other",
+                "Envy is aimed at the richest people in the world, whoever they are",
+                "Envy disappears once you know someone personally"
+              ],
+              "q": "Why is envy usually aimed at neighbours and peers rather than at distant kings or celebrities?",
+              "why": "Comparison needs a neighbour: someone close enough that their success feels like a verdict on you, not a figure from a different world."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Equality makes people stop comparing themselves with others",
+                "Equal societies have no differences in success to envy",
+                "People in equal societies are naturally more content",
+                "When success is supposed to be open to all, another person's success can feel like a personal verdict rather than luck or birth"
+              ],
+              "q": "How could a society that promises equality of opportunity sharpen envy?",
+              "why": "If everyone is said to start from the same place, a gap in results feels personal, which is why the lesson calls this a psychological cost of equality, not an argument against it."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Envy makes pleasures more intense because you want them more",
+                "Envy only affects work, not leisure or friendships",
+                "Envy spoils innocent pleasures by keeping the mind busy calculating who has more",
+                "Envy disappears as soon as you get what you wanted"
+              ],
+              "q": "Why does the lesson call envy corrosive, even for pleasures that have nothing to do with other people?",
+              "why": "An envious mind cannot simply enjoy a meal, a walk, or good news, because it is busy calculating who has more."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Pretending you do not want anything at all",
+                "Forcing yourself to be content with whatever you have",
+                "Admiring the work itself, learning from it, and enjoying it as a good thing in the world whether or not it is yours",
+                "Avoiding successful people so you never have to compare yourself"
+              ],
+              "q": "What does the lesson offer as the opposite habit to envy?",
+              "why": "Admiration turns attention outward to the work itself, asking what is good about it and what can be learned, instead of asking why they have it and you do not."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "A phone can show you thousands of people at their best, all day long, widening the field for comparison",
+                "Social media has ended envy because everyone can see how ordinary others are",
+                "People only compare themselves with their street neighbours, exactly as in nineteen thirty",
+                "Modern life has made comparison impossible because everyone is too busy"
+              ],
+              "q": "How does the lesson's modern note update Russell's argument about neighbours?",
+              "why": "The argument is unchanged, but the field for comparison is far wider: feeds show many people at their best, constantly, even though only highlights are shown."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Envy makes you a better friend because you understand ambition",
+                "Envy has no effect on friendships as long as you hide it well",
+                "Envy only harms friendships if you say it out loud",
+                "Envy poisons friendship because you cannot fully celebrate a friend's good news without a sting of resentment that they eventually notice"
+              ],
+              "q": "Why does envy damage friendship, even when it is kept secret?",
+              "why": "You cannot celebrate a friend wholeheartedly while resenting their success, and the friend sooner or later notices the sting."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Whether you have as much as the person next door",
+                "Whether you are better off than you were, and whether your days contain the things you decided matter",
+                "Whether strangers on the internet seem happier than you",
+                "Whether anyone you know has more than you do"
+              ],
+              "q": "According to the lesson, which comparison gives a more honest measure of your life?",
+              "why": "Comparing with your own past and your own values can be answered honestly; comparing with the person next door has no satisfying answer, because there is always a bigger house behind it."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "She should conclude that her job is objectively pointless",
+                "She should conclude that her colleague does not deserve the promotion",
+                "She should recognise that nothing about her work changed, and that the comparison, not the work, is what changed",
+                "She should conclude that she must immediately change careers"
+              ],
+              "q": "A woman enjoyed her job last week, but after a colleague's promotion it suddenly feels pointless, although her own work is unchanged. What is happening, in the lesson's terms?",
+              "why": "This is envy in action: the work is the same, but a comparison with a peer has made it feel smaller."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Ask why they have it and you do not",
+                "Ask what is good about this, and what you could learn from it",
+                "Ask how you can make sure they do not enjoy it as much",
+                "Ask whether you can get the same thing immediately, whatever the cost"
+              ],
+              "q": "When you see someone do something well, what question marks admiration rather than envy?",
+              "why": "Admiration asks what is good and learnable in the work; envy asks why they have it and you do not, keeping attention on wounded pride."
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "The Sense of Sin",
+          "slug": "the-sense-of-sin",
+          "concepts": "Rational conscience vs irrational guilt \u00b7 inherited moral codes \u00b7 testing guilt by reason \u00b7 a proportionate conscience",
+          "audio": "assets/audio/lesson-07-the-sense-of-sin.mp3",
+          "duration": "13 min 21 sec",
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "Guilt that pushes you to put right a real harm or a broken promise",
+                "Guilt that punishes you for enjoying yourself, even when nobody has been harmed",
+                "Guilt that only appears after you have been caught doing something wrong",
+                "Guilt that you feel about other people's behaviour, not your own"
+              ],
+              "q": "What is an irrational sense of sin, as the lesson defines it?",
+              "why": "A rational conscience points to real harm or a broken promise; an irrational sense of sin punishes harmless pleasure itself."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "People deliberately choose to feel guilty because they enjoy it",
+                "Guilt always disappears once a person stops believing in the code that taught it",
+                "Children are never taught absolute moral rules",
+                "A child learns absolute rules, and the feeling remains in adulthood even after the opinions behind those rules have changed"
+              ],
+              "q": "Why can an adult feel guilty under a moral code they no longer believe in?",
+              "why": "The mind may change its opinions while the emotions lag behind, so childhood rules keep producing guilt long after they have been examined and rejected."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "It stops people doing the things they feel guilty about, but leaves their enjoyment intact",
+                "It mostly stops people enjoying things, rather than stopping them doing those things",
+                "It makes people more generous and happier",
+                "It only affects people who still believe in the original moral code"
+              ],
+              "q": "What is the main damage done by irrational guilt, according to the lesson?",
+              "why": "Irrational guilt rarely prevents the behaviour; it mostly spoils the pleasure, so happiness never gets a fair chance."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Guilt should simply be inherited and obeyed without question",
+                "Guilt should be tested by reason: has anyone been harmed, or has a real promise been broken?",
+                "Guilt is always a reliable guide to what is right",
+                "Guilt should be ignored completely in every case"
+              ],
+              "q": "What test does the lesson propose for deciding whether guilt is doing useful work?",
+              "why": "If an action harms nobody and breaks nothing, the feeling may be a habit from childhood, not a moral judgement, and deserves examination rather than obedience."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Yes, because taking time off is always selfish",
+                "No, because no one has been harmed and no promise broken, so the guilt is probably a habit, not a judgement",
+                "Yes, because rest is only justified after exhausting work",
+                "No, because guilt is never meaningful in any situation"
+              ],
+              "q": "Apply the lesson's test: a person feels guilty for a lazy afternoon off, although nobody is waiting on them and no promise is broken. What should the test conclude?",
+              "why": "With no harm and no broken promise, the guilt points to an inherited habit rather than to a wrong that needs putting right."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Getting rid of irrational guilt means never feeling guilty about anything",
+                "A conscience that never speaks is the goal of a happy life",
+                "Shamelessness is the same as freedom",
+                "A proportionate conscience still speaks up for real wrongs, but stays quiet for mere enjoyment"
+              ],
+              "q": "Why is getting rid of irrational guilt NOT the same as getting rid of conscience altogether?",
+              "why": "The goal is not shamelessness, which would let a person hurt others without noticing, but a conscience that is proportionate and speaks only when it should."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Russell's examples are all exactly right for today and need no context",
+                "Moral codes about sex, marriage, and gender roles in nineteen thirty look very different today, but the principle of testing guilt by reason is broader than any one code",
+                "Russell was only writing about religious people, so the lesson does not apply to anyone else",
+                "Modern moral codes have made guilt disappear entirely"
+              ],
+              "q": "What is the lesson's modern-context note about Russell's nineteen-thirty examples?",
+              "why": "His examples belong to his time and some views would be debated or rejected now, but the principle, test guilt by reason rather than inheritance, is broader than any one code."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "If someone you liked and respected did the same thing, would you condemn them for it?",
+                "Would a child understand why you feel guilty?",
+                "Would you feel guilty if nobody ever found out?",
+                "Would the action make a good story at a party?"
+              ],
+              "q": "What is the second question in the lesson's two-question test for guilt?",
+              "why": "Asking whether you would condemn a respected person for the same act helps separate a genuine moral judgement from a habit you apply only to yourself."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "It gives guilt more room to grow, because you think about yourself even more",
+                "It has no effect on guilt either way",
+                "It gives guilt less room, because the mind is busy with work, other people, and interests outside yourself",
+                "It only helps if you completely forget your moral beliefs"
+              ],
+              "q": "Why does turning attention outward help with the sense of sin?",
+              "why": "A mind busy with the world has less room for self-monitoring; guilt, like other self-absorbed habits, shrinks when attention moves outward."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Pleasure is the whole of life and should never be questioned",
+                "A life in which every pleasure is followed by punishment still leaves plenty of room for happiness",
+                "Happiness itself is always selfish and should be distrusted",
+                "Treating happiness as suspicious, even when it is bought at nobody's expense, wastes a normal part of a good life"
+              ],
+              "q": "What does the lesson say about treating happiness itself as suspicious?",
+              "why": "Happiness bought at nobody's expense is a normal part of a good life; punishing every pleasure does not make people better, mostly sadder."
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Persecution Mania",
+          "slug": "persecution-mania",
+          "concepts": "Feeling persecuted in ordinary life \u00b7 self-importance and suspicion \u00b7 self-fulfilling suspicion \u00b7 alternative explanations",
+          "audio": "assets/audio/lesson-08-persecution-mania.mp3",
+          "duration": "15 min 3 sec",
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "A rare clinical illness that only affects a few people",
+                "An everyday habit of feeling persecuted by ordinary life, turning ambiguous events into evidence of a campaign",
+                "A reasonable response to being genuinely harassed, with clear evidence",
+                "A political theory about how governments control citizens"
+              ],
+              "q": "What does the lesson mean by persecution mania?",
+              "why": "Russell uses the strong phrase for a common habit, not a rare illness: building a story of deliberate persecution out of ordinary, ambiguous events."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "The quiet assumption that you are at the centre of other people's attention far more than you actually are",
+                "Loud arrogance and boasting about your own importance",
+                "A complete lack of interest in what other people think",
+                "A belief that you are better than everyone else at your work"
+              ],
+              "q": "What kind of self-importance drives persecution mania, according to the lesson?",
+              "why": "It is not loud pride, but the quiet assumption that others are constantly thinking about, judging, and talking about you, so their behaviour looks aimed at you."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "A delayed reply is always a deliberate insult",
+                "A closed door is always closed against you personally",
+                "Most people are too busy thinking about themselves to be plotting against you",
+                "Everyone is secretly keeping a detailed record of your mistakes"
+              ],
+              "q": "Why are most supposed slights, in the lesson's view, probably not slights at all?",
+              "why": "Everyone is the main character in their own story; in most other people's stories you are at most a passing figure, not the target of a plot."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Suspicion makes you notice only evidence that fits the story, and ignore friendly or indifferent behaviour that contradicts it",
+                "Suspicion makes you more accurate at reading other people's motives",
+                "Suspicion disappears as soon as you find one piece of supporting evidence",
+                "Suspicion only affects people who are already disliked by everyone"
+              ],
+              "q": "How does suspicion feed on itself once a persecution story has started?",
+              "why": "You notice only what fits, so neutral remarks sound hostile and friendly remarks sound like traps, while contradicting evidence stops being looked for."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "The persecuted person becomes warmer and more trusting, which confuses their enemies",
+                "The persecuted person leaves town, which proves they were right to be afraid",
+                "The person becomes cold, defensive, or accusing toward people who meant no harm, and those people eventually pull away",
+                "Nothing happens, because imagined stories never affect real relationships"
+              ],
+              "q": "How can a persecution story become self-fulfilling?",
+              "why": "Cold, defensive behaviour toward innocent people puzzles and hurts them, so they pull away, and that withdrawal is then taken as proof the story was true."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Attention fixed on yourself as a victim, and on other people as enemies",
+                "Attention fixed only on work and impersonal interests",
+                "Attention fixed on the future, with no interest in the past",
+                "Attention fixed on other people's happiness, with no concern for yourself"
+              ],
+              "q": "How does persecution mania combine the patterns of envy and the sense of sin?",
+              "why": "Like envy it fixes on other people, as enemies; like the sense of sin it fixes on yourself, as a victim, trapping the mind in a small self-referential drama."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Suspicion is never reasonable, even with clear evidence of harassment or discrimination",
+                "The lesson is about clinical conditions and should replace professional help",
+                "Genuine harassment and discrimination are just imagination",
+                "The lesson is about everyday suspicious interpretation, not genuine harassment, and severe or persistent suspicion is a matter for proper help, not a book lesson"
+              ],
+              "q": "What is the lesson's caution about applying its argument too broadly?",
+              "why": "Russell describes an everyday habit, not a clinical condition, and suspicion in response to real evidence of harassment or unfair treatment is reasonable, not persecution mania."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Decide immediately that the kind explanation is true",
+                "Ignore the event completely and never think about it again",
+                "Admit that a kind explanation is possible, such as distraction or busyness, which loosens the story's grip",
+                "Gather more evidence that the other person is against you"
+              ],
+              "q": "What is the first practical remedy when you catch yourself building a persecution story?",
+              "why": "You do not have to prove the kind explanation true; admitting it is possible, for example that a colleague was distracted, is usually enough to loosen the story."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Prepare an accusation before the next meeting so you are ready",
+                "Avoid the person entirely so they cannot hurt you again",
+                "Act as if the kind explanation might be true, for example by greeting the colleague warmly",
+                "Tell everyone else about the plot so they can protect you"
+              ],
+              "q": "Why does the lesson recommend acting as if the kind explanation might be true?",
+              "why": "Behaviour can retrain interpretation: people usually respond to warmth with warmth, and that response becomes new evidence against the persecution story."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Reminding yourself that you are not the centre of other people's lives is deflating but liberating, freeing energy for work, friendship, and the world outside your head",
+                "Humility means accepting that you deserve to be persecuted",
+                "Humility means never noticing when someone actually treats you badly",
+                "Humility is only useful for people who are naturally unimportant"
+              ],
+              "q": "How does humility about your own importance help, according to the lesson?",
+              "why": "If most slights are oversights, busyness, or other people's worries rather than attacks on you, you no longer have to defend yourself all day, and that energy is freed for a fuller life."
+            }
+          ]
+        },
+        {
+          "n": 9,
+          "title": "Fear of Public Opinion",
+          "slug": "fear-of-public-opinion",
+          "concepts": "Conformity and timidity \u00b7 the tyranny of what people will think \u00b7 independence of mind",
+          "audio": "assets/audio/lesson-09-fear-of-public-opinion.mp3",
+          "duration": "14 min 16 sec",
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "Fear of losing a job or facing a legal penalty",
+                "Fear of disapproval, gossip, and raised eyebrows from other people",
+                "Fear of being alone for the rest of your life",
+                "Fear of failing at a difficult task"
+              ],
+              "q": "What kind of fear does this lesson mean by the fear of public opinion?",
+              "why": "The lesson is about social judgement \u2014 cold silences and gossip \u2014 not punishment, prison, or job loss, and Russell thinks its damage comes from a thousand small surrenders rather than one crisis."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "He always acts bravely in public",
+                "He never cares what anyone thinks",
+                "He chooses a dull career because it is prestigious",
+                "He lets what will look safe to others shape choices about work, friendship, belief, or love"
+              ],
+              "q": "Which example best shows fear of public opinion governing a life, rather than merely advising it?",
+              "why": "The dividing line is whether strangers' opinions change a major choice. Prestige alone is a symptom, but letting imagined approval decide work, friendship, belief, or love is the governing case."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Good manners and listening fairly to criticism are still worthwhile; the problem is when opinion becomes the ruler",
+                "Other people's opinions should count for nothing at all",
+                "Being shocking is a virtue in itself",
+                "Only the opinions of strangers matter, not those of close friends"
+              ],
+              "q": "According to the lesson, what is Russell's careful distinction about other people's opinions?",
+              "why": "Russell does not argue for ignoring everyone. Sensible regard for opinion \u2014 manners and fair criticism \u2014 is fine; the trouble starts when fear of opinion rules major decisions."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "People become more original as they conform",
+                "People become wealthier by copying others",
+                "People become timid copies of one another, with tastes untried and friendships kept shallow",
+                "People become less interested in prestige"
+              ],
+              "q": "What is the main cost the lesson describes when a life is chosen to impress others?",
+              "why": "The cost is paid in things that never happen: untried tastes, friendships that never deepen because honest opinions are withheld, and work chosen for prestige rather than interest."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Most people study your choices closely for years",
+                "Most people are busy with their own worries and their own fear of judgement, so they watch you far less than you fear",
+                "Public opinion never changes, so one mistake lasts forever",
+                "Strangers always agree with one another about you"
+              ],
+              "q": "Why does the lesson call much fear of public opinion wasted effort?",
+              "why": "The imagined crowd is largely an illusion: most people are preoccupied with themselves, and two people can each believe the other is judging them while neither is thinking about the other at all."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It proves you are a free thinker",
+                "It is the only reliable route to happiness",
+                "It guarantees that other people will respect you",
+                "It is still choosing by reference to the crowd, only in reverse"
+              ],
+              "q": "Why is deliberate eccentricity not the same as independence of mind?",
+              "why": "Deliberate eccentricity lets the crowd dictate your choices negatively. Real independence means deciding what you believe and acting on it, whether or not it happens to be fashionable."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Wait until public opinion changes in your favour",
+                "Announce a shocking opinion to prove you do not care",
+                "Start with small honest acts, such as saying what you think in a low-stakes conversation",
+                "Avoid all social contact until you feel confident"
+              ],
+              "q": "A person wants to build independence of mind. Which practical step does the lesson recommend?",
+              "why": "Russell-style independence is a habit built in small steps \u2014 an honest remark, an unfashionable choice \u2014 not a grand gesture or withdrawal from other people."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Treat disapproval as one piece of evidence, weigh it, and then decide for yourself",
+                "Treat disapproval as proof you are wrong and reverse your decision at once",
+                "Treat disapproval as proof you are right and ignore all criticism",
+                "Treat disapproval as something that must never happen"
+              ],
+              "q": "How should a person put public opinion back in its proper place?",
+              "why": "Opinion should be weighed, especially from people who know you well and wish you well, but it should not be a verdict. The decision remains yours after listening."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "It has nothing to do with the earlier lessons",
+                "It feeds competition through prestige and boredom through a life chosen to impress rather than with curiosity",
+                "It cures competition and boredom completely",
+                "It only affects people who live in small towns"
+              ],
+              "q": "How does fear of public opinion connect to the earlier lessons on competition and boredom?",
+              "why": "Prestige is a public verdict, so fear of opinion fuels competition; and a life chosen to impress is rarely chosen with curiosity, so it feeds boredom as well."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Happiness arrives when the crowd finally approves of you",
+                "Happiness requires never being disapproved of by anyone",
+                "Happiness is built outwardly once you stop waiting for permission, rather than arriving with approval",
+                "Happiness is impossible for anyone who cares about manners"
+              ],
+              "q": "What does the lesson say about the relationship between approval and happiness, looking ahead to the second half of the book?",
+              "why": "The lesson's closing point is that happiness is not a prize the crowd hands out. It is built by outward effort once a person stops waiting for permission to live their own life."
+            }
+          ]
+        },
+        {
+          "n": 10,
+          "title": "Is Happiness Still Possible?",
+          "slug": "is-happiness-still-possible",
+          "concepts": "Part One to Part Two pivot \u00b7 happiness as conquest, not waiting \u00b7 effort and outward attention",
+          "audio": "assets/audio/lesson-10-is-happiness-still-possible.mp3",
+          "duration": "13 min 42 sec",
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "A shortage of money in the modern world",
+                "Bad luck in childhood",
+                "Self-absorption: measuring, rehearsing, guarding, and anxiously watching what the world thinks of oneself",
+                "A lack of exciting entertainment"
+              ],
+              "q": "What common root does Russell find underneath the different causes of unhappiness in Part One?",
+              "why": "Competition, envy, guilt, suspicion, and fear of opinion look different, but the lesson traces them back to attention locked inward on the self rather than outward on the world."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Happiness is something to work for, like a skill, through changed habits of attention \u2014 not something to wait for like good weather",
+                "Happiness arrives automatically once circumstances improve",
+                "Happiness means forcing yourself to feel cheerful at all times",
+                "Happiness is won by defeating other people in competition"
+              ],
+              "q": "What does Russell mean by calling happiness a conquest?",
+              "why": "Conquest means effortful habit-building, practised until it becomes easier \u2014 not passive waiting, forced cheerfulness, or victory over others."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Chasing happiness directly always succeeds if you try hard enough",
+                "Happiness is a prize awarded for good behaviour",
+                "Happiness comes only from major achievements",
+                "Happiness is mostly a by-product that arrives while you are absorbed in something else, so chasing it directly makes it slip away"
+              ],
+              "q": "Why does chasing happiness directly tend to fail, on Russell's account?",
+              "why": "Like pleasure in the boredom lesson, happiness arrives while attention is elsewhere \u2014 on a person, work, or interest \u2014 and direct pursuit turns attention back inward, where it was the problem."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "It promises a life without sorrow or failure",
+                "It promises to erase ill health, poverty, and bereavement",
+                "It promises to change the background of a life from anxious self-watchfulness to steadier outward interest, without removing sorrow",
+                "It promises constant ecstasy for anyone who follows the advice"
+              ],
+              "q": "What does the second half of the book promise, and what does it not promise?",
+              "why": "The promise is modest: a changed background of outward interest. It explicitly does not promise freedom from sorrow, failure, or real external hardship."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Zest, affection, family, work, impersonal interests, and effort and resignation",
+                "Wealth, fame, excitement, and prestige",
+                "Competition, envy, guilt, and suspicion",
+                "Solitude, silence, and complete independence from other people"
+              ],
+              "q": "Which set best names the directions of effort in Part Two?",
+              "why": "The lesson previews zest, affection, family, work, impersonal interests, and the balance of effort and resignation \u2014 all outward directions, not prestige or withdrawal."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Because much unhappiness is made day by day by habits of thought, and habits can be examined and changed",
+                "Because the modern world has no real problems left",
+                "Because everyone is naturally happy underneath",
+                "Because Russell believes attitude fixes every hardship"
+              ],
+              "q": "Why can Russell be hopeful about happiness even while admitting real misfortune exists?",
+              "why": "His hope rests on a distinction: external misfortunes are real, but much everyday unhappiness is habit-made, and habits \u2014 unlike fate \u2014 can be changed with effort."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Am I famous enough yet?",
+                "Am I feeling ecstatic today?",
+                "Am I winning every competition?",
+                "Am I living in a way that gives happiness a chance to arrive \u2014 interested in something beyond my own standing?"
+              ],
+              "q": "After this pivot, what is the practical question a reader should ask instead of 'Am I happy yet?'?",
+              "why": "Testing each lesson against an immediate mood misses the by-product point. The useful question is whether your life is arranged around outward interests that give happiness a chance to arrive."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Adopt Russell's life wholesale and agree with every judgement he makes",
+                "Ignore the second half because it was written in nineteen thirty",
+                "Judge the underlying argument about outward interest on its own terms, even where examples about family or work feel dated",
+                "Rewrite Russell's argument to fit today's fashions before considering it"
+              ],
+              "q": "How does the lesson suggest handling Russell's dated examples, for instance about family and work?",
+              "why": "The brief modern note is to listen for the underlying argument about outward interest, affection, and effort, and judge that on its own terms, rather than adopting everything or dismissing everything."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Practising attention and turning outward when the mind wants to turn inward, until the new habits pay for themselves",
+                "Repeating positive slogans until you believe them",
+                "Avoiding all difficult feelings",
+                "Waiting for a single life-changing event"
+              ],
+              "q": "Which example best fits Russell's idea of conquest as learning a skill?",
+              "why": "Like learning an instrument, the effort starts conscious and clumsy \u2014 practising outward attention \u2014 and over time the habits become easier and pay for themselves in interest and pleasure."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "It ends the book, because diagnosis is all that matters",
+                "It moves from diagnosis to remedy: from what makes people unhappy to what can make a life happier",
+                "It argues that happiness is impossible in the modern world",
+                "It replaces the first half with a completely different theory"
+              ],
+              "q": "What is the structural role of Lesson 10 in the course?",
+              "why": "Lesson 10 is the explicit pivot from Part One, causes of unhappiness, to Part Two, causes of happiness \u2014 from recognising self-absorption to trying outward remedies."
+            }
+          ]
+        },
+        {
+          "n": 11,
+          "title": "Zest",
+          "slug": "zest",
+          "concepts": "Appetite and curiosity \u00b7 zest vs excitement \u00b7 outward attention and unanalysed pleasure",
+          "audio": "assets/audio/lesson-11-zest.mp3",
+          "duration": "13 min 36 sec",
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "A craving for ever bigger thrills",
+                "Appetite for life: eagerness and curiosity toward the world, finding ordinary things interesting",
+                "A talent for entertaining other people",
+                "A refusal to notice anything unpleasant"
+              ],
+              "q": "What does Russell mean by zest?",
+              "why": "Zest is appetite, not amusement or thrill-seeking: a readiness to meet the world halfway and find food, conversation, work, and walks worth attention."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Excitement makes ordinary life richer, while zest makes it duller",
+                "They are the same thing under different names",
+                "Excitement demands ever bigger stimulation and dulls ordinary life, while zest finds satisfaction in the ordinary through attention",
+                "Zest requires constant novelty, while excitement is content with routine"
+              ],
+              "q": "How does zest differ from excitement, as explained in this lesson and in the earlier lesson on boredom?",
+              "why": "Excitement is a craving that escalates until nothing smaller will do. Zest works in reverse: attention makes ordinary experience satisfying, so it does not need each thrill to outdo the last."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It makes pleasure stronger and longer-lasting",
+                "It has no effect on pleasure at all",
+                "It makes you more grateful for the experience",
+                "It steps outside the experience to grade it, and pleasure examined too closely tends to evaporate"
+              ],
+              "q": "Why does constantly analysing your own pleasure destroy it?",
+              "why": "Grading an experience from outside removes you from the experience itself. Like a joke explained, pleasure dies when it becomes an object of self-watchfulness rather than attention to the thing."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Rest, sleep, and a life not lived at a frantic pace are conditions for zest, not luxuries",
+                "Zest is purely a matter of willpower and has nothing to do with the body",
+                "Exhausted people always have more zest than rested people",
+                "Fatigue is a moral failure"
+              ],
+              "q": "What role do health and energy play in zest, according to the lesson?",
+              "why": "Russell is honest that exhaustion and illness make zest hard to come by. That is a fact about bodies, not a moral failure, and rest is a condition of appetite, not a luxury."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "It makes a person invulnerable to loss",
+                "It gives many doors into pleasure, so if one interest is closed, another is open",
+                "It guarantees fame and success",
+                "It removes the need for rest"
+              ],
+              "q": "Why does breadth of interest protect zest?",
+              "why": "A person with several genuine interests \u2014 work, a hobby, friendship, nature \u2014 is not dependent on a single source. Narrowing interest to one track, usually oneself, leaves appetite fragile."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Order yourself to feel eager until it works",
+                "Fill every quiet moment with noise and hurry",
+                "Pursue an outside interest for its own sake, spend time with people you find interesting, and rest when tired",
+                "Compete harder for prestige"
+              ],
+              "q": "How can zest be cultivated, given that it cannot be commanded directly?",
+              "why": "You arrange the conditions rather than ordering the feeling: follow an outside interest for itself, choose interesting company over impressive company, and protect rest and quiet."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Zest means pretending everything is wonderful",
+                "Zest means ignoring cruelty and loss",
+                "Zest means never feeling sad",
+                "Zest gives the interesting and enjoyable a fair hearing alongside the bad, rather than letting worry conduct the whole trial"
+              ],
+              "q": "Why is zest not naivety?",
+              "why": "A zestful person can know the world contains cruelty and loss. Zest is fairness to the world: it lets the good, curious, and funny be noticed too, instead of attending only to the bad."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Amusement waits to be entertained, while appetite goes out and meets the world halfway",
+                "Amusement is always bad and appetite is always good",
+                "Amusement requires energy, while appetite requires none",
+                "Amusement and appetite are identical"
+              ],
+              "q": "What is the lesson's distinction between amusement and appetite?",
+              "why": "Amusement is passive, waiting for entertainment. Appetite is active: a curious person or a hungry person meets experience halfway, which is why zest is closer to appetite."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "A person with zest is good company because he is actually listening, noticing, and glad to be present",
+                "A person with zest talks about himself constantly",
+                "A person with zest needs every gathering to be spectacular",
+                "A person with zest avoids other people"
+              ],
+              "q": "Why is the zestful person good company, according to the lesson?",
+              "why": "Because zest is outward-looking, the zestful person actually listens and notices rather than performing self-watchfulness \u2014 and is genuinely glad to be where he is."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Zest is the whole of happiness and nothing else is needed",
+                "Zest is irrelevant to happiness",
+                "Zest is both a sign of happiness and a cause of it: the ground on which affection, work, and impersonal interests can grow",
+                "Zest replaces affection, work, and impersonal interests entirely"
+              ],
+              "q": "What is zest's place in Russell's overall account of happiness?",
+              "why": "Zest is put first among the remedies as the ground, not the whole building. Without appetite, even good fortune tastes flat; with it, ordinary days gain texture for the other remedies to build on."
+            }
+          ]
+        },
+        {
+          "n": 12,
+          "title": "Affection",
+          "slug": "affection",
+          "concepts": "Affection given and received \u00b7 caution in love \u00b7 affection vs possessiveness",
+          "audio": "assets/audio/lesson-12-affection.mp3",
+          "duration": "12 min 12 sec",
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "Affection should always be kept secret",
+                "Affection is only valuable if it is returned in exactly equal measure",
+                "Holding affection back for safety, as a bargain watched for a guaranteed return, keeps both people at a safe distance and affection never grows",
+                "Affection is dangerous and should be avoided altogether"
+              ],
+              "q": "Why does Russell say caution in love is fatal to happiness?",
+              "why": "Caution turns affection into accounting: give only what is guaranteed back, watch the balance, and the other person responds with equal caution, leaving both people complaining the other is cold."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Possessive affection centres on the self \u2014 wanting the other person to be one's own on one's terms \u2014 while genuine affection centres on the other person's happiness for their own sake",
+                "Possessive affection is stronger than genuine affection",
+                "Genuine affection never involves any needs at all",
+                "Possessive affection and genuine affection are the same, only the words differ"
+              ],
+              "q": "How does possessive affection differ from genuine affection?",
+              "why": "The test is where attention rests. Possessiveness wants ownership and guarantees; genuine affection is glad for the other's success and interested in their life, even when it has nothing to do with oneself."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It proves the possessive person loves more deeply",
+                "It guarantees the relationship will last",
+                "It makes the other person feel free and generous",
+                "It destroys what it tries to secure, because squeezing makes the other person feel trapped and less able to give free affection"
+              ],
+              "q": "What happens when possessiveness arrives with jealousy and constant demands for reassurance?",
+              "why": "No one can guarantee future feelings, so demands for reassurance backfire: the trapped partner gives less free affection, which is the very thing possessiveness wanted to secure."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Withdraw affection to test whether the other person chases you",
+                "Keep a careful score of who gave more last week",
+                "Express needs honestly rather than smuggling them in as tests, and let love show in ordinary attention and kindness",
+                "Avoid ever expressing a need, in case it seems selfish"
+              ],
+              "q": "How should needs be handled in genuine affection, according to the lesson?",
+              "why": "Needs are real and should be expressed honestly, not turned into tests. Withdrawing affection to provoke a chase may win attention, but it teaches the other person that love is conditional."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Affection is only about romantic love, not friendship",
+                "Affection works by keeping attention locked on oneself",
+                "Affection breaks the lock of self-absorption by giving the mind something outside itself to care about for its own sake",
+                "Affection is useful only inside marriage"
+              ],
+              "q": "Why does affection belong so centrally in a book about self-absorption?",
+              "why": "Envy, persecution mania, and fear of opinion all lock attention on the self. Genuine affection reverses that: attention rests on another person, for their own sake, in friendship as well as in love."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Become interested in other people, listen, remember what matters to them, and be glad in their good fortune \u2014 without calculating a reward",
+                "Perform loving behaviour loudly in the hope of a reward",
+                "Wait passively until someone notices you",
+                "Demand more affection from everyone you meet"
+              ],
+              "q": "What does Russell's reversal \u2014 from wanting to be loved to learning to love \u2014 mean in practice?",
+              "why": "People are drawn to warmth that is not calculating and repelled by warmth that is. Giving affection where it is welcome is itself a source of happiness for the giver, who is no longer alone with grievances."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It proves affection was a mistake and should never be risked again",
+                "It proves the other person never cared at all",
+                "It proves affection is only for the young",
+                "It proves affection was real; a small amount of risk is the price of the thing itself, not a reason to armour oneself for life"
+              ],
+              "q": "A person who loves someone is sometimes disappointed or hurt. How does the lesson interpret that?",
+              "why": "Disappointment is not proof against affection. The alternative \u2014 a life armoured against all hurt \u2014 is the safe, solitary life of the cautious person, which the lesson rejects."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Affection must be poured out indiscriminately for people who treat you badly",
+                "Affection must never be given unless a lifetime guarantee is offered",
+                "Affection should be given where it is welcome and returned in some form, but not recklessly or where you are repeatedly harmed",
+                "Affection should be given only to people who can repay it immediately"
+              ],
+              "q": "What limit does the lesson place on giving affection freely?",
+              "why": "Free giving is not indiscriminate or reckless. The lesson excludes pouring yourself out for people who treat you badly or staying where you are repeatedly harmed; the habit is for welcome, mutual affection."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "He argues the point applies only to nineteen thirty and should be ignored today",
+                "He says marriage is the only place affection matters",
+                "He notes his examples about marriage and friendship belong to his time, but the underlying point about possessiveness versus genuine care travels well",
+                "He rewrites his argument to match modern fashions"
+              ],
+              "q": "How does the lesson handle Russell's dated examples about marriage and friendship?",
+              "why": "The brief modern note keeps his argument intact: examples may feel dated, but the underlying distinction between possessive and genuine affection still applies broadly, including in friendship."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Two people each hold back, waiting for the other to prove love first, and the stalemate is broken only by giving first, freely, without a guarantee",
+                "Two people prove love by competing for prestige",
+                "Two people solve the problem by avoiding each other",
+                "Two people solve the problem by demanding a written guarantee of future love"
+              ],
+              "q": "A couple are each holding back affection, waiting for the other to prove love first. What is happening, and what breaks it?",
+              "why": "This is the caution stalemate: each person's guardedness is answered with equal caution. Only giving first, without a guarantee, breaks the cycle, even though some affection will sometimes not be returned."
+            }
+          ]
+        },
+        {
+          "n": 13,
+          "title": "The Family",
+          "slug": "the-family",
+          "concepts": "Family affection \u00b7 marriage as companionship \u00b7 children not possessions \u00b7 ambition vs home life",
+          "audio": "assets/audio/lesson-13-the-family.mp3",
+          "duration": "12 min 36 sec",
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "Because families in the past were larger than families today",
+                "Because duty alone is enough to make any family happy",
+                "Because the same closeness that makes family life warm also makes it intense, so comfort and wounding both come more easily",
+                "Because children are naturally happier than adults"
+              ],
+              "q": "Why does Russell think the family can be both a great source of happiness and a great source of misery?",
+              "why": "Closeness cuts both ways: the people who know us best can comfort us best, and they can also wound us most easily, so a family is not happy merely because its members share a roof."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "A romance that stays at fever pitch every day",
+                "A companionship and friendship deepened by shared life, jokes, worries, and being ordinary together",
+                "Complete agreement on every question",
+                "Keeping all disagreements hidden"
+              ],
+              "q": "In Russell's picture, what should replace the early excitement of love in a lasting marriage?",
+              "why": "Early excitement fades, as all excitement does; what matters more is a lasting companionship that can survive tiredness and ordinary disagreement."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It proves the parent is ambitious",
+                "It guarantees the child will succeed",
+                "It makes the child grateful in later life",
+                "It can make affection feel conditional, so the child learns to perform for approval rather than to grow"
+              ],
+              "q": "A parent pushes a child toward the career the parent never had, calling it love. What is the danger Russell warns about here?",
+              "why": "When a child is treated as a project or an extension of the parent, approval arrives only with the right results, and the child senses that affection is conditional."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Protecting a child from every risk and disappointment can leave the child no room to become brave",
+                "Children should never be allowed to take any risks",
+                "Anxious parents always raise confident children",
+                "Protection is only harmful when a child is older"
+              ],
+              "q": "What is wrong with a parent who, out of anxiety, tries to shield a child from every risk and disappointment?",
+              "why": "Clinging out of anxiety tightens the family tie until it chokes: a child needs room, gradually, to face difficulty and build confidence."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "To keep the child close and dependent forever",
+                "To make the child repay every sacrifice",
+                "To give security and affection, and then gradually let the child go, so closeness becomes unnecessary",
+                "To choose the child's career and friendships"
+              ],
+              "q": "According to the lesson, what is a parent's job as a child grows up?",
+              "why": "A parent's job is not to keep a child close forever, but to give the child enough confidence to live without constant parental approval."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Family life and individual ambition never conflict",
+                "Both have a real claim, and giving everything to either work or family alone can leave a person depleted or resentful",
+                "Work is always more important than family",
+                "Family is always more important than work"
+              ],
+              "q": "How does the lesson describe the tension between family life and individual ambition?",
+              "why": "Work can leave a person too tired or distracted to be present at home, while giving everything to the family and nothing to oneself can breed resentment and boredom."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Because adults should have no life outside the home",
+                "Because interests take time away from children",
+                "Because a busy adult is always a better parent",
+                "Because a depleted adult has little affection left to give, so adults need interests, friendships, and work of their own"
+              ],
+              "q": "Why does a happy family need adults who keep a life beyond the home?",
+              "why": "Affection cannot be poured from an empty cup: adults who are also people with their own interests bring more, not less, to family life."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "His central argument about affection without possessiveness still applies, whatever shape a family takes or whoever does the caring",
+                "His argument only applies to families exactly as they were in nineteen thirty",
+                "Modern families should copy nineteen thirty expectations",
+                "Family happiness no longer depends on affection"
+              ],
+              "q": "The lesson adds a modern-context note about Russell writing in nineteen thirty. What point does that note make?",
+              "why": "The forms of family life and the sharing of care have changed, but the psychology \u2014 affection without possessiveness, companionship rather than performance \u2014 has changed far less."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Expecting one person to meet every need",
+                "Treating every argument as a test of loyalty",
+                "Protecting time together deliberately, rather than giving the family only whatever time is left over",
+                "Waiting for grand declarations instead of daily kindness"
+              ],
+              "q": "Which of these is a daily practice of a happy family, according to the lesson?",
+              "why": "Children and partners learn safety from daily kindness, and family time needs deliberate protection from the endless claims of work and comparison."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "That normal tiredness proves love has died",
+                "That normal tiredness and disagreement are part of living closely with another person, not proof of failure",
+                "That couples should never disagree",
+                "That excitement must be restored at all costs"
+              ],
+              "q": "A couple reads normal tiredness and disagreement as proof their marriage has failed. What would Russell say they are misunderstanding?",
+              "why": "Couples who expect every day to feel like the first weeks set a trap for themselves, reading ordinary closeness as failure instead of as part of a lasting companionship."
+            }
+          ]
+        },
+        {
+          "n": 14,
+          "title": "Work",
+          "slug": "work",
+          "concepts": "Constructive work \u00b7 skill and variety \u00b7 purpose over status \u00b7 work and leisure balance",
+          "audio": "assets/audio/lesson-14-work.mp3",
+          "duration": "15 min 53 sec",
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "How hard the work is and how much it pays",
+                "What kind of work it is, and what it means to the worker while doing it",
+                "Whether the work is done indoors or outdoors",
+                "Whether other people admire the work"
+              ],
+              "q": "According to Russell, what mainly decides whether work brings happiness or drains a life?",
+              "why": "The lesson argues the difference is not mainly hours or pay, but whether the work is constructive, skilful, varied, and purposeful to the person doing it."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Because leisure is always boring",
+                "Because pleasure is sweetest when it follows effort, and days without a task lose their shape",
+                "Because rich people do not know how to enjoy themselves",
+                "Because work is the only source of money"
+              ],
+              "q": "Why does endless leisure often lead to emptiness rather than freedom?",
+              "why": "Without something to get up for, days lose shape and pleasures grow dull, since pleasure is sweetest when it follows a day that had a point."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "The worker can see something come into being or improve because of what they did",
+                "The work is famous",
+                "The work is done alone",
+                "The work is finished quickly"
+              ],
+              "q": "What does the lesson mean by constructive work?",
+              "why": "Constructive work leaves the world, or one small corner of it, a little better than it found it, and the worker can recognise their own hand in that change."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Work that never changes",
+                "Work that is impossibly hard or endlessly rushed",
+                "Work that is too easy, so the mind has nothing to chew on",
+                "Work that is both too easy and impossibly hard, in different ways"
+              ],
+              "q": "Why do both very easy work and impossibly hard work fail to satisfy?",
+              "why": "Too-easy work becomes boring because the mind has nothing to chew on, while impossibly hard or endlessly rushed work becomes anxiety, since the worker never gets the pleasure of mastery."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Constant novelty, changing tasks every hour",
+                "Different kinds of tasks, problems, and people, so no single frustration defines the whole day",
+                "Doing the same task all day without interruption",
+                "Avoiding other people at work"
+              ],
+              "q": "What kind of variety does satisfying work need, according to the lesson?",
+              "why": "Variety does not mean constant novelty, which is exhausting; it means different tasks, problems, and people, so one frustration does not define the whole day."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Because money and status are unimportant",
+                "Because once basic security is met, they are measured by comparison, and there is always someone richer or higher",
+                "Because most people earn too little",
+                "Because applause lasts forever"
+              ],
+              "q": "Once basic security is met, why do extra money and status buy less happiness than people expect?",
+              "why": "Money and rank are measured by comparison, so a life organised around climbing will always feel behind, and applause must be won again tomorrow."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Healthy tiredness comes from a day well spent and is restored by sleep; nervous exhaustion comes from hurry, worry, and never switching off",
+                "Healthy tiredness is caused by laziness",
+                "Nervous exhaustion is cured by working harder",
+                "There is no difference between them"
+              ],
+              "q": "What is the difference between healthy tiredness and nervous exhaustion?",
+              "why": "Healthy tiredness follows a day well spent and sleep restores it, while nervous exhaustion borrows against tomorrow's energy and shows up as irritability, poor sleep, and dislike of the work itself."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Rest makes people lazy",
+                "Rest is the enemy of work",
+                "Rest is only for people who dislike their jobs",
+                "Rest makes work sustainable, because a rested mind returns with interest"
+              ],
+              "q": "Why does the lesson say leisure is not the enemy of work?",
+              "why": "A mind that never rests begins to see every task as a burden, while a rested mind returns to work with interest, so rest protects the work rather than opposing it."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Only paid jobs can be satisfying work",
+                "Unpaid work can carry the same qualities, if it is constructive, skilful, varied, and purposeful",
+                "Volunteering never counts as work",
+                "Caring for a home is not real work"
+              ],
+              "q": "Can unpaid work, such as volunteering or caring for a home, be satisfying work in Russell's sense?",
+              "why": "The qualities that matter \u2014 constructive, skilful, varied, purposeful \u2014 do not depend on a wage; unpaid work that has them can make a person feel needed and real."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "How do I work less?",
+                "How do I earn more than my neighbours?",
+                "Does my work let me see what I have improved, grow in skill, and matter to someone besides me, and do I rest enough to keep liking it?",
+                "How do I win more applause?"
+              ],
+              "q": "What is the practical question the lesson suggests asking about your own work?",
+              "why": "Rather than asking only about hours or pay, the lesson asks whether work is constructive, skilful, varied, and purposeful, and whether rest is protected enough to keep liking it."
+            }
+          ]
+        },
+        {
+          "n": 15,
+          "title": "Impersonal Interests",
+          "slug": "impersonal-interests",
+          "concepts": "Absorption \u00b7 curiosity beyond the self \u00b7 hobbies that steady life \u00b7 interests vs escapism",
+          "audio": "assets/audio/lesson-15-impersonal-interests.mp3",
+          "duration": "12 min 47 sec",
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "An interest that is cold and unfeeling",
+                "An interest you do only to impress others",
+                "An interest whose centre is outside the self, such as astronomy, history, gardening, or music",
+                "An interest that has nothing to do with other people"
+              ],
+              "q": "What does Russell mean by an impersonal interest?",
+              "why": "Impersonal does not mean cold or detached; it means a pursuit whose centre is outside the self, so attention is absorbed by a subject that does not flatter or judge you."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "It opens a window in a cramped room, taking the self out of the centre for a while",
+                "It makes you forget your own name",
+                "It proves you are more intelligent than others",
+                "It replaces all personal relationships"
+              ],
+              "q": "Why does an impersonal interest help a mind that is always thinking about itself?",
+              "why": "A mind always rehearsing its status, worries, and slights becomes a cramped room; absorption in an outside subject opens a window and practises not taking oneself too seriously."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "It solves every personal problem at once",
+                "It makes bad days disappear",
+                "It gives a second footing, so a setback does not fill the entire horizon, even though it does not solve the problem",
+                "It makes personal life unimportant"
+              ],
+              "q": "How does an impersonal interest steady a life when personal things go badly?",
+              "why": "Careers, relationships, and health are uneven, but an interest waiting in the evening gives a second place to stand, so one bad day is not the whole story."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Escape and impersonal interest are the same thing",
+                "Escape numbs or kills time without engaging the mind, while an impersonal interest asks for attention and repays it with growing understanding",
+                "Escape requires more patience than an interest",
+                "Impersonal interests are only for experts"
+              ],
+              "q": "What is the difference between an impersonal interest and mere escape?",
+              "why": "Escape leaves you where it found you, only more tired, while a genuine interest asks for attention, patience, and learning, and returns you refreshed rather than dulled."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Because it is easier to compare yourself to your neighbours",
+                "Because when you are absorbed in a subject, you measure yourself against the subject, not against other people, and learning more is a pleasure rather than a humiliation",
+                "Because hobbies make envy disappear forever",
+                "Because subjects compete with you"
+              ],
+              "q": "Why do impersonal interests protect against envy and comparison?",
+              "why": "In genuine absorption the question 'am I ahead or behind?' simply does not arise: you measure yourself against the subject, which invites you in rather than competing with you."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Follow curiosity rather than prestige, choosing the thing that makes you ask one more question",
+                "Choose whatever looks most impressive",
+                "Choose whatever successful people seem to have",
+                "Wait until you are talented at something"
+              ],
+              "q": "How should you choose an impersonal interest, according to the lesson?",
+              "why": "Prestige-driven hobbies fade, while curiosity sustains attention; first attempts will be clumsy, and talent is not required, only time and a willingness to be a beginner."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Only one interest is enough for everyone",
+                "Interests must all be mental",
+                "Interests must all be physical",
+                "Different kinds of interest rest different parts of you, and more than one place to stand makes an identity less fragile"
+              ],
+              "q": "Why does the lesson suggest keeping more than one impersonal interest, of different kinds?",
+              "why": "A physical interest rests the mind by using the body, a mental interest rests the emotions, and an artistic interest asks for attention without argument \u2014 together they widen a life beyond any single role."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "A person who is only a worker is stronger than a person with wide interests",
+                "If one role falters, the whole identity falters, while a person with wide interests has more than one place to stand",
+                "Wide interests make a person unfocused and unhappy",
+                "Only one role can ever matter"
+              ],
+              "q": "Why is a person who is only one role \u2014 only a worker, or only a parent, or only a success \u2014 fragile?",
+              "why": "If that single role falters, the whole identity falters; wide interests give a person more than one footing in life."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Collect hobbies to look interesting",
+                "Give an interest regular time, not just leftover time, and let it absorb you and teach you patience",
+                "Only pursue interests that advance your career",
+                "Avoid being a beginner"
+              ],
+              "q": "What does the lesson recommend as a practice, rather than merely collecting hobbies?",
+              "why": "The point is not to look interesting, but to build in at least one pursuit unrelated to advancement or image, give it regular time, and let understanding grow slowly."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "That the world is larger, stranger, and more interesting than the small drama of the self",
+                "That the self is the most important subject",
+                "That interests should replace work and family",
+                "That patience is unnecessary"
+              ],
+              "q": "What daily reminder does an impersonal interest give, according to the lesson?",
+              "why": "Repeated over years, the reminder that the world is larger and more interesting than the small drama of the self is one of the quietest and most reliable sources of happiness Russell knew."
+            }
+          ]
+        },
+        {
+          "n": 16,
+          "title": "Effort and Resignation",
+          "slug": "effort-and-resignation",
+          "concepts": "Effort where it helps \u00b7 resignation where it does not \u00b7 accepting limits and loss \u00b7 stoic balance",
+          "audio": "assets/audio/lesson-16-effort-and-resignation.mp3",
+          "duration": "12 min 16 sec",
+          "quiz": [
+            {
+              "answer": 2,
+              "options": [
+                "Effort is always frantic striving",
+                "Resignation is always the right response",
+                "Effort is patient, directed action where action can make a difference, while resignation in that place is laziness or fear in disguise",
+                "Effort should only be applied to work, never to relationships"
+              ],
+              "q": "How does the lesson distinguish real effort from passivity dressed up as resignation?",
+              "why": "Much unhappiness is avoidable, and giving up too soon on something that can be improved is not wisdom; real effort is patient, directed action applied where it can actually make a difference."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Things you cannot change by trying harder: the past, other people's choices, chance, and the guarantee of success or lasting youth",
+                "Things that are merely difficult",
+                "Things that take more than a week",
+                "Things other people dislike"
+              ],
+              "q": "Which of these are examples of limits where effort cannot force an outcome?",
+              "why": "You cannot undo the past, control another person's choices, guarantee a business or a child's future, or prevent loss by worry; battering such walls only exhausts and embitters."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Giving up on life entirely",
+                "Pretending grief and anger do not exist",
+                "Giving up on one particular demand, so life can continue through doors that are still open",
+                "Refusing ever to try again"
+              ],
+              "q": "What is resignation, properly understood, in this lesson?",
+              "why": "Resignation is not surrendering life itself; it is stopping the rehearsal of what should have happened, accepting that one door is closed, and turning toward what remains possible."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Ask whether you feel strongly about it",
+                "Ask what action is concretely in your power this week, take it, and judge by the result; if real steps repeatedly change nothing, or the outcome depends on others, chance, or the past, you face a limit",
+                "Ask whether other people approve",
+                "Ask whether the problem is large or small"
+              ],
+              "q": "What practical test does the lesson offer for telling a movable wall from an unmovable one?",
+              "why": "Name a real step, take it, and judge by the result; repeated real steps that change nothing, or outcomes governed by others' choices, chance, or the past, signal a limit rather than a challenge."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Because worry is the same as work",
+                "Because the worst case is always terrible",
+                "Because if the worst case is bearable, worry loses power, and if it is terrible but beyond control, worry is still useless \u2014 either way the mind is freed for work that is possible",
+                "Because imagining disaster prevents it"
+              ],
+              "q": "Why does facing the worst case squarely, once, reduce worry?",
+              "why": "Worry feels like work but produces nothing; facing the worst case shows it is usually more bearable than imagination suggests, or, if truly beyond control, that worry cannot help either way."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Care deeply about what is in your power \u2014 judgements, actions, responses \u2014 and hold lightly what is not, such as reputation, fortune, and others' opinions",
+                "Care about nothing at all",
+                "Care only about reputation and fortune",
+                "Avoid all love and work"
+              ],
+              "q": "What stoic thread does the lesson draw on, in Russell's warmer form?",
+              "why": "The stoics taught caring deeply about what is in our power and holding lightly what is not; Russell kept the instinct without making it cold, asking us to love and work fully, then accept results out of our hands."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "It means demanding a different past and a guaranteed future",
+                "It means indifference to the world",
+                "It is the courage to live in the world as it is, rather than in the world as you insist it should be",
+                "It means never feeling grief"
+              ],
+              "q": "Why does the lesson call acceptance a form of courage, not indifference?",
+              "why": "Acceptance does not ask you to stop caring; it asks you to care in the right place and not poison the present by demanding a past or future you cannot control."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Always fight everything, no matter the cost",
+                "Always surrender at the first difficulty",
+                "Notice your own pattern in small frustrations, and learn whether you default to exhausting effort or to surrendering too soon",
+                "Avoid small frustrations entirely"
+              ],
+              "q": "How can small frustrations, like a delayed train or a plan spoiled by rain, help practise this balance?",
+              "why": "Small walls are useful training: they reveal whether you spend more energy resenting a delay than it deserves, or fail to take a simple action you could take, and over time reveal your own default pattern."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Try harder at everything",
+                "Give up on everything",
+                "Try in the right place and let go in the right place, telling the difference by action and result, not by fear or pride",
+                "Avoid both effort and acceptance"
+              ],
+              "q": "What is the lesson's summary of the balance between effort and resignation?",
+              "why": "Effort without resignation becomes frantic, resignation without effort becomes empty; together they make a life both active and at peace, able to absorb a blow without being defined by it."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "A person who can say: I will try honestly and fully where trying helps, and I will accept honestly and fully where it does not",
+                "A person who never tries",
+                "A person who never accepts anything",
+                "A person who worries constantly"
+              ],
+              "q": "Where, according to Russell, does happiness live in this balance?",
+              "why": "Happiness lives in the middle: honest effort where it helps, honest acceptance where it does not, learned by action and result rather than by fear or pride."
+            }
+          ]
+        },
+        {
+          "n": 17,
+          "title": "The Happy Man",
+          "slug": "the-happy-man",
+          "concepts": "Outward-looking life \u00b7 affection, work and interests in balance \u00b7 what happiness is not \u00b7 a life that can be lived",
+          "audio": "assets/audio/lesson-17-the-happy-man.mp3",
+          "duration": "13 min 52 sec",
+          "quiz": [
+            {
+              "answer": 1,
+              "options": [
+                "A person who never suffers or fails",
+                "A person whose happiness does not depend on any single thing going well, so it can survive bad days",
+                "A person who feels cheerful at every moment",
+                "A person who has solved every problem"
+              ],
+              "q": "What is the happy man NOT, according to the closing lesson?",
+              "why": "Happiness was never a permanent mood or an escape from suffering; it is a way of living that can survive bad days precisely because it does not depend on one job, relationship, reputation, or success."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "Fame and wealth",
+                "A single perfect relationship",
+                "Width: affection, work, impersonal interests, and zest together, so when one part falters the others hold",
+                "Constant self-analysis"
+              ],
+              "q": "What does the lesson mean by the width of a happy life?",
+              "why": "No single element is the whole story; width makes a life resilient, like a table with many legs, so a setback in one area does not collapse the whole life."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "Being absorbed in the world, other people, ideas, and things to be made and understood, rather than constantly translating everything back to the self",
+                "Ignoring other people entirely",
+                "Never thinking about yourself at all",
+                "Pretending to be interested"
+              ],
+              "q": "What is outwardness, the second quality of the happy man?",
+              "why": "Unhappy people in the first half shared self-absorption \u2014 comparison, slights, admiration \u2014 while the happy man practises genuine interest in the world, listening without immediately making everything about himself."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "He never admits mistakes",
+                "He enjoys others' success without envy, because his worth is not measured by ranking",
+                "He always wins competitions",
+                "He avoids all comparison by avoiding other people"
+              ],
+              "q": "How does outwardness change the happy man's response to another person's success?",
+              "why": "Because his worth is not measured by ranking, he can enjoy another's success without envy, and admit a mistake without collapsing, since a mistake is not the whole of who he is."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Demanding the world rewrite itself to suit him",
+                "Acting patiently where effort helps, and accepting without drama where it cannot",
+                "Rehearsing every slight",
+                "Fearing opinion so much he dare not live as he thinks best"
+              ],
+              "q": "How does the happy man meet trouble, according to the synthesis?",
+              "why": "He combines the lesson on effort and resignation: patient action where it helps, honest acceptance where it does not, without nursing slights, guilt, or fear of opinion."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "By chasing happiness directly and analysing it constantly",
+                "By living well, widely, and outwardly, and letting happiness arrive as a by-product, like health",
+                "By waiting for a change of fortune",
+                "By avoiding all sorrow"
+              ],
+              "q": "Why should happiness not be chased directly, according to the lesson?",
+              "why": "Constant analysis kills the thing it examines; like health, happiness is noticed most when gone, and protected best by living well rather than by hunting the feeling itself."
+            },
+            {
+              "answer": 0,
+              "options": [
+                "A gift that arrives by luck",
+                "A conquest, won gradually by habits practised over years",
+                "A single change of fortune",
+                "A permanent mood once achieved"
+              ],
+              "q": "Why is the book's title a conquest, not a gift?",
+              "why": "Happiness is not found by waiting or luck; it is conquered gradually by affection practised daily, work done well, interests cultivated, and effort and resignation in their right places."
+            },
+            {
+              "answer": 3,
+              "options": [
+                "Competition, envy, boredom, fear of opinion, and guilt are unrelated to each other",
+                "They all involve turning inward and making the self too large in its own life",
+                "They only affect unhappy people in the past",
+                "They are caused by other people"
+              ],
+              "q": "What did the unhappy patterns from the first half of the course share?",
+              "why": "Competition, boredom, fatigue, envy, guilt, persecution, and fear of opinion looked different, but each was a way of turning inward and making the self too large in its own life."
+            },
+            {
+              "answer": 1,
+              "options": [
+                "Waking to famous work, a perfect home, and spectacular pleasures",
+                "Waking to respected work, people loved at home, and time spent for its own sake on a garden, a book, music, or a walk",
+                "Avoiding work, family, and interests",
+                "Living without any routine"
+              ],
+              "q": "What is the lesson's deliberately ordinary picture of the happy man's day?",
+              "why": "The picture is ordinary on purpose: respected work even if not famous, loved people even if the home is imperfect, and time on something done for its own sake, not for advancement."
+            },
+            {
+              "answer": 2,
+              "options": [
+                "To become a different person overnight",
+                "To find a formula guaranteeing an easy life",
+                "To widen life a little, in one direction at a time, and notice whether the self grows quieter and the world grows larger",
+                "To stop caring about the world"
+              ],
+              "q": "What does the course ask the listener to take away as a practice, rather than a theory?",
+              "why": "Russell does not ask for overnight transformation or a guaranteed easy life, but for widening life a little \u2014 an affection, a piece of work, an interest, a worry released \u2014 and noticing over time whether the world grows larger than the self."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
