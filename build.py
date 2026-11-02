@@ -50,6 +50,17 @@ CSS = """
   .verdict.ok { color:var(--good); } .verdict.no { color:var(--bad); }
   .score { font-size:1.1rem; font-weight:700; margin:1rem 0; }
   .quiz-msg { color:var(--bad); font-weight:600; min-height:1.4em; }
+  .quiz { margin-top:1.25rem; }
+  .quiz-toggle { display:flex; align-items:center; justify-content:space-between; gap:1rem;
+         width:100%; text-align:left; padding:.9rem 1.1rem; border-radius:12px;
+         background:#262219; border:1px solid var(--line); color:var(--ink);
+         cursor:pointer; font-family:inherit; font-size:1rem; }
+  .quiz-toggle:hover { border-color:var(--accent); }
+  .quiz-toggle-title { font-weight:700; }
+  .quiz-toggle-hint { color:var(--muted); font-size:.9rem; white-space:nowrap; }
+  .quiz-toggle-chevron { color:var(--accent); transition:transform .15s ease; flex-shrink:0; }
+  .quiz-toggle[aria-expanded="true"] .quiz-toggle-chevron { transform:rotate(90deg); }
+  .quiz-body { padding-top:1rem; }
   footer { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem; }
 """
 
@@ -57,27 +68,47 @@ QUIZ_JS = """
 <script>
 function initQuiz(rootId, quizData) {
   var root = document.getElementById(rootId);
+  var toggle = root.querySelector('.quiz-toggle');
+  var body = root.querySelector('.quiz-body');
+  var hint = root.querySelector('.quiz-toggle-hint');
   var form = root.querySelector('form');
   var msg = root.querySelector('.quiz-msg');
   var scoreEl = root.querySelector('.score');
-  quizData.forEach(function(item, qi) {
-    var fs = document.createElement('fieldset');
-    fs.className = 'q'; fs.dataset.answer = item.answer;
-    var lg = document.createElement('legend');
-    lg.textContent = 'Q' + (qi + 1) + '. ' + item.q;
-    fs.appendChild(lg);
-    item.options.forEach(function(opt, oi) {
-      var label = document.createElement('label');
-      var input = document.createElement('input');
-      input.type = 'radio'; input.name = rootId + '-q' + qi; input.value = oi;
-      label.appendChild(input);
-      label.appendChild(document.createTextNode(' ' + opt));
-      fs.appendChild(label);
+  var rendered = false;
+  function renderQuestions() {
+    if (rendered) return;
+    rendered = true;
+    quizData.forEach(function(item, qi) {
+      var fs = document.createElement('fieldset');
+      fs.className = 'q'; fs.dataset.answer = item.answer;
+      var lg = document.createElement('legend');
+      lg.textContent = 'Q' + (qi + 1) + '. ' + item.q;
+      fs.appendChild(lg);
+      item.options.forEach(function(opt, oi) {
+        var label = document.createElement('label');
+        var input = document.createElement('input');
+        input.type = 'radio'; input.name = rootId + '-q' + qi; input.value = oi;
+        label.appendChild(input);
+        label.appendChild(document.createTextNode(' ' + opt));
+        fs.appendChild(label);
+      });
+      var why = document.createElement('p');
+      why.className = 'why'; why.textContent = item.why;
+      fs.appendChild(why);
+      form.appendChild(fs);
     });
-    var why = document.createElement('p');
-    why.className = 'why'; why.textContent = item.why;
-    fs.appendChild(why);
-    form.appendChild(fs);
+  }
+  toggle.addEventListener('click', function() {
+    if (body.hidden) {
+      renderQuestions();
+      body.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+      hint.textContent = 'Hide questions';
+    } else {
+      body.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+      hint.textContent = 'Show questions';
+    }
   });
   root.querySelector('.check-btn').addEventListener('click', function() {
     var fieldsets = form.querySelectorAll('fieldset.q');
@@ -173,13 +204,19 @@ def quiz_block(ch):
     quiz_json = json.dumps(ch["quiz"])
     return f"""
       <div class="quiz" id="{qid}">
-        <h3>Quiz — {len(ch['quiz'])} questions</h3>
-        <p class="concepts">Answer all {len(ch['quiz'])}, then check yourself. Explanations appear under every question.</p>
-        <form></form>
-        <p class="quiz-msg"></p>
-        <button type="button" class="btn primary check-btn">Check my answers</button>
-        <button type="button" class="btn retry-btn" style="display:none">Try again</button>
-        <p class="score"></p>
+        <button type="button" class="btn quiz-toggle" aria-expanded="false" aria-controls="{qid}-body">
+          <span class="quiz-toggle-title">Quiz — {len(ch['quiz'])} questions</span>
+          <span class="quiz-toggle-hint">Show questions</span>
+          <span class="quiz-toggle-chevron" aria-hidden="true">▸</span>
+        </button>
+        <div class="quiz-body" id="{qid}-body" hidden>
+          <p class="concepts">Answer all {len(ch['quiz'])}, then check yourself. Explanations appear under every question.</p>
+          <form></form>
+          <p class="quiz-msg"></p>
+          <button type="button" class="btn primary check-btn">Check my answers</button>
+          <button type="button" class="btn retry-btn" style="display:none">Try again</button>
+          <p class="score"></p>
+        </div>
       </div>
 <script type="application/json" id="{qid}-data">{quiz_json}</script>"""
 

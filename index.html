@@ -49,6 +49,17 @@
   .verdict.ok { color:var(--good); } .verdict.no { color:var(--bad); }
   .score { font-size:1.1rem; font-weight:700; margin:1rem 0; }
   .quiz-msg { color:var(--bad); font-weight:600; min-height:1.4em; }
+  .quiz { margin-top:1.25rem; }
+  .quiz-toggle { display:flex; align-items:center; justify-content:space-between; gap:1rem;
+         width:100%; text-align:left; padding:.9rem 1.1rem; border-radius:12px;
+         background:#262219; border:1px solid var(--line); color:var(--ink);
+         cursor:pointer; font-family:inherit; font-size:1rem; }
+  .quiz-toggle:hover { border-color:var(--accent); }
+  .quiz-toggle-title { font-weight:700; }
+  .quiz-toggle-hint { color:var(--muted); font-size:.9rem; white-space:nowrap; }
+  .quiz-toggle-chevron { color:var(--accent); transition:transform .15s ease; flex-shrink:0; }
+  .quiz-toggle[aria-expanded="true"] .quiz-toggle-chevron { transform:rotate(90deg); }
+  .quiz-body { padding-top:1rem; }
   footer { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem; }
 </style>
 </head>
