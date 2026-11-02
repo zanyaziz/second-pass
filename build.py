@@ -61,6 +61,9 @@ CSS = """
   .quiz-toggle-chevron { color:var(--accent); transition:transform .15s ease; flex-shrink:0; }
   .quiz-toggle[aria-expanded="true"] .quiz-toggle-chevron { transform:rotate(90deg); }
   .quiz-body { padding-top:1rem; }
+  .continuous { color:var(--muted); font-size:.95rem; margin:0 0 1rem; }
+  .continuous input { accent-color:var(--accent); }
+  .card.playing { border-color:var(--accent); }
   footer { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem; }
 """
 
@@ -151,6 +154,39 @@ function initQuiz(rootId, quizData) {
 </script>
 """
 
+CONTINUOUS_JS = """
+<script>
+(function() {
+  // Continuous play: when a chapter's audio ends, play the next chapter.
+  // This only fires on natural playback ending, not on pause, so a listener
+  // who pauses mid-chapter is not pushed forward. A checked toggle is the
+  // only gate; if the toggle is absent, continuous play stays on.
+  var audios = Array.prototype.slice.call(document.querySelectorAll('main audio'));
+  if (!audios.length) return;
+  var toggle = document.getElementById('continuous-play');
+  audios.forEach(function(audio, i) {
+    audio.addEventListener('play', function() {
+      audios.forEach(function(a) {
+        var card = a.closest('article');
+        if (card) card.classList.remove('playing');
+      });
+      var card = audio.closest('article');
+      if (card) card.classList.add('playing');
+    });
+    audio.addEventListener('ended', function() {
+      if (toggle && !toggle.checked) return;
+      var next = audios[i + 1];
+      if (!next) return;
+      var card = next.closest('article');
+      if (card && card.scrollIntoView) card.scrollIntoView({behavior: 'smooth', block: 'start'});
+      var p = next.play();
+      if (p && p.catch) p.catch(function() {});
+    });
+  });
+})();
+</script>
+"""
+
 
 def esc(s):
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -227,6 +263,7 @@ def build_course(c):
 <header>
   <h1>{esc(c['title'])}</h1>
   <p class="sub">by {esc(c['author'])} · {len(c['chapters'])} chapters</p>
+  <p class="continuous"><label><input type="checkbox" id="continuous-play" checked> Continuous play — when a chapter ends, play the next one</label></p>
 </header>
 <main>"""]
     quiz_inits = []
@@ -252,6 +289,7 @@ def build_course(c):
         block += "\n    </article>"
         parts.append(block)
     parts.append("</main>")
+    parts.append(CONTINUOUS_JS)
     if quiz_inits:
         parts.append(QUIZ_JS)
         parts.append("<script>\n" + "\n".join(quiz_inits) + "\n</script>")

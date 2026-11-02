@@ -60,6 +60,9 @@
   .quiz-toggle-chevron { color:var(--accent); transition:transform .15s ease; flex-shrink:0; }
   .quiz-toggle[aria-expanded="true"] .quiz-toggle-chevron { transform:rotate(90deg); }
   .quiz-body { padding-top:1rem; }
+  .continuous { color:var(--muted); font-size:.95rem; margin:0 0 1rem; }
+  .continuous input { accent-color:var(--accent); }
+  .card.playing { border-color:var(--accent); }
   footer { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem; }
 </style>
 </head>
@@ -69,6 +72,7 @@
 <header>
   <h1>Thinking, Fast and Slow</h1>
   <p class="sub">by Daniel Kahneman · 12 chapters</p>
+  <p class="continuous"><label><input type="checkbox" id="continuous-play" checked> Continuous play — when a chapter ends, play the next one</label></p>
 </header>
 <main>
 
@@ -360,6 +364,38 @@
 <script type="application/json" id="quiz-the-two-selves-data">[{"answer": 2, "options": ["The experiencing self plans the future; the remembering self lives in the present", "The experiencing self is rational; the remembering self is emotional", "The experiencing self lives each moment as it happens, while the remembering self keeps a selective story of the past and makes nearly all the decisions", "They are two names for the same process"], "q": "What is the key difference between the experiencing self and the remembering self?", "why": "Only the experiencing self actually lives your moments, almost all of which are forgotten. The remembering self keeps highlights, tells the story, and chooses what you will do next."}, {"answer": 0, "options": ["A bad afternoon, because memory's verdict leans heavily on the peak moment and the ending", "A good afternoon, because most of it was pleasant", "A neutral afternoon, since the moments average out", "Whatever the longest part of the afternoon felt like"], "q": "According to the peak-end rule, a mostly pleasant afternoon that ends in an argument will be remembered as:", "why": "The remembering self judges an episode mainly by its most intense moment and how it finished. A bad ending can drag a mostly good experience into the bad column."}, {"answer": 3, "options": ["The total amount of pain across the whole procedure", "How long the procedure lasted", "The average pain in the first half", "The worst level of pain and how the patient felt near the end"], "q": "In the colonoscopy studies described in the lesson, what predicted how bad patients later said the procedure had been?", "why": "Patients' retrospective ratings tracked the peak pain and the ending, not the accumulated suffering \u2014 the signature of the peak-end rule combined with duration neglect."}, {"answer": 1, "options": ["Forgetting how an experience ended", "The length of an experience barely counting in how it is remembered, however much it mattered while it lasted", "Underestimating how long a task will take", "Ignoring experiences that last less than a minute"], "q": "What is duration neglect?", "why": "A longer ordeal can be remembered as better than a shorter one if it ends more gently, because the remembering self largely drops duration from its account."}, {"answer": 2, "options": ["Shortening the procedure as much as possible", "Increasing sedation at the start", "Adding a short, gentler period at the end \u2014 even though it made the procedure longer overall", "Asking patients not to think about it afterward"], "q": "Doctors found they could make patients remember a colonoscopy as less awful by doing what?", "why": "Because the ending weighs so heavily and duration is neglected, an eased-off ending improved the memory, even while adding to the total discomfort experienced."}, {"answer": 0, "options": ["Its ending was less bad, and the remembering self \u2014 which makes the choice \u2014 judges by peak and end, not by total discomfort", "They had forgotten taking part in the study", "The longer trial was actually less painful overall", "They wanted to appear tough to the researchers"], "q": "In the cold-water experiment from the lesson, most people chose to repeat the longer trial afterwards. Why?", "why": "The longer trial contained everything painful in the short one plus extra time, but its gentler ending won the memory, and the remembering self is the one who decides."}, {"answer": 3, "options": ["The experiencing self, since it lives every moment", "Neither \u2014 vacations are chosen by habit", "Your future self's bank account", "The remembering self \u2014 it keeps the peaks and the ending, so trips get designed for photographs and a strong finish"], "q": "When you plan a vacation, the lesson suggests you are mostly shopping for which self?", "why": "Days of mild comfort leave little trace in memory, while one peak moment and a good final evening are nearly all that gets kept. Knowing which self you are buying for changes the plan."}, {"answer": 1, "options": ["The belief that multitasking improves focus", "When you concentrate on any one feature of life, your mind inflates how much that feature matters", "An optical trick that makes objects look larger", "Judging an experience only by its ending"], "q": "What is the focusing illusion?", "why": "Attention exaggerates importance: while a feature is in focus \u2014 weather, a car, a salary \u2014 it looms enormous, then shrinks once it fades into the background of daily life."}, {"answer": 2, "options": ["Sunny places are actually less sunny than reported", "People adapt instantly to any climate", "Daily life is mostly spent indoors, at work, and in traffic, so the climate people focus on plays only a small part in lived experience", "Happiness cannot be measured at all"], "q": "Why did the sunny-climate example in the lesson turn out to be weaker than people expected?", "why": "People imagining a move focus on the weather, inflating its role. In practice, most hours are spent the same way everywhere, so the focused-on feature contributes far less than expected."}, {"answer": 0, "options": ["The remembering self is another product of the mind's fast, story-telling side \u2014 the course's biases and shortcuts shape not just our judgments but the story of our lives that we keep", "System two turns out to be the remembering self", "It does not connect; the two selves replace the two systems", "The experiencing self is the same as system two"], "q": "How does this final lesson tie back to the two systems from lesson one?", "why": "From anchoring to framing, the fast mind's habits run through the whole course, and the remembering self is its narrator \u2014 keeping only peaks and endings of a life the slow mind rarely audited."}]</script>
     </article>
 </main>
+
+<script>
+(function() {
+  // Continuous play: when a chapter's audio ends, play the next chapter.
+  // This only fires on natural playback ending, not on pause, so a listener
+  // who pauses mid-chapter is not pushed forward. A checked toggle is the
+  // only gate; if the toggle is absent, continuous play stays on.
+  var audios = Array.prototype.slice.call(document.querySelectorAll('main audio'));
+  if (!audios.length) return;
+  var toggle = document.getElementById('continuous-play');
+  audios.forEach(function(audio, i) {
+    audio.addEventListener('play', function() {
+      audios.forEach(function(a) {
+        var card = a.closest('article');
+        if (card) card.classList.remove('playing');
+      });
+      var card = audio.closest('article');
+      if (card) card.classList.add('playing');
+    });
+    audio.addEventListener('ended', function() {
+      if (toggle && !toggle.checked) return;
+      var next = audios[i + 1];
+      if (!next) return;
+      var card = next.closest('article');
+      if (card && card.scrollIntoView) card.scrollIntoView({behavior: 'smooth', block: 'start'});
+      var p = next.play();
+      if (p && p.catch) p.catch(function() {});
+    });
+  });
+})();
+</script>
+
 
 <script>
 function initQuiz(rootId, quizData) {

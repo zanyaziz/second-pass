@@ -4,6 +4,8 @@ Short audio courses on the few books worth a second, deeper pass.
 
 Each course breaks a book into its key concepts and chapters. Every chapter is a 5–10 minute single-narrator audio lesson, followed by a collapsed 10-question quiz card — click the card to reveal the questions, answer all 10, submit, and the page marks your answers and explains why each correct answer is right. Collapsing the card again keeps your answers (it does not re-render or reset them).
 
+Continuous play is on by default: when a chapter's audio ends, the next chapter starts automatically and scrolls into view, so a course plays straight through like a podcast. Untick "Continuous play" at the top of a course page to stop at the end of each chapter.
+
 **Live site:** https://zanyaziz.github.io/second-pass/
 
 ## First course
